@@ -2,6 +2,7 @@
     {
         "id" : "luogu P1001", 
         "href" : "https://www.luogu.com.cn/problem/P1001", 
-        "record" : "/record/P1001.html"
+        "record" : "/record/P1001.html", 
+        "tags" : ["模拟"]
     }
 ]
