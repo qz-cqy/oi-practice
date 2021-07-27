@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a, a:link {
+    text-decoration: none;
+    color: #7c4dff;
+}
+a:hover, a:active {
+    text-decoration: none;
+    color: #ff1744;
+}
