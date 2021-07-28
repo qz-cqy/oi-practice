@@ -20,6 +20,7 @@
             if(from == -2) from = 0;
             if(length == -1) length = 50;
             var to = from + length - 1;
+            console.log("from", from, "to", to, "length", length);
 
             /* generating table */
             var url = "list.json";
@@ -44,9 +45,8 @@
                                 <th>标签</th>
                             </tr>
                     `;
-                    for(var x in json) {
-                        if(x < from) continue;
-                        if(x > to) break;
+                    var mx = json.length;
+                    for(var x = min(mx - 1, to); x >= from; x--) {
                         console.log(x, json[x]);
                         var qwq = "";
                         for(var y in json[x]['href']) {
