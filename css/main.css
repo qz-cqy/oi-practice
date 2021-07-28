@@ -10,3 +10,8 @@ a:hover, a:active {
     text-decoration: none;
     color: #ff1744;
 }
+div.main {
+    padding: 12px;
+    border: medium inset #8e44ad;
+    background: linear-gradient(to bottom, #bc4e9c, #f80759);
+}
