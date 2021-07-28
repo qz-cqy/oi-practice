@@ -139,5 +139,22 @@
         "tags" : [
             {"id" : 0, "name" : "模拟"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1654", "href" : "https://www.luogu.com.cn/problem/P1654"}
+        ],
+        "name" : "OSU!",
+        "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P1654.html",
+        "time" : "2021-07-25 22:22:44",
+        "difficulty" : {
+            "algorithm" : 6.32,
+            "thinking" : 6.94,
+            "code" : 4.72
+        },
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 10, "name" : "概率期望"}
+        ]
     }
 ]
