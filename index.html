@@ -13,7 +13,7 @@
                 if (request.status == 200) {
                     var json = JSON.parse(request.responseText);
                     for(var x in json) {
-                        console.log(x);
+                        console.log(x, json[x]);
                     }
                 }
             }
