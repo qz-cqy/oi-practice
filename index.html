@@ -15,7 +15,6 @@
                 return '1';
             }
             var from = parseInt(getQueryVariable("from"));
-            if(from == NaN) from = 1;
             console.log(from);
             var url = "list.json";
             var request = new XMLHttpRequest();
@@ -39,6 +38,8 @@
                             </tr>
                     `;
                     for(var x in json) {
+                        if(x < from) continue;
+                        if(x > from + 9) break;
                         console.log(x, json[x]);
                         var qwq = "";
                         for(var y in json[x]['href']) {
