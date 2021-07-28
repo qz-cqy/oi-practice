@@ -26,12 +26,17 @@
                                 <th>标签</th>
                             </tr>
                     `;
-                    console.log(html);
                     for(var x in json) {
                         console.log(x, json[x]);
+                        var qwq = "";
+                        for(var y in json[x]['href']) {
+                            qwq += `
+                            <a href="${json[x]['href']['href']}">${json[x]['href']['id']}</a>;
+                            `;
+                        }
                         html += `
                             <tr>
-                                <td><a href="${json[x]['href']}">${json[x]['id']}</a></td>
+                                <td>${qwq}</td>
                                 <td>${json[x]['name']}</td>
                                 <td>${json[x]['difficulty']['algorithm']}</td>
                                 <td>${json[x]['difficulty']['thinking']}</td>
@@ -46,7 +51,6 @@
                     </table>
                     `;
                     document.getElementById("record-table").innerHTML = html;
-                    console.log(html);
                 }
             }
         </script>
