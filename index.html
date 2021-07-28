@@ -15,9 +15,9 @@
                 }
                 return '-1';
             }
-            var from = parseInt(getQueryVariable("from")) - 1;
+            var from = parseInt(getQueryVariable("from"));
             var length = parseInt(getQueryVariable("length"));
-            if(from == -2) from = 0;
+            if(from == -1) from = 0;
             if(length == -1) length = 20;
             if(length > 20) {
                 //document.getElementById("record-table").innerHTML = "<p>查询个数过大！请重新输入（0~20）。</p>";
@@ -73,7 +73,7 @@
                         }
                         html += `
                             <tr>
-                                <td>${x+1}</td>
+                                <td>${x}</td>
                                 <td>${qwq}</td>
                                 <td>${json[x]['name']}</td>
                                 <td>${json[x]['difficulty']['algorithm']}</td>
