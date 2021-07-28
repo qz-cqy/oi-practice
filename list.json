@@ -1,10 +1,7 @@
 [
     {
         "href" : [
-            {
-                "id" : "lg1001", 
-                "href" : "https://www.luogu.com.cn/problem/P1001"
-            }
+            {"id" : "lg1001", "href" : "https://www.luogu.com.cn/problem/P1001"}
         ], 
         "name" : "A+B Problem", 
         "record" : "/record/P1001.html", 
@@ -15,14 +12,132 @@
             "code" : 0.01
         }, 
         "tags" : [
-            {
-                "id" : 0, 
-                "name" : "模拟"
-            }, 
-            {
-                "id" : 1, 
-                "name" : "暴力"
-            }
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 1, "name" : "暴力"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3396", "href" : "https://www.luogu.com.cn/problem/P3396"}
+        ], 
+        "name" : "哈希冲突", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P3396.html", 
+        "time" : "2021-07-12 18:35:03", 
+        "difficulty" : {
+            "algorithm" : "未评定", 
+            "thinking" : "未评定", 
+            "code" : 3.37
+        }, 
+        "tags" : [
+            {"id" : 2, "name" : "分治"}, 
+            {"id" : 3, "name" : "根号分治"}
+        ]
+    },
+    {
+        "href": [
+            {"id" : "lg3842", "href" : "https://www.luogu.com.cn/problem/P3842"}
+        ],
+        "name" : "线段",
+        "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P3842.html",
+        "time" : "2021-07-14 19:11:30",
+        "difficulty" : {
+            "algorithm" : 4.33,
+            "thinking" : 3.22,
+            "code" : 3.53
+        },
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2000, "name" : "天津"}
+        ]
+    },
+    {
+        "href" : [
+            {"id" : "lg1833", "href" : "https://www.luogu.com.cn/problem/P1833"}
+        ],
+        "name" : "樱花",
+        "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P1833.html",
+        "time" : "2021-07-14 19:44:02",
+        "difficulty" : {
+            "algorithm" : 5.23,
+            "thinking" : 4.03,
+            "code" : 4.34
+        },
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 5, "name" : "背包问题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id": "lg1453", "href" : "https://www.luogu.com.cn/problem/P1453"}
+        ],
+        "name" : "城市环路",
+        "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P1453.html",
+        "time" : "2021-07-14 20:32:00",
+        "difficulty" : {
+            "algorithm" : 8.14,
+            "thinking" : 5.93,
+            "code" : 6.35
+        },
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 6, "name" : "树形DP"}, 
+            {"id" : 7, "name" : "基环树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7323", "href" : "https://www.luogu.com.cn/problem/P7323"}, 
+            {"id" : "loj3462", "href" : "https://loj.ac/p/3462"}, 
+            {"id" : "uoj601", "href" : "https://uoj.ac/problem/601"}
+        ],
+        "name" : "括号路径",
+        "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P7323.html",
+        "time" : "2021-07-15 19:52:00",
+        "difficulty" : {
+            "algorithm" : 7.86,
+            "thinking" : 8.21,
+            "code" : 7.64
+        },
+        "tags" : [
+            {"id" : 8, "name" : "图论"}, 
+            {"id" : 9, "name" : "并查集"}, 
+            {"id" : 1001, "name" : "NOI冬令营"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf603a", "href" : "https://codeforces.com/problemset/problem/603/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF603A"}
+        ],
+        "name" : "Alternative Thinking",
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-603A.html",
+        "time" : "2021-07-15 21:13:08",
+        "difficulty" : {
+            "algorithm" : 5.36,
+            "thinking" : 5.13,
+            "code" : 3.66
+        },
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1538f", "href" : "https://codeforces.com/problemset/problem/1538/F"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1538F"}
+        ],
+        "name" : "Interesting Function",
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-1538F.html",
+        "time" : "2021-07-15 21:38:43",
+        "difficulty" : {
+            "algorithm" : 3.12,
+            "thinking" : 2.86,
+            "code" : 2.93
+        },
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}
         ]
     }
 ]
