@@ -8,7 +8,7 @@
         ], 
         "name" : "A+B Problem", 
         "record" : "/record/P1001.html", 
-        "time" : "1582.10.05 00:00:00", 
+        "time" : "1582-10-05 00:00:00", 
         "difficulty" : {
             "algorithm" : 0.01, 
             "thinking" : 0.01, 
