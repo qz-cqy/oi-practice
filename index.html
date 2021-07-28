@@ -29,17 +29,18 @@
                         console.log(x, json[x]);
                         document.getElementById("record-table").innerHTML += `
                         <tr>
-                            <td><a href="${json[x]['href']}">${json[x]['ud']}</a></td>
+                            <td><a href="${json[x]['href']}">${json[x]['id']}</a></td>
                             <td>${json[x]['name']}</td>
                             <td>${json[x]['difficulty']['algorithm']}</td>
                             <td>${json[x]['difficulty']['thinking']}</td>
                             <td>${json[x]['difficulty']['code']}</td>
-                            <td>${json[x]['record']}</td>
+                            <td><a href="${json[x]['record']}">Link</a></td>
                             <td>功能暂未实现</td>
                         </tr>
                         `;
                     }
-                    document.getElementById("record-table").innerHTML += "</table>"
+                    document.getElementById("record-table").innerHTML += "</table>";
+                    console.log(document.getElementById("record-table").innerHTML);
                 }
             }
         </script>
