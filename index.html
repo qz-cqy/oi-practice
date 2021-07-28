@@ -14,7 +14,7 @@
                 }
                 return '1';
             }
-            var from = parseInt(getQueryVariable("from"));
+            var from = parseInt(getQueryVariable("from")) - 1;
             console.log(from);
             var url = "list.json";
             var request = new XMLHttpRequest();
@@ -61,7 +61,7 @@
                                 <td>${json[x]['difficulty']['thinking']}</td>
                                 <td>${json[x]['difficulty']['code']}</td>
                                 <td><a href="${json[x]['record']}">Link</a></td>
-                                <td>功能暂未实现</td>
+                                <td>${qaq}</td>
                             </tr>
                         `;
                     }
