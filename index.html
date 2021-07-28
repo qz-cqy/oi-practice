@@ -37,7 +37,7 @@
                 if (request.status == 200) {
                     var json = JSON.parse(request.responseText);
                     var html = `
-                    <table border='1' style='width: 100%;'>
+                    <table class='data' border='1' style='width: 100%;'>
                         <caption>做题记录</caption>
                         <thead>
                             <tr>
@@ -97,8 +97,10 @@
     <body>
         <p>完善中……</p>
         <div class="main">
-            <div id="details">数据生成中……</div>
-            <div id="record-table">表格生成中……</div>
+            <fieldset class="container">
+                <div id="details">数据生成中……</div>
+                <div id="record-table">表格生成中……</div>
+            </fieldset>
         </div>
     </body>
 </html>

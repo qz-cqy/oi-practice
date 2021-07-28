@@ -11,9 +11,17 @@ a:hover, a:active {
     color: #ff1744;
 }
 div.main {
-    padding: 12px;
-    border: medium inset #8e44ad;
     min-width: 100%;
     min-height: 100%;
     background: linear-gradient(to bottom, #FBD3E9, #BB377D);
+}
+fieldset.container {
+    min-width: 100%;
+    min-height: 100%;
+    padding: 12px;
+    display: block;
+    border: medium inset #8e44ad;
+}
+table.data {
+    text-align: center;
 }
