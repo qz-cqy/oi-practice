@@ -5,9 +5,9 @@
         "href" : "https://www.luogu.com.cn/problem/P1001", 
         "record" : "/record/P1001.html", 
         "difficulty" : {
-            "algorithm" : 0.00, 
-            "thinking" : 0.00, 
-            "code" : 0.00
+            "algorithm" : 0.01, 
+            "thinking" : 0.01, 
+            "code" : 0.01
         }, 
         "tags" : [0]
     }
