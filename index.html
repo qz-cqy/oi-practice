@@ -18,7 +18,12 @@
             var from = parseInt(getQueryVariable("from")) - 1;
             var length = parseInt(getQueryVariable("length"));
             if(from == -2) from = 0;
-            if(length == -1) length = 50;
+            if(length == -1) length = 20;
+            if(length > 20) {
+                document.getElementById("record-table").innerHTML = "<p>查询个数过大！请重新输入（0~20）。</p>";
+                alert("查询个数过大！请重新输入（0~20）。");
+            }
+            if(length < 0) length = 0;
             var to = from + length - 1;
             console.log("from", from, "to", to, "length", length);
 
