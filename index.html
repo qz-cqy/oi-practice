@@ -4,6 +4,19 @@
         <meta charset="UTF-8">
         <title>rui_er 的 OI 做题记录 from 2021.7.12</title>
         <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <script>
+            var request = new XMLHttpRequest();
+            request.open("get", url);
+            request.send(null);
+            request.onload = function () {
+                if (request.status == 200) {
+                    var json = JSON.parse(request.responseText);
+                    for(var x in json) {
+                        console.log(x);
+                    }
+                }
+            }
+        </script>
     </head>
     <body>
         <p>完善中……</p>
