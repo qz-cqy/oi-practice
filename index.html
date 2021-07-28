@@ -41,6 +41,7 @@
                         <caption>做题记录</caption>
                         <tbody>
                             <tr>
+                                <th>序号</th>
                                 <th>题号</th>
                                 <th>题目</th>
                                 <th>算法难度</th>
@@ -70,6 +71,7 @@
                         }
                         html += `
                             <tr>
+                                <td>${x+1}</td>
                                 <td>${qwq}</td>
                                 <td>${json[x]['name']}</td>
                                 <td>${json[x]['difficulty']['algorithm']}</td>
