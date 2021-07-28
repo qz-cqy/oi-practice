@@ -30,6 +30,7 @@
                         console.log(x, json[x]);
                         var qwq = "";
                         for(var y in json[x]['href']) {
+                            console.log(y);
                             qwq += `
                             <a href="${json[x]['href']['href']}">${json[x]['href']['id']}</a>;
                             `;
