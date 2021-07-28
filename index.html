@@ -90,6 +90,11 @@
                     </table>
                     `;
                     document.getElementById("record-table").innerHTML = html;
+                    document.getElementById("details").innerHTML = `
+                    <p>总记录数：<strong>${mx}</strong></p><br>
+                    <p>已显示：<strong>${from}~${to}</strong>（共 <strong>${to-from+1}</strong> 个，请求 <strong>${length}</strong> 个）</p><br>
+                    <p>最后一个记录时间：<strong>${json[0]['time']}</strong></p><br>
+                    `;
                 }
             }
         </script>
