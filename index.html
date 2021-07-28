@@ -12,35 +12,40 @@
             request.onload = function () {
                 if (request.status == 200) {
                     var json = JSON.parse(request.responseText);
-                    document.getElementById("record-table").innerHTML = `
+                    var html = `
                     <table border='1'>
                         <caption>做题记录</caption>
-                        <tr>
-                            <th>题号</th>
-                            <th>题目</th>
-                            <th>算法难度</th>
-                            <th>思维难度</th>
-                            <th>代码难度</th>
-                            <th>解题报告</th>
-                            <th>标签</th>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th>题号</th>
+                                <th>题目</th>
+                                <th>算法难度</th>
+                                <th>思维难度</th>
+                                <th>代码难度</th>
+                                <th>解题报告</th>
+                                <th>标签</th>
+                            </tr>
                     `;
                     for(var x in json) {
                         console.log(x, json[x]);
-                        document.getElementById("record-table").innerHTML += `
-                        <tr>
-                            <td><a href="${json[x]['href']}">${json[x]['id']}</a></td>
-                            <td>${json[x]['name']}</td>
-                            <td>${json[x]['difficulty']['algorithm']}</td>
-                            <td>${json[x]['difficulty']['thinking']}</td>
-                            <td>${json[x]['difficulty']['code']}</td>
-                            <td><a href="${json[x]['record']}">Link</a></td>
-                            <td>功能暂未实现</td>
-                        </tr>
+                        html += `
+                            <tr>
+                                <td><a href="${json[x]['href']}">${json[x]['id']}</a></td>
+                                <td>${json[x]['name']}</td>
+                                <td>${json[x]['difficulty']['algorithm']}</td>
+                                <td>${json[x]['difficulty']['thinking']}</td>
+                                <td>${json[x]['difficulty']['code']}</td>
+                                <td><a href="${json[x]['record']}">Link</a></td>
+                                <td>功能暂未实现</td>
+                            </tr>
                         `;
                     }
-                    document.getElementById("record-table").innerHTML += "</table>";
-                    console.log(document.getElementById("record-table").innerHTML);
+                    html += `
+                        </tbody>
+                    </table>
+                    `;
+                    document.getElementById("record-table").innerHTML = html;
+                    console.log(html);
                 }
             }
         </script>
