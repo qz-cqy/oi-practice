@@ -11,8 +11,6 @@ a:hover, a:active {
     color: #ff1744;
 }
 div.main {
-    min-width: 100%;
-    min-height: 100%;
     padding: 1em 50px;
     background: linear-gradient(to bottom, #FBD3E9, #BB377D);
 }
