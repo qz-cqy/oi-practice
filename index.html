@@ -37,20 +37,22 @@
                 if (request.status == 200) {
                     var json = JSON.parse(request.responseText);
                     var html = `
-                    <table border='1'>
+                    <table border='1' style='width: 100%;'>
                         <caption>做题记录</caption>
-                        <tbody>
+                        <thead>
                             <tr>
-                                <th>序号</th>
-                                <th>题号</th>
-                                <th>题目</th>
-                                <th>算法难度</th>
-                                <th>思维难度</th>
-                                <th>代码难度</th>
-                                <th>通过时间</th>
-                                <th>解题报告</th>
-                                <th>标签</th>
+                                <th style='width: 8%;'>序号</th>
+                                <th style='width: 14%;'>题号</th>
+                                <th style='width: 18%;'>题目</th>
+                                <th style='width: 8%;'>算法难度</th>
+                                <th style='width: 8%;'>思维难度</th>
+                                <th style='width: 8%;'>代码难度</th>
+                                <th style='width: 18%;'>通过时间</th>
+                                <th style='width: 8%;'>解题报告</th>
+                                <th style='width: 10%;'>标签</th>
                             </tr>
+                        </thead>
+                        <tbody>
                     `;
                     var mx = json.length;
                     console.log("size of data", mx);
