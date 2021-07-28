@@ -47,7 +47,8 @@
                     `;
                     var mx = json.length;
                     console.log("size of data", mx);
-                    for(var x = min(mx - 1, to); x >= from; x--) {
+                    if(to > mx - 1) to = mx - 1;
+                    for(var x = to; x >= from; x--) {
                         console.log(x, json[x]);
                         var qwq = "";
                         for(var y in json[x]['href']) {
