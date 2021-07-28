@@ -3,6 +3,11 @@
         "id" : "luogu P1001", 
         "href" : "https://www.luogu.com.cn/problem/P1001", 
         "record" : "/record/P1001.html", 
+        "difficulty" : {
+            "algorithm" : 0.00, 
+            "thinking" : 0.00, 
+            "code" : 0.00
+        }, 
         "tags" : ["模拟"]
     }
 ]
