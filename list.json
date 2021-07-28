@@ -24,8 +24,8 @@
         "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P3396.html", 
         "time" : "2021-07-12 18:35:03", 
         "difficulty" : {
-            "algorithm" : "未评定", 
-            "thinking" : "未评定", 
+            "algorithm" : 8.17, 
+            "thinking" : 5.34, 
             "code" : 3.37
         }, 
         "tags" : [
