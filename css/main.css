@@ -13,15 +13,42 @@ a:hover, a:active {
 div.main {
     min-width: 100%;
     min-height: 100%;
+    padding: 1em 50px;
     background: linear-gradient(to bottom, #FBD3E9, #BB377D);
 }
 fieldset.container {
-    min-width: 100%;
-    min-height: 100%;
     padding: 12px;
     display: block;
     border: medium inset #8e44ad;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
 }
 table.data {
+    display: table;
+    border-collapse: collapse;
+    table-layout: fixed;
+    word-wrap: break-word;
     text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+table.data>tbody>tr:hover {
+    background-color:rgba(255,204,255,.4);
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
 }
