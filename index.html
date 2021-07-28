@@ -93,7 +93,8 @@
                     document.getElementById("details").innerHTML = `
                     <p>总记录数：<strong>${mx}</strong></p>
                     <p>已显示：<strong>${from}~${to}</strong>（共 <strong>${to-from+1}</strong> 个，请求 <strong>${length}</strong> 个）</p>
-                    <p>最后一个记录时间：<strong>${json[0]['time']}</strong></p>
+                    <p>第一个记录时间：<strong>${json[0]['time']}</strong></p>
+                    <p>最后一个记录时间：<strong>${json[mx-1]['time']}</strong></p>
                     `;
                 }
             }
