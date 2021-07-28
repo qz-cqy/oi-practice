@@ -24,7 +24,7 @@
         "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P3396.html", 
         "time" : "2021-07-12 18:35:03", 
         "difficulty" : {
-            "algorithm" : 8.17, 
+            "algorithm" : 8.22, 
             "thinking" : 5.34, 
             "code" : 3.37
         }, 
@@ -76,7 +76,7 @@
         "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P1453.html",
         "time" : "2021-07-14 20:32:00",
         "difficulty" : {
-            "algorithm" : 8.14,
+            "algorithm" : 8.07,
             "thinking" : 5.93,
             "code" : 6.35
         },
