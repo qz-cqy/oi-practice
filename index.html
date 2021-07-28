@@ -47,6 +47,12 @@
                             <a href="${json[x]['href'][y]['href']}">${json[x]['href'][y]['id']}</a>;
                             `;
                         }
+                        var qaq = "";
+                        for(var y in json[x]['tags']) {
+                            qaq += `
+                            <a href="javascript:void(0);">${json[x]['tags'][y]['name']}</a>;
+                            `;
+                        }
                         html += `
                             <tr>
                                 <td>${qwq}</td>
