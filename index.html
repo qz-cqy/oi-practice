@@ -51,9 +51,11 @@
                         </thead>
                         <tbody>
                     `;
-                    var mx = json.length;
-                    if(from == -1) from = mx - length;
-                    var to = mx - 1;
+                    var mx = json.length, to = from + length - 1;
+                    if(from == -1) {
+                        from = mx - length;
+                        to = mx - 1;
+                    }
                     if(to > mx - 1) to = mx - 1;
                     if(from < 0) from = 0;
                     console.log('data size:', mx);
