@@ -156,5 +156,42 @@
             {"id" : 4, "name" : "动态规划"}, 
             {"id" : 10, "name" : "概率期望"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf288a", "href" : "https://codeforces.com/problemset/problem/288/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF288A"}
+        ],
+        "name" : "Polo the Penguin and Strings",
+        "record" : "javascript:void(0);",
+        "time" : "2021-07-27 17:59:42",
+        "difficulty" : {
+            "algorithm" : 4.24,
+            "thinking" : 2.73,
+            "code" : 2.86
+        },
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf796d", "href" : "https://codeforces.com/problemset/problem/796/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF796D"}
+        ],
+        "name" : "Police Stations",
+        "record" : "javascript:void(0);",
+        "time" : "2021-07-27 21:38:47",
+        "difficulty" : {
+            "algorithm" : 5.87,
+            "thinking" : 5.56,
+            "code" : 4.73
+        },
+        "tags" : [
+            {"id" : 8, "name" : "图论"}, 
+            {"id" : 12, "name" : "搜索"}, 
+            {"id" : 13, "name" : "并查集"}
+        ]
     }
 ]
