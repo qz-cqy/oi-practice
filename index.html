@@ -17,7 +17,6 @@
             }
             var from = parseInt(getQueryVariable("from"));
             var length = parseInt(getQueryVariable("length"));
-            if(from == -1) from = 0;
             if(length == -1) length = 20;
             if(length > 20) {
                 //document.getElementById("record-table").innerHTML = "<p>查询个数过大！请重新输入（0~20）。</p>";
@@ -25,8 +24,6 @@
                 length = 0;
             }
             if(length < 0) length = 0;
-            var to = from + length - 1;
-            console.log("from", from, "to", to, "length", length);
 
             /* generating table */
             var url = "list.json";
@@ -55,7 +52,8 @@
                         <tbody>
                     `;
                     var mx = json.length;
-                    console.log("size of data", mx);
+                    if(from == -1) from = mx - length;
+                    var to = from + length - 1;
                     if(to > mx - 1) to = mx - 1;
                     for(var x = to; x >= from; x--) {
                         console.log(x, json[x]);
