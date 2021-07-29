@@ -193,5 +193,23 @@
             {"id" : 12, "name" : "搜索"}, 
             {"id" : 13, "name" : "并查集"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4995", "href" : "https://www.luogu.com.cn/problem/P4995"}
+        ],
+        "name" : "跳跳！",
+        "record" : "javascript:void(0);",
+        "time" : "2021-07-29 16:49:59",
+        "difficulty" : {
+            "algorithm" : 4.42,
+            "thinking" : 3.18,
+            "code" : 3.48
+        },
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
     }
 ]
