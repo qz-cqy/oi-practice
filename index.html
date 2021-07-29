@@ -53,8 +53,9 @@
                     `;
                     var mx = json.length;
                     if(from == -1) from = mx - length;
-                    var to = from + length - 1;
+                    var to = mx - 1;
                     if(to > mx - 1) to = mx - 1;
+                    if(from < 0) from = 0;
                     console.log('data size:', mx);
                     console.log('from', from, 'to', to, 'expected length', length);
                     for(var x = to; x >= from; x--) {
