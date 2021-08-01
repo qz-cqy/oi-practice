@@ -211,5 +211,22 @@
             {"id" : 14, "name" : "排序"}, 
             {"id" : 15, "name" : "贪心"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf762a", "href" : "https://codeforces.com/problemset/problem/762/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF762A"}
+        ],
+        "name" : "k-th divisor",
+        "record" : "javascript:void(0);",
+        "time" : "2021-08-01 13:17:47",
+        "difficulty" : {
+            "algorithm" : 3.56,
+            "thinking" : 3.21,
+            "code" : 2.98
+        },
+        "tags" : [
+            {"id" : 1, "name" : "暴力"}
+        ]
     }
 ]
