@@ -228,5 +228,23 @@
         "tags" : [
             {"id" : 1, "name" : "暴力"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf577b", "href" : "https://codeforces.com/problemset/problem/577/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF577B"}
+        ],
+        "name" : "Modulo Sum",
+        "record" : "/record/CF577B.html",
+        "time" : "2021-08-03 13:08:24",
+        "difficulty" : {
+            "algorithm" : 5.63,
+            "thinking" : 5.44,
+            "code" : 4.35
+        },
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
