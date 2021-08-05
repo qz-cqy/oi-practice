@@ -1,4 +1,4 @@
-function getCFUser(level, rating) {
+function getCFUser(level, rating) { // user rating
     if (level == 'U') return `<p class='unrated'>Unrated, ${rating}</p>`;
     if (level == 'N') return `<p class='rated newbie'>Newbie, ${rating}</p>`;
     if (level == 'P') return `<p class='rated pupil'>Pupil, ${rating}</p>`;
@@ -12,7 +12,7 @@ function getCFUser(level, rating) {
     if (level == 'LGM') return `<p class='rated legendary-grandmaster'>Legendary Grandmaster, ${rating}</p>`;
     return `<p class='rated headquarters'>Headquarters, ${rating}</p>`;
 }
-function getCFDelta(delta) {
+function getCFDelta(delta) { // delta / contribution
     if(delta == '0') return `<p class='zero'>${delta}</p>`;
     if(delta[0] == '-') return `<p class='negative'>${delta}</p>`;
     return `<p class='positive'>${delta}</p>`;
