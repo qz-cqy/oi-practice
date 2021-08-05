@@ -12,7 +12,7 @@ function getCFUser(level, rating) {
     if (level == 'LGM') return `<p class='rated legendary-grandmaster'>Legendary Grandmaster, ${rating}</p>`;
     return `<p class='rated headquarters'>Headquarters, ${rating}</p>`;
 }
-function getDelta(delta) {
+function getCFDelta(delta) {
     if(delta == '0') return `<p class='zero'>${delta}</p>`;
     if(delta[0] == '-') return `<p class='negative'>${delta}</p>`;
     return `<p class='positive'>${delta}</p>`;

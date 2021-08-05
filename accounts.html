@@ -50,19 +50,36 @@
                 console.log("from", from, "to", to);
                 for (var x = to; x >= from; x--) {
                     console.log(x, json[x]);
-                    html += `
+                    if(json[x]['oj'] == 'CodeForces') {
+                        html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${json[x]['username']}</td>
                                 <td>${json[x]['affiliation']}</td>
                                 <td>${getCFUser(json[x]['level'], json[x]['rating'])}</td>
                                 <td>${getCFUser(json[x]['max-level'], json[x]['max-rating'])}</td>
-                                <td>${json[x]['contribution']==null?"null":getDelta(json[x]['contribution'])}</td>
+                                <td>${getCFDelta(json[x]['contribution'])}</td>
                                 <td>${json[x]['rated-matches']}</td>
-                                <td>${getDelta(json[x]['provisional']==true?'+':'-')}</td>
+                                <td>N/A</td>
                                 <td>${json[x]['last-competed']}</td>
                             </tr>
-                    `;
+                        `;
+                    }
+                    else {
+                        html += `
+                            <tr>
+                                <td>${json[x]['oj']}</td>
+                                <td>${json[x]['username']}</td>
+                                <td>${json[x]['affiliation']}</td>
+                                <td>${json[x]['level'], json[x]['rating']}</td>
+                                <td>${json[x]['max-level'], json[x]['max-rating']}</td>
+                                <td>N/A</td>
+                                <td>${json[x]['rated-matches']}</td>
+                                <td>${json[x]['provisional'] == true ? '+' : '-'}</td>
+                                <td>${json[x]['last-competed']}</td>
+                            </tr>
+                        `;
+                    }
                 }
                 html += `
                         </tbody>
