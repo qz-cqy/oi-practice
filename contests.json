@@ -800,6 +800,26 @@
         "performance" : 1964
     }, 
     {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "AtCoder Heuristic Contest 003", 
+        "id" : "ahc003", 
+        "time" : "2021-05-22", 
+        "class" : "ahc", 
+        "virtual" : false, 
+        "rated" : false, 
+        "rank" : 632, 
+        "solved" : 1, 
+        "ak" : true, 
+        "delta" : null, 
+        "old-level" : null, 
+        "old-rating" : null, 
+        "new-level" : null, 
+        "new-rating" : null, 
+        "perf-level" : null, 
+        "performance" : null
+    }, 
+    {
         "oj" : "CodeForces", 
         "account" : "rui_er", 
         "name" : "Codeforces Round #722", 
