@@ -1,6 +1,23 @@
 [
     {
         "href" : [
+            {"id" : "lg1001", "href" : "https://www.luogu.com.cn/problem/P1001"}
+        ], 
+        "name" : "A+B Problem", 
+        "record" : "/record/P1001.html", 
+        "time" : "2021-07-12 18:35:02", 
+        "difficulty" : {
+            "algorithm" : 0.01, 
+            "thinking" : 0.01, 
+            "code" : 0.01
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 1, "name" : "暴力"}
+        ]
+    }, 
+    {
+        "href" : [
             {"id" : "lg3396", "href" : "https://www.luogu.com.cn/problem/P3396"}
         ], 
         "name" : "哈希冲突", 
