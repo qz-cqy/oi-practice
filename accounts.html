@@ -48,7 +48,7 @@
                 var to = json.length - 1;
                 var from = 0;
                 console.log("from", from, "to", to);
-                for (var x = to; x >= from; x--) {
+                for (var x = from; x <= to; x++) {
                     console.log(x, json[x]);
                     if(json[x]['oj'] == 'CodeForces') {
                         html += `
