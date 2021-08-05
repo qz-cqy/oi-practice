@@ -51,20 +51,21 @@ legend {
     border-image: initial;
 }
 a.btn {
-    display: inline-block;
-    min-width: 10px;
-    padding: .25em .625em;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #fff;
-    line-height: 1;
-    vertical-align: baseline;
-    white-space: nowrap;
+    display: inline-block !important;
+    min-width: 10px !important;
+    padding: .25em .625em !important;
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    background-color: #17bed8 !important;
+    line-height: 1 !important;
+    vertical-align: baseline !important;
+    white-space: nowrap !important;
     border-radius: 50px !important;
-    margin-left: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    transition: all .15s;
+    margin-left: 3px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    transition: all .15s !important;
 }
