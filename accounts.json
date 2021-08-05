@@ -1,0 +1,41 @@
+[
+    {
+        "oj" : "CodeForces", 
+        "username" : "rui_er", 
+        "level" : "CM", 
+        "rating" : 2005, 
+        "max-level" : "CM", 
+        "max-rating" : 2005, 
+        "contribution" : "+22", 
+        "affiliation" : "Tsinghua University High School", 
+        "rated-matches" : 31, 
+        "provisional" : null, 
+        "last-competed" : "2021-08-01"
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "username" : "PP-Automation", 
+        "level" : "CM", 
+        "rating" : 2030, 
+        "max-level" : "CM", 
+        "max-rating" : 2030, 
+        "contribution" : "0",
+        "affiliation": "Tsinghua University High School",
+        "rated-matches" : 8, 
+        "provisional" : null, 
+        "last-competed" : "2021-07-29"
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "username" : "rui_er", 
+        "level" : "2 KYU(3)", 
+        "rating" : 1584, 
+        "max-level" : "2 KYU", 
+        "max-rating" : 1646, 
+        "contribution" : null,
+        "affiliation": "Tsinghua University High School",
+        "rated-matches" : 12, 
+        "provisional" : true, 
+        "last-competed" : "2021-07-31"
+    }
+]

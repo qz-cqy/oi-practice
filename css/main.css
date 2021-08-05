@@ -50,3 +50,21 @@ legend {
     border-color: initial;
     border-image: initial;
 }
+a.btn {
+    display: inline-block;
+    min-width: 10px;
+    padding: .25em .625em;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    border-radius: 50px !important;
+    margin-left: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: all .15s;
+}
