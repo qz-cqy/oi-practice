@@ -12,7 +12,7 @@ a:hover, a:active {
 }
 div.main {
     padding: 1em 50px;
-    background: linear-gradient(to bottom, #DCFFBD, #CC86D1);
+    background: linear-gradient(to bottom, #f7f0ac, #acf7f0, #f0acf7);
 }
 fieldset.container {
     padding: 12px;
