@@ -1,0 +1,37 @@
+.unrated {
+    color: #000000;
+    font-weight: 400;
+}
+.rated {
+    font-weight: 700;
+}
+.newbie, .zero, .negative {
+    color: #808080;
+}
+.pupil, .positive {
+    color: #008000;
+}
+.specialist {
+    color: #03a89e;
+}
+.expert {
+    color: #0000ff;
+}
+.candidate-master {
+    color: #aa00aa;
+}
+.master, .international-master {
+    color: #ff8c00;
+}
+.grandmaster, .international-grandmaster, .legendary-grandmaster {
+    color: #ff0000;
+}
+.legendary-grandmaster:first-letter {
+    color: #000000;
+}
+.head-quarters {
+    color: #000000;
+}
+.positive, .zero, .negative {
+    font-weight: bold;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CF/AT 账号</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/codeforces.css">
+    <script language=javascript src="./script/main.js"></script>
+    <script language=javascript src="./script/codeforces.js"></script>
+    <script>
+        /* Initialize */
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) { return pair[1]; }
+            }
+            return '-1';
+        }
+        /* generating table */
+        var url = "accounts.json";
+        var request = new XMLHttpRequest();
+        request.open("get", url);
+        request.send(null);
+        request.onload = function () {
+            if (request.status == 200) {
+                var json = JSON.parse(request.responseText);
+                var html = `
+                    <table class='data' border='1' style='width: 100%;'>
+                        <caption>CF/AT 账号</caption>
+                        <thead>
+                            <tr>
+                                <th style='width: 6%;'>OJ</th>
+                                <th style='width: 10%;'>用户名</th>
+                                <th style='width: 18%;'>组织</th>
+                                <th style='width: 14%;'>rating</th>
+                                <th style='width: 14%;'>最高 rating</th>
+                                <th style='width: 8%;'>contribution</th>
+                                <th style='width: 8%;'>rated 比赛</th>
+                                <th style='width: 8%;'>provisional</th>
+                                <th style='width: 14%;'>最后比赛</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    `;
+                var to = json.length - 1;
+                var from = 0;
+                console.log("from", from, "to", to);
+                for (var x = to; x >= from; x--) {
+                    console.log(x, json[x]);
+                    html += `
+                            <tr>
+                                <td>${json[x]['oj']}</td>
+                                <td>${json[x]['username']}</td>
+                                <td>${json[x]['affiliation']}</td>
+                                <td>${getCFUser(json[x]['level'], json[x]['rating'])}</td>
+                                <td>${getCFUser(json[x]['max-level'], json[x]['max-rating'])}</td>
+                                <td>${json[x]['contribution']==null?"null":getDelta(json[x]['contribution'])}</td>
+                                <td>${json[x]['rated-matches']}</td>
+                                <td>${getDelta(json[x]['provisional']==true?'+':'-')}</td>
+                                <td>${json[x]['last-competed']}</td>
+                            </tr>
+                    `;
+                }
+                html += `
+                        </tbody>
+                    </table>
+                    `;
+                document.getElementById("record-table").innerHTML = html;
+                document.getElementById("details").innerHTML = `
+                    <p>总记录数：<strong>${to - from + 1}</strong></p>
+                    <p>已显示：<strong>${from}~${to}</strong>（共 <strong>${to - from + 1}</strong> 个）</p>
+                    <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
+                    `;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <fieldset class="container">
+            <legend>CF/AT 账号</legend>
+            <div id="details">数据生成中……</div>
+            <div id="record-table">表格生成中……</div>
+        </fieldset>
+    </div>
+</body>
+
+</html>
