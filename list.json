@@ -246,5 +246,24 @@
             {"id" : 4, "name" : "动态规划"}, 
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1102d", "href" : "https://codeforces.com/problemset/problem/1102/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1102D"}
+        ],
+        "name" : "Balanced Ternary String",
+        "record" : "javascript:void(0);",
+        "time" : "2021-08-05 18:04:01",
+        "difficulty" : {
+            "algorithm" : 3.51,
+            "thinking" : 3.32,
+            "code" : 4.02
+        },
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 17, "name" : "字符串"}
+        ]
     }
 ]
