@@ -83,7 +83,18 @@
                                 <td>${json[x]['difficulty']['thinking']}</td>
                                 <td>${json[x]['difficulty']['code']}</td>
                                 <td>${json[x]['time']}</td>
+                        `;
+                        if(json[x]['record'] != null) {
+                            html += `
                                 <td><a href="${json[x]['record']}">Link</a></td>
+                            `;
+                        }
+                        else {
+                            html += `
+                                <td>暂无</td>
+                            `;
+                        }
+                        html += `
                                 <td>${qaq}</td>
                             </tr>
                         `;
@@ -98,6 +109,7 @@
                     <p>已显示：<strong>${from}~${to}</strong>（共 <strong>${to-from+1}</strong> 个，请求 <strong>${length}</strong> 个）</p>
                     <p>第一个记录时间：<strong>${json[0]['time']}</strong></p>
                     <p>最后一个记录时间：<strong>${json[mx-1]['time']}</strong></p>
+                    <p>注：暂无解题报告的可能原因有题目太水懒得写，或者没有时间写。</p>
                     `;
                 }
             }
