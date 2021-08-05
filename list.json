@@ -265,5 +265,22 @@
             {"id" : 15, "name" : "贪心"}, 
             {"id" : 17, "name" : "字符串"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf53c", "href" : "https://codeforces.com/problemset/problem/53/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF53C"}
+        ],
+        "name" : "Little Frog",
+        "record" : "javascript:void(0);",
+        "time" : "2021-08-05 18:11:32",
+        "difficulty" : {
+            "algorithm" : 2.77,
+            "thinking" : 2.34,
+            "code" : 1.98
+        },
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
