@@ -282,5 +282,24 @@
         "tags" : [
             {"id" : 11, "name" : "构造"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "loj3526", "href" : "https://loj.ac/p/3526"}, 
+            {"id" : "uoj663", "href" : "https://uoj.ac/problem/663"}
+        ],
+        "name" : "[IOI2021] dna",
+        "record" : null,
+        "time" : "2021-08-05 23:58:21",
+        "difficulty" : {
+            "algorithm" : 3.76,
+            "thinking" : 4.33,
+            "code" : 4.67
+        },
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 18, "name" : "前缀和/差分"}, 
+            {"id" : 1002, "name" : "IOI"}
+        ]
     }
 ]
