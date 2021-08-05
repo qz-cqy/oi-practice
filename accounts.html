@@ -45,7 +45,7 @@
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
-                                <td>${json[x]['username']}</td>
+                                <td><a href="https://www.codeforces.com/profile/${json[x]['username']}">${json[x]['username']}</a></td>
                                 <td>${json[x]['affiliation']}</td>
                                 <td>${getCFUser(json[x]['level'], json[x]['rating'])}</td>
                                 <td>${getCFUser(json[x]['max-level'], json[x]['max-rating'])}</td>
@@ -60,13 +60,13 @@
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
-                                <td>${json[x]['username']}</td>
+                                <td><a href="https://www.codeforces.com/profile/${json[x]['username']}">${json[x]['username']}</a></td>
                                 <td>${json[x]['affiliation']}</td>
                                 <td>${json[x]['level'], json[x]['rating']}</td>
                                 <td>${json[x]['max-level'], json[x]['max-rating']}</td>
                                 <td>N/A</td>
                                 <td>${json[x]['rated-matches']}</td>
-                                <td>${json[x]['provisional'] == true ? '+' : '-'}</td>
+                                <td>${getCFDelta(json[x]['provisional'] == true ? '+' : '-')}</td>
                                 <td>${json[x]['last-competed']}</td>
                             </tr>
                         `;
