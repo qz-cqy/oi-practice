@@ -371,7 +371,7 @@
         "rank" : null, 
         "solved" : 2, 
         "ak" : false, 
-        "delta" : null, 
+        "delta" : "0", 
         "old-level" : "S", 
         "old-rating" : 1510, 
         "new-level" : "S", 
