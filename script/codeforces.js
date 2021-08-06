@@ -23,7 +23,7 @@ function getCFUserShortLevel(level, rating) { // user rating
     if (level == 'CM') return `<span class='rated candidate-master'>CM${rating}</span>`;
     if (level == 'M') return `<span class='rated master'>M${rating}</span>`;
     if (level == 'IM') return `<span class='rated international-master'>IM${rating}</span>`;
-    if (level == 'GM') return `<span class='rated grandmaster'>Grandmaster, GM${rating}</span>`;
+    if (level == 'GM') return `<span class='rated grandmaster'>GM${rating}</span>`;
     if (level == 'IGM') return `<span class='rated international-grandmaster'>IGM${rating}</span>`;
     if (level == 'LGM') return `<span class='rated legendary-grandmaster'>LGM${rating}</span>`;
     return `<span class='rated headquarters'>HQ${rating}</span>`;
