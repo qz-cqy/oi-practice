@@ -56,10 +56,10 @@ function getATUser2(level, name) {
     if(level == null) return `<p>N/A</p>`;
     if(level == 'β') return `<p class='user at-unrated'>β${name}</p>`;
     if(level == 'U') { // unrated
-        return `<p class='user at-unrated'>Unrated, ${name}</p>`;
+        return `<p class='user at-unrated'>${name}</p>`;
     }
     if(level == 'K') { // king
-        return `<p class='user red'>King, ${name}</p>`;
+        return `<p class='user red'>${name}</p>`;
     }
     var lv_arr = level.match(/KYU/ig);
     if(lv_arr != null) { // is KYU
