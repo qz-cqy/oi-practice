@@ -26,30 +26,30 @@ function getATUser(level, rating) {
     }
 }
 function getATUserShortLevel(level, rating) {
-    if(level == null) return `<p>N/A</p>`;
-    if(level == 'β') return `<p class='user at-unrated'>β${rating}</p>`;
+    if(level == null) return `<span>N/A</span>`;
+    if(level == 'β') return `<span class='user at-unrated'>β${rating}</span>`;
     if(level == 'U') { // unrated
-        return `<p class='user at-unrated'>U${rating}</p>`;
+        return `<span class='user at-unrated'>U${rating}</span>`;
     }
     if(level == 'K') { // king
-        return `<p class='user red'>K${rating}</p>`;
+        return `<span class='user red'>K${rating}</span>`;
     }
     var lv_arr = level.match(/KYU/ig);
     if(lv_arr != null) { // is KYU
         var num_arr = level.match(/\d+/g);
         var num = num_arr[0];
-        if(num >= 9) return `<p class='user gray'>${num}K${rating}</p>`; // 9~20
-        if(num >= 7) return `<p class='user brown'>${num}K${rating}</p>`;
-        if(num >= 5) return `<p class='user green'>${num}K${rating}</p>`;
-        if(num >= 3) return `<p class='user cyan'>${num}K${rating}</p>`;
-        return `<p class='user blue'>${num}K${rating}</p>`;
+        if(num >= 9) return `<span class='user gray'>${num}K${rating}</span>`; // 9~20
+        if(num >= 7) return `<span class='user brown'>${num}K${rating}</span>`;
+        if(num >= 5) return `<span class='user green'>${num}K${rating}</span>`;
+        if(num >= 3) return `<span class='user cyan'>${num}K${rating}</span>`;
+        return `<span class='user blue'>${num}K${rating}</span>`;
     }
     else { // is DAN
         var num_arr = level.match(/\d+/g);
         var num = num_arr[0];
-        if(num <= 2) return `<p class='user yellow'>${num}D${rating}</p>`;
-        if(num <= 4) return `<p class='user orange'>${num}D${rating}</p>`;
-        return `<p class='user red'>${num}D${rating}</p>`;
+        if(num <= 2) return `<span class='user yellow'>${num}D${rating}</span>`;
+        if(num <= 4) return `<span class='user orange'>${num}D${rating}</span>`;
+        return `<span class='user red'>${num}D${rating}</span>`;
     }
 }
 function getATUser2(level, name) {
