@@ -1,4 +1,5 @@
 function getATUser(level, rating) {
+    if(level == null) return `<p>N/A</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>Unrated, ${rating}</p>`;
     }
@@ -24,6 +25,7 @@ function getATUser(level, rating) {
     }
 }
 function getATUserShortLevel(level, rating) {
+    if(level == null) return `<p>N/A</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>U${rating}</p>`;
     }
@@ -49,6 +51,7 @@ function getATUserShortLevel(level, rating) {
     }
 }
 function getATUser2(level, name) {
+    if(level == null) return `<p>N/A</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>Unrated, ${name}</p>`;
     }
@@ -78,6 +81,7 @@ function getATProvisional(provisional) {
     else return `<p class='inactive'>-</p>`;
 }
 function getATDelta(delta) {
+    if(delta == null) return `<p>N/A</p>`;
     if(delta == '0') return `<p class='inactive'>${delta}</p>`;
     if(delta[0] == '-') return `<p class='inactive'>${delta}</p>`;
     return `<p class='active'>${delta}</p>`;

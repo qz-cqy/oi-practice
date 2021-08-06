@@ -1,4 +1,5 @@
 function getCFUser(level, rating) { // user rating
+    if (level == null) return `<p>N/A</p>`;
     if (level == 'U') return `<p class='unrated'>Unrated, ${rating}</p>`;
     if (level == 'N') return `<p class='rated newbie'>Newbie, ${rating}</p>`;
     if (level == 'P') return `<p class='rated pupil'>Pupil, ${rating}</p>`;
@@ -13,6 +14,7 @@ function getCFUser(level, rating) { // user rating
     return `<p class='rated headquarters'>Headquarters, ${rating}</p>`;
 }
 function getCFUserShortLevel(level, rating) { // user rating
+    if (level == null) return `<p>N/A</p>`;
     if (level == 'U') return `<p class='unrated'>U${rating}</p>`;
     if (level == 'N') return `<p class='rated newbie'>N${rating}</p>`;
     if (level == 'P') return `<p class='rated pupil'>P${rating}</p>`;
@@ -27,6 +29,7 @@ function getCFUserShortLevel(level, rating) { // user rating
     return `<p class='rated headquarters'>HQ${rating}</p>`;
 }
 function getCFUser2(level, name) { // user rating
+    if (level == null) return `<p>N/A</p>`;
     if (level == 'U') return `<p class='unrated'>${name}</p>`;
     if (level == 'N') return `<p class='rated newbie'>${name}</p>`;
     if (level == 'P') return `<p class='rated pupil'>${name}</p>`;
@@ -41,6 +44,7 @@ function getCFUser2(level, name) { // user rating
     return `<p class='rated headquarters'>${name}</p>`;
 }
 function getCFDelta(delta) { // delta / contribution
+    if (delta == null) return `<p>N/A</p>`;
     if(delta == '0') return `<p class='zero'>${delta}</p>`;
     if(delta[0] == '-') return `<p class='negative'>${delta}</p>`;
     return `<p class='positive'>${delta}</p>`;
