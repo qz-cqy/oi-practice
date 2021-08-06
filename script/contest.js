@@ -4,6 +4,6 @@ function getContest(name, virtual, rated) {
     return `${name}(U)`;
 }
 function getACs(solved, ak) {
-    if(ak == true) return `<p color='red'>AK(${solved})</p>`;
+    if(ak == true) return `<p style='color:red;font-weight:bold;'>AK(${solved})</p>`;
     return `<p>${solved}</p>`;
 }
