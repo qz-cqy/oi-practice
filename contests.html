@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CF/AT 比赛</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/codeforces.css">
+    <link rel="stylesheet" type="text/css" href="/css/atcoder.css">
+    <script language=javascript src="./script/main.js"></script>
+    <script language=javascript src="./script/codeforces.js"></script>
+    <script language=javascript src="./script/atcoder.js"></script>
+    <script language=javascript src="./script/contest.js"></script>
+    <script>
+        /* Initialize */
+        /* generating table */
+        var url = "contests.json";
+        var request = new XMLHttpRequest();
+        request.open("get", url);
+        request.send(null);
+        request.onload = function () {
+            if (request.status == 200) {
+                var json = JSON.parse(request.responseText);
+                var html = `
+                    <table class='data' border='1' style='width: 100%;'>
+                        <caption>CF/AT 比赛</caption>
+                        <thead>
+                            <tr>
+                                <th style='width: 7%;'>OJ</th>
+                                <th style='width: 10%;'>用户名</th>
+                                <th style='width: 19%;'>比赛</th>
+                                <th style='width: 7%;'>比赛类型</th>
+                                <th style='width: 9%;'>时间</th>
+                                <th style='width: 7%;'>排名</th>
+                                <th style='width: 9%;'>ACs</th>
+                                <th style='width: 7%;'>Π</th>
+                                <th style='width: 7%;'>Δ</th>
+                                <th style='width: 18%;'>rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    `;
+                var to = json.length - 1;
+                var from = 0;
+                console.log("from", from, "to", to);
+                for (var x = to; x >= from; x--) {
+                    console.log(x, json[x]);
+                    if (json[x]['oj'] == 'CodeForces') {
+                        html += `
+                            <tr>
+                                <td>${json[x]['oj']}</td>
+                                <td>${getCFUser2(json[x]['old-level'], json[x]['account'])}</td>
+                                <td><a href="https://www.codeforces.com/contest/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
+                                <td>${json[x]['class']}</td>
+                                <td>${json[x]['time']}</td>
+                                <td>${json[x]['rank']}</td>
+                                <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
+                                <td>${getCFUserShortLevel(json[x]['perf-level'], json[x]['performance'])}</td>
+                                <td>${getCFDelta(json[x]['delta'])}</td>
+                                <td>${getCFUserShortLevel(json[x]['old-level'], json[x]['old-rating'])}→${getCFUserShortLevel(json[x]['new-level'], json[x]['new-rating'])}</td>
+                            </tr>
+                        `;
+                    }
+                    else {
+                        html += `
+                            <tr>
+                                <td>${json[x]['oj']}</td>
+                                <td>${getATUser2(json[x]['old-level'], json[x]['account'])}</td>
+                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
+                                <td>${json[x]['class']}</td>
+                                <td>${json[x]['time']}</td>
+                                <td>${json[x]['rank']}</td>
+                                <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
+                                <td>${getATUserShortLevel(json[x]['perf-level'], json[x]['performance'])}</td>
+                                <td>${getATDelta(json[x]['delta'])}</td>
+                                <td>${getATUserShortLevel(json[x]['old-level'], json[x]['old-rating'])}→${getATUserShortLevel(json[x]['new-level'], json[x]['new-rating'])}</td>
+                            </tr>
+                        `;
+                    }
+                }
+                html += `
+                        </tbody>
+                    </table>
+                    `;
+                document.getElementById("record-table").innerHTML = html;
+                document.getElementById("details").innerHTML = `
+                    <p>总记录数：<strong>${to - from + 1}</strong></p>
+                    <p>已显示：<strong>${from}~${to}</strong>（共 <strong>${to - from + 1}</strong> 个）</p>
+                    <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
+                    `;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <fieldset class="container">
+            <legend>CF/AT 比赛</legend>
+            <div id="details">数据生成中……</div>
+            <div id="record-table">表格生成中……</div>
+        </fieldset>
+    </div>
+</body>
+
+</html>
