@@ -6,8 +6,10 @@
     <title>CF/AT 账号</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/codeforces.css">
+    <link rel="stylesheet" type="text/css" href="/css/atcoder.css">
     <script language=javascript src="./script/main.js"></script>
     <script language=javascript src="./script/codeforces.js"></script>
+    <script language=javascript src="./script/atcoder.js"></script>
     <script>
         /* Initialize */
         /* generating table */
@@ -60,13 +62,13 @@
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
-                                <td><a href="https://atcoder.jp/users/${json[x]['username']}">${json[x]['username']}</a></td>
+                                <td><a href="https://atcoder.jp/users/${json[x]['username']}">${getATUser2(json[x]['max-level'], json[x]['level'], json[x]['username'])}</a></td>
                                 <td>${json[x]['affiliation']}</td>
-                                <td>${json[x]['level'], json[x]['rating']}</td>
-                                <td>${json[x]['max-level'], json[x]['max-rating']}</td>
+                                <td>${getATUser(json[x]['max-level'], json[x]['rating'])}</td>
+                                <td>${getATUser(json[x]['max-level'], json[x]['max-rating'])}</td>
                                 <td>N/A</td>
                                 <td>${json[x]['rated-matches']}</td>
-                                <td>${getCFDelta(json[x]['provisional'] == true ? '+' : '-')}</td>
+                                <td>${getATProvisional(json[x]['provisional'] == true ? '+' : '-')}</td>
                                 <td>${json[x]['last-competed']}</td>
                             </tr>
                         `;
