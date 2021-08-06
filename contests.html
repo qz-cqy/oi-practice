@@ -23,6 +23,8 @@
         if(only_virtual != 1) only_virtual = 0;
         var only_unrated = parseInt(getQueryVariable('only-unrated'));
         if(only_unrated != 1) only_unrated = 0;
+        var only_ak = parseInt(getQueryVariable('only-ak'));
+        if(only_ak != 1) only_ak = 0;
         /* generating table */
         var url = "contests.json";
         var request = new XMLHttpRequest();
@@ -59,6 +61,7 @@
                     if(only_rated == 1 && json[x]['rated'] != true) continue;
                     if(only_virtual == 1 && json[x]['virtual'] != true) continue;
                     if(only_unrated == 1 && json[x]['virtual'] != false && json[x]['rated'] != false) continue;
+                    if(only_ak == 1 && json[x]['ak'] != true) continue;
                     console.log(x, json[x]);
                     if (json[x]['oj'] == 'CodeForces') {
                         var qwq = ``;
@@ -105,7 +108,7 @@
                 document.getElementById("record-table").innerHTML = html;
                 document.getElementById("details").innerHTML = `
                     <p>总记录数：<strong>${to - from + 1}</strong></p>
-                    <p>可以使用 ?only-cf(0/1, default: 0, 下同)、?only-at、?only-rated、?only-virtual、?only-unrated 来限制页面显示范围。</p>
+                    <p>可以使用 ?only-cf(0/1, default: 0, 下同)、?only-at、?only-rated、?only-virtual、?only-unrated、?only-ak 来限制页面显示范围。</p>
                     <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
                     `;
             }
