@@ -29,7 +29,7 @@ function getCFUserShortLevel(level, rating) { // user rating
     return `<span class='rated headquarters'>HQ${rating}</span>`;
 }
 function getCFUser2(level, name) { // user rating
-    if (level == null) return `<p>N/A</p>`;
+    if (level == null) return `<p class='unrated'>${name}</p>`;
     if (level == 'U') return `<p class='unrated'>${name}</p>`;
     if (level == 'N') return `<p class='rated newbie'>${name}</p>`;
     if (level == 'P') return `<p class='rated pupil'>${name}</p>`;
