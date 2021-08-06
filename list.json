@@ -301,5 +301,38 @@
             {"id" : 18, "name" : "前缀和/差分"}, 
             {"id" : 1002, "name" : "IOI"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cc-COINS", "href" : "https://www.codechef.com/problems/COINS"}
+        ],
+        "name" : "COINS - Bytelandian gold coins",
+        "record" : null,
+        "time" : "2021-08-06 14:35:58",
+        "difficulty" : {
+            "algorithm" : 5.34,
+            "thinking" : 5.43,
+            "code" : 4.22
+        },
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 19, "name" : "记忆化搜索"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cc-AND", "href" : "https://www.codechef.com/problems/AND"}
+        ],
+        "name" : "AND - Pairwise AND sum",
+        "record" : null,
+        "time" : "2021-06-08 14:39:24",
+        "difficulty" : {
+            "algorithm" : 6.03,
+            "thinking" : 5.01,
+            "code" : 4.57
+        },
+        "tags" : [
+            {"id" : 20, "name" : "位运算"}
+        ]
     }
 ]
