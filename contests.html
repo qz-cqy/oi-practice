@@ -53,7 +53,7 @@
                                 <td><a href="https://www.codeforces.com/contest/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
                                 <td>${json[x]['class']}</td>
                                 <td>${json[x]['time']}</td>
-                                <td>${json[x]['rank']}</td>
+                                <td>${json[x]['rank']==null?'N/A':json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${getCFUserShortLevel(json[x]['perf-level'], json[x]['performance'])}</td>
                                 <td>${getCFDelta(json[x]['delta'])}</td>
@@ -69,7 +69,7 @@
                                 <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
                                 <td>${json[x]['class']}</td>
                                 <td>${json[x]['time']}</td>
-                                <td>${json[x]['rank']}</td>
+                                <td>${json[x]['rank']==null?'N/A':json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${getATUserShortLevel(json[x]['perf-level'], json[x]['performance'])}</td>
                                 <td>${getATDelta(json[x]['delta'])}</td>
