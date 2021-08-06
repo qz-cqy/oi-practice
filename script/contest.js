@@ -1,6 +1,6 @@
 function getContest(name, virtual, rated) {
     if(rated == true) return `${name}(R)`;
-    if(virtual == true) return `${name}#`;
+    if(virtual == true) return `${name}(#)`;
     return `${name}(U)`;
 }
 function getACs(solved, ak) {
