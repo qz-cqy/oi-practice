@@ -23,7 +23,7 @@ function getATUser(level, rating) {
         return `<p class='user red'>${level}, ${rating}</p>`;
     }
 }
-function getATUser2(max_level, level, name) {
+function getATUser2(level, name) {
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>Unrated, ${name}</p>`;
     }
@@ -34,18 +34,18 @@ function getATUser2(max_level, level, name) {
     if(lv_arr != null) { // is KYU
         var num_arr = level.match(/\d+/g);
         var num = num_arr[0];
-        if(num >= 9) return `<p class='user gray'>${max_level}, ${name}</p>`; // 9~20
-        if(num >= 7) return `<p class='user brown'>${max_level}, ${name}</p>`;
-        if(num >= 5) return `<p class='user green'>${max_level}, ${name}</p>`;
-        if(num >= 3) return `<p class='user cyan'>${max_level}, ${name}</p>`;
-        return `<p class='user blue'>${max_level}, ${name}</p>`;
+        if(num >= 9) return `<p class='user gray'>${name}</p>`; // 9~20
+        if(num >= 7) return `<p class='user brown'>${name}</p>`;
+        if(num >= 5) return `<p class='user green'>${name}</p>`;
+        if(num >= 3) return `<p class='user cyan'>${name}</p>`;
+        return `<p class='user blue'>${name}</p>`;
     }
     else { // is DAN
         var num_arr = level.match(/\d+/g);
         var num = num_arr[0];
-        if(num <= 2) return `<p class='user yellow'>${max_level}, ${name}</p>`;
-        if(num <= 4) return `<p class='user orange'>${max_level}, ${name}</p>`;
-        return `<p class='user red'>${max_level}, ${name}</p>`;
+        if(num <= 2) return `<p class='user yellow'>${name}</p>`;
+        if(num <= 4) return `<p class='user orange'>${name}</p>`;
+        return `<p class='user red'>${name}</p>`;
     }
 }
 function getATProvisional(provisional) {
