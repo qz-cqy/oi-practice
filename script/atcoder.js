@@ -1,5 +1,6 @@
 function getATUser(level, rating) {
     if(level == null) return `<p>N/A</p>`;
+    if(level == 'β') return `<p class='user at-unrated'>β${rating}</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>Unrated, ${rating}</p>`;
     }
@@ -26,6 +27,7 @@ function getATUser(level, rating) {
 }
 function getATUserShortLevel(level, rating) {
     if(level == null) return `<p>N/A</p>`;
+    if(level == 'β') return `<p class='user at-unrated'>β${rating}</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>U${rating}</p>`;
     }
@@ -52,6 +54,7 @@ function getATUserShortLevel(level, rating) {
 }
 function getATUser2(level, name) {
     if(level == null) return `<p>N/A</p>`;
+    if(level == 'β') return `<p class='user at-unrated'>β${name}</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>Unrated, ${name}</p>`;
     }
