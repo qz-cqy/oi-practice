@@ -53,7 +53,7 @@ function getATUserShortLevel(level, rating) {
     }
 }
 function getATUser2(level, name) {
-    if(level == null) return `<p>N/A</p>`;
+    if(level == null) return `<p class='user at-unrated'>${name}</p>`;
     if(level == 'β') return `<p class='user at-unrated'>β${name}</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>${name}</p>`;
