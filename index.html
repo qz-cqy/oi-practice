@@ -99,7 +99,7 @@
                     `;
                     document.getElementById("record-table").innerHTML = html;
                     document.getElementById("details").innerHTML = `
-                    <p>总记录数：<strong>${mx}</strong></p>
+                    <p>总记录数：<strong>${mx}</strong>（编号从 <strong>0</strong> 开始）</p>
                     <p>已显示记录数：<strong>${shown}</strong></p>
                     <p>第一个记录时间：<strong>${json[0]['time']}</strong></p>
                     <p>最后一个记录时间：<strong>${json[mx-1]['time']}</strong></p>
