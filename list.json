@@ -289,7 +289,7 @@
             {"id" : "uoj663", "href" : "https://uoj.ac/problem/663"}
         ],
         "name" : "[IOI2021] dna",
-        "record" : null,
+        "record" : "https://www.cnblogs.com/ruierqwq/p/ioi2021-d2t1.html",
         "time" : "2021-08-05 23:58:21",
         "difficulty" : {
             "algorithm" : 3.76,
