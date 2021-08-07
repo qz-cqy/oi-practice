@@ -7,3 +7,9 @@ function getACs(solved, ak) {
     if(ak == true) return `<p style='color:red;font-weight:bold;'>AK(${solved})</p>`;
     return `<p>${solved}</p>`;
 }
+function showNA() {
+    return `<p class='na'>N/A</p>`;
+}
+function showNA_span() {
+    return `<span class='na'>N/A</span>`;
+}

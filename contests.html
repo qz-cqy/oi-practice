@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/codeforces.css">
     <link rel="stylesheet" type="text/css" href="/css/atcoder.css">
+    <link rel="stylesheet" type="text/css" href="/css/contest.css">
     <script language=javascript src="./script/main.js"></script>
     <script language=javascript src="./script/codeforces.js"></script>
     <script language=javascript src="./script/atcoder.js"></script>
@@ -80,7 +81,7 @@
                                 <td><a href="${qaq}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
                                 <td>${json[x]['class']}</td>
                                 <td>${json[x]['time']}</td>
-                                <td>${json[x]['rank']==null?'N/A':json[x]['rank']}</td>
+                                <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${getCFUserShortLevel(json[x]['perf-level'], json[x]['performance'])}</td>
                                 <td>${getCFDelta(json[x]['delta'])}</td>

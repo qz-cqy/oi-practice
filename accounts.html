@@ -7,9 +7,11 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/codeforces.css">
     <link rel="stylesheet" type="text/css" href="/css/atcoder.css">
+    <link rel="stylesheet" type="text/css" href="/css/contest.css">
     <script language=javascript src="./script/main.js"></script>
     <script language=javascript src="./script/codeforces.js"></script>
     <script language=javascript src="./script/atcoder.js"></script>
+    <script language=javascript src="./script/contest.js"></script>
     <script>
         /* Initialize */
         /* generating table */
@@ -53,7 +55,7 @@
                                 <td>${getCFUser(json[x]['max-level'], json[x]['max-rating'])}</td>
                                 <td>${getCFDelta(json[x]['contribution'])}</td>
                                 <td>${json[x]['rated-matches']}</td>
-                                <td>N/A</td>
+                                <td>${showNA()}</td>
                                 <td>${json[x]['last-competed']}</td>
                             </tr>
                         `;
@@ -66,7 +68,7 @@
                                 <td>${json[x]['affiliation']}</td>
                                 <td>${getATUser(json[x]['level'], json[x]['rating'])}</td>
                                 <td>${getATUser(json[x]['max-level'], json[x]['max-rating'])}</td>
-                                <td>N/A</td>
+                                <td>${showNA()}</td>
                                 <td>${json[x]['rated-matches']}</td>
                                 <td>${getATProvisional(json[x]['provisional'])}</td>
                                 <td>${json[x]['last-competed']}</td>
