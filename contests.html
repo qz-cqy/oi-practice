@@ -64,7 +64,7 @@
                     if(only_virtual == 1 && json[x]['virtual'] != true) continue;
                     if(only_unrated == 1 && json[x]['virtual'] != false && json[x]['rated'] != false) continue;
                     if(only_ak == 1 && json[x]['ak'] != true) continue;
-                    if(only_rui_er == 1 && json[x]['account'] != 'rui_er') continue;
+                    if(only_rui_er == 1 && json[x]['account'] != 'rui_er' && json[x]['account'] != 'Aiming CNOI: rui_er, zplqwq') continue;
                     console.log(x, json[x]);
                     if (json[x]['oj'] == 'CodeForces') {
                         var qwq = ``;
