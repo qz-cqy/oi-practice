@@ -42,6 +42,7 @@
                     `;
                 var to = json.length - 1;
                 var from = 0;
+                var shown = 0;
                 console.log("from", from, "to", to);
                 for (var x = from; x <= to; x++) {
                     console.log(x, json[x]);
@@ -75,6 +76,7 @@
                             </tr>
                         `;
                     }
+                    shown += 1;
                 }
                 html += `
                         </tbody>
@@ -83,6 +85,7 @@
                 document.getElementById("record-table").innerHTML = html;
                 document.getElementById("details").innerHTML = `
                     <p>总记录数：<strong>${to - from + 1}</strong></p>
+                    <p>已显示记录数：<strong>${shown}</strong></p>
                     <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
                     `;
             }

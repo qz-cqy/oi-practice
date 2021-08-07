@@ -20,6 +20,7 @@
             /* generating table */
             var url = "list.json";
             var request = new XMLHttpRequest();
+            var shown = 0;
             request.open("get", url);
             request.send(null);
             request.onload = function () {
@@ -90,6 +91,7 @@
                                 <td>${qaq}</td>
                             </tr>
                         `;
+                        shown += 1;
                     }
                     html += `
                         </tbody>
@@ -98,6 +100,7 @@
                     document.getElementById("record-table").innerHTML = html;
                     document.getElementById("details").innerHTML = `
                     <p>总记录数：<strong>${mx}</strong></p>
+                    <p>已显示记录数：<strong>${shown}</strong></p>
                     <p>第一个记录时间：<strong>${json[0]['time']}</strong></p>
                     <p>最后一个记录时间：<strong>${json[mx-1]['time']}</strong></p>
                     <p>注：暂无解题报告的可能原因有题目太水懒得写，或者没有时间写。</p>
