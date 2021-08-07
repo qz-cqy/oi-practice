@@ -1138,5 +1138,25 @@
         "new-rating" : 2005, 
         "perf-level" : "M", 
         "performance" : 2183
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Quick (fast) contest #1", 
+        "id" : "103029", 
+        "time" : "2021-08-07", 
+        "class" : "gym", 
+        "virtual" : true, 
+        "rated" : false, 
+        "rank" : null, 
+        "solved" : 3, 
+        "ak" : false, 
+        "delta" : null, 
+        "old-level" : null, 
+        "old-rating" : null, 
+        "new-level" : null, 
+        "new-rating" : null, 
+        "perf-level" : null, 
+        "performance" : null
     }
 ]
