@@ -70,11 +70,14 @@
                         var qwq = ``;
                         if(json[x]['account'] == 'rui_er' || json[x]['account'] == 'PP-Automation') qwq = `<a href="https://www.codeforces.com/profile/${json[x]['account']}">${getCFUser2(json[x]['old-level'], json[x]['account'])}</a>`;
                         else if(json[x]['account'] == 'Aiming CNOI: rui_er, zplqwq') qwq = `<a href="https://codeforces.com/team/86956">${getCFUser2(json[x]['old-level'], json[x]['account'])}</a>`;
+                        var qaq = ``;
+                        if(json[x]['class'] == 'gym') qaq = `https://www.codeforces.com/gym/${json[x]['id']}`;
+                        else qaq = `https://www.codeforces.com/contest/${json[x]['id']}`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
-                                <td><a href="https://www.codeforces.com/contest/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
+                                <td><a href="${qaq}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
                                 <td>${json[x]['class']}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?'N/A':json[x]['rank']}</td>
