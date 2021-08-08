@@ -411,5 +411,23 @@
             {"id" : 21, "name" : "树的直径"}, 
             {"id" : 22, "name" : "二分法"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1257c", "href" : "https://codeforces.com/problemset/problem/1257/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1257C"}
+        ], 
+        "name" : "Dominated Subarray", 
+        "record" : null, 
+        "time" : "2021-08-08 15:01:50", 
+        "difficulty" : {
+            "algorithm" : 3.39, 
+            "thinking" : 3.02, 
+            "code" : 3.63
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 23, "name" : "离散化"}
+        ]
     }
 ]
