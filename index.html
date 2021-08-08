@@ -108,6 +108,35 @@
                     <p>可以使用 ?from(default: 最后) 和 ?length(default: 20) 来限制页面显示范围，最多显示 20 个。</p>
                     <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
                     `;
+                    document.getElementById("now").innerHTML = `
+                    <a class="btn" href="/?from=${from}&length=${length}">当前页</a>
+                    `;
+                    var html2 = ``;
+                    if(from > 0) {
+                        for(var pw=0;;pw++) {
+                            var from2 = from - length * qpow(2, pw);
+                            if(from2 < 0) from2 = 0;
+                            if(from2 > 0) html2 = `<a class="btn" href="/?from=${from2}&length=${length}">前 ${qpow(2, pw)} 页</a> | ` + html2;
+                            else {
+                                html2 = `<a class="btn" href="/?from=${from2}&length=${length}">最前页</a> | ` + html2;
+                                break;
+                            }
+                        }
+                    }
+                    document.getElementById("forward").innerHTML = html2;
+                    var html3 = ``;
+                    if(to < mx - 1) {
+                        for(var pw=0;;pw++) {
+                            var to2 = to + length * qpow(2, pw);
+                            if(to2 > mx - 1) to2 = mx - 1;
+                            var from2 = to2 - length + 1;
+                            if(to2 < mx - 1) html3 = html3 + ` | <a class="btn" href="/?from=${from2}&length=${length}">后 ${qpow(2, pw)} 页</a>`;
+                            else {
+                                html3 = html3 + ` | <a class="btn" href="/?from=${from2}&length=${length}">最后页</a>`;
+                                break;
+                            }
+                        }
+                    }
                 }
             }
         </script>
@@ -118,6 +147,11 @@
                 <legend>做题情况</legend>
                 <div id="details">数据生成中……</div>
                 <div id="record-table">表格生成中……</div>
+                <div id="toggle">
+                    <div id="forward"></div>
+                    <div id="now"></div>
+                    <div id="backward"></div>
+                </div>
             </fieldset>
         </div>
     </body>
