@@ -10,12 +10,7 @@
             var from = parseInt(getQueryVariable("from"));
             var length = parseInt(getQueryVariable("length"));
             if(length == -1) length = 20;
-            if(length > 20) {
-                //document.getElementById("record-table").innerHTML = "<p>查询个数过大！请重新输入（0~20）。</p>";
-                alert("查询个数过大！请重新输入（0~20）。");
-                length = 0;
-            }
-            if(length < 0) length = 20;
+            if(length <= 0 || length >= 21) length = 20;
 
             /* generating table */
             var url = "list.json";
