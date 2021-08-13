@@ -1178,5 +1178,25 @@
         "new-rating" : 1589, 
         "perf-level" : "2 KYU", 
         "performance" : 1638
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #737", 
+        "id" : "1557", 
+        "time" : "2021-08-09", 
+        "class" : "div2", 
+        "virtual" : false, 
+        "rated" : true, 
+        "rank" : 185, 
+        "solved" : 4, 
+        "ak" : false, 
+        "delta" : "+54", 
+        "old-level" : "CM", 
+        "old-rating" : 2005, 
+        "new-level" : "CM", 
+        "new-rating" : 2059, 
+        "perf-level" : "M", 
+        "performance" : 2204
     }
 ]
