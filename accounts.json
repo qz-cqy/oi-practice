@@ -28,14 +28,14 @@
     {
         "oj" : "AtCoder", 
         "username" : "rui_er", 
-        "level" : "3 KYU", 
-        "rating" : 1589, 
+        "level" : "2 KYU", 
+        "rating" : 1640, 
         "max-level" : "2 KYU", 
         "max-rating" : 1646, 
         "contribution" : null,
         "affiliation": "Tsinghua University High School",
-        "rated-matches" : 13, 
-        "provisional" : true, 
-        "last-competed" : "2021-08-08"
+        "rated-matches" : 14, 
+        "provisional" : false, 
+        "last-competed" : "2021-08-14"
     }
 ]
