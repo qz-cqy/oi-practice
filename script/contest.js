@@ -4,7 +4,7 @@ function getContest(name, virtual, rated) {
     return `${name}(U)`;
 }
 function getACs(solved, ak) {
-    if(ak == true) return `<p style='color:red;font-weight:bold;'>AK(${solved})</p>`;
+    if(ak == true) return `<p class='qwq'>AK(${solved})</p>`;
     return `<p>${solved}</p>`;
 }
 function showNA() {

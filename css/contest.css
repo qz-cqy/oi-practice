@@ -2,3 +2,16 @@
     color: #d3d3d3;
     font-weight: bold;
 }
+@keyframes change{
+    0% {color: #39eef6;}
+    25% {color: #f86527;}
+    50% {color: #fcd72d;}
+    75% {color: #5f2cf8;}
+    100% {color: #bed5f5;}
+}
+.qwq{
+    color: rgb(0, 156, 255);
+    transition: 0.5s;
+    animation: change 7s linear 0s infinite;
+    font-weight: bold;
+}
