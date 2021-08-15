@@ -12,6 +12,6 @@
 .qwq{
     color: rgb(0, 156, 255);
     transition: 0.5s;
-    animation: change 7s linear 0s infinite;
+    animation: change 5s linear 0s infinite;
     font-weight: bold;
 }
