@@ -1188,16 +1188,16 @@
         "class" : "div2", 
         "virtual" : false, 
         "rated" : true, 
-        "rank" : 185, 
+        "rank" : 183, 
         "solved" : 4, 
         "ak" : false, 
-        "delta" : "+54", 
+        "delta" : "+55", 
         "old-level" : "CM", 
         "old-rating" : 2005, 
         "new-level" : "CM", 
-        "new-rating" : 2059, 
+        "new-rating" : 2060, 
         "perf-level" : "M", 
-        "performance" : 2204
+        "performance" : 2205
     }, 
     {
         "oj" : "AtCoder", 
