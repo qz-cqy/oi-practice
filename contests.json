@@ -1218,5 +1218,25 @@
         "new-rating" : 1640, 
         "perf-level" : "1 KYU", 
         "performance" : 1960
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #738", 
+        "id" : "1559", 
+        "time" : "2021-08-15", 
+        "class" : "div2", 
+        "virtual" : false, 
+        "rated" : true, 
+        "rank" : 246, 
+        "solved" : 5, 
+        "ak" : false, 
+        "delta" : "+29", 
+        "old-level" : "CM", 
+        "old-rating" : 2060, 
+        "new-level" : "CM", 
+        "new-rating" : 2089, 
+        "perf-level" : "M", 
+        "performance" : 2155
     }
 ]
