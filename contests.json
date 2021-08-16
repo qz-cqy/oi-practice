@@ -337,8 +337,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "0", 
-        "old-rating" : 1510, 
-        "new-rating" : 1510, 
+        "old-rating" : null, 
+        "new-rating" : null, 
         "performance" : null
     }, 
     {
