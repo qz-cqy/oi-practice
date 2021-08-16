@@ -16,4 +16,4 @@ Created: 2021.7.27。
 
 整理自己的做题记录？
 
-在遵守 [SATA 协议](https://github.com/zTrix/sata-license) 的前提下，你可以对本项目进行修改，整理自己的做题记录。具体请查看 [LICENSE](https://github.com/qz-cqy/oi-practice/blob/master/CNAME) 。
+在遵守 [SATA 协议](https://github.com/zTrix/sata-license) 的前提下，你可以对本项目进行修改，整理自己的做题记录。具体请查看 [LICENSE](https://github.com/qz-cqy/oi-practice/blob/master/LICENSE) 。
