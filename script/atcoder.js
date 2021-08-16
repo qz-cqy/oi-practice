@@ -2,7 +2,7 @@ function getATUser(level, rating) {
     if (level == null) return `${showNA()}`;
     if(level == 'β') return `<p class='user at-unrated'>β${rating}</p>`;
     if(level == 'U') { // unrated
-        return `<p class='user at-unrated'>Unrated, ${rating}</p>`;
+        return `<p class='user at-unrated'>Unrated</p>`;
     }
     if(level == 'K') { // king
         return `<p class='user red'>King, ${rating}</p>`;
@@ -29,7 +29,7 @@ function getATUserShortLevel(level, rating) {
     if (level == null) return `${showNA_span()}`;
     if(level == 'β') return `<span class='user at-unrated'>β${rating}</span>`;
     if(level == 'U') { // unrated
-        return `<span class='user at-unrated'>U${rating}</span>`;
+        return `<span class='user at-unrated'>U</span>`;
     }
     if(level == 'K') { // king
         return `<span class='user red'>K${rating}</span>`;

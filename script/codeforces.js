@@ -1,6 +1,6 @@
 function getCFUser(level, rating) { // user rating
     if (level == null) return `${showNA()}`;
-    if (level == 'U') return `<p class='unrated'>Unrated, ${rating}</p>`;
+    if (level == 'U') return `<p class='unrated'>Unrated</p>`;
     if (level == 'N') return `<p class='rated newbie'>Newbie, ${rating}</p>`;
     if (level == 'P') return `<p class='rated pupil'>Pupil, ${rating}</p>`;
     if (level == 'S') return `<p class='rated specialist'>Specialist, ${rating}</p>`;
@@ -15,7 +15,7 @@ function getCFUser(level, rating) { // user rating
 }
 function getCFUserShortLevel(level, rating) { // user rating
     if (level == null) return `${showNA_span()}`;
-    if (level == 'U') return `<span class='unrated'>U${rating}</span>`;
+    if (level == 'U') return `<span class='unrated'>U</span>`;
     if (level == 'N') return `<span class='rated newbie'>N${rating}</span>`;
     if (level == 'P') return `<span class='rated pupil'>P${rating}</span>`;
     if (level == 'S') return `<span class='rated specialist'>S${rating}</span>`;
