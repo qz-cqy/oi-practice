@@ -49,7 +49,8 @@ function getCFDelta(delta) { // delta / contribution
     if(delta[0] == '-') return `<p class='negative'>${delta}</p>`;
     return `<p class='positive'>${delta}</p>`;
 }
-function getCFLevel(rating) {
+function getCFLevel(rated, rating) {
+    if(rated == false) return null;
     if(rating == null) return `U`;
     if(rating >= 3000) return `LGM`;
     if(rating >= 2600) return `IGM`;

@@ -89,9 +89,10 @@ function getATDelta(delta) {
     if(delta[0] == '-') return `<p class='inactive'>${delta}</p>`;
     return `<p class='active'>${delta}</p>`;
 }
-function getATLevel(beta, rating) {
+function getATLevel(rated, rating) {
+    if (rated == false) return null;
+    if (rated == 'β') return `β`;
     if (rating == null) return `U`;
-    if (beta == 'β') return `β`;
     if (rating >= 4000) return `11 DAN`;
     if (rating >= 3800) return `10 DAN`;
     if (rating >= 3600) return `9 DAN`;
