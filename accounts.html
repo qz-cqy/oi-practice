@@ -52,8 +52,8 @@
                                 <td>${json[x]['oj']}</td>
                                 <td><a href="https://www.codeforces.com/profile/${json[x]['username']}">${getCFUser2(getCFLevel(json[x]['rating']), json[x]['username'])}</a></td>
                                 <td>${json[x]['affiliation']}</td>
-                                <td>${getCFUser(getCFLevel(json[x]['rating']), json[x]['rating'])}</td>
-                                <td>${getCFUser(getCFLevel(json[x]['max-rating']), json[x]['max-rating'])}</td>
+                                <td>${getCFUser(getCFLevel(false, json[x]['rating']), json[x]['rating'])}</td>
+                                <td>${getCFUser(getCFLevel(false, json[x]['max-rating']), json[x]['max-rating'])}</td>
                                 <td>${getCFDelta(json[x]['contribution'])}</td>
                                 <td>${json[x]['rated-matches']}</td>
                                 <td>${showNA()}</td>
