@@ -2,9 +2,7 @@
     {
         "oj" : "CodeForces", 
         "username" : "rui_er", 
-        "level" : "CM", 
         "rating" : 2089, 
-        "max-level" : "CM", 
         "max-rating" : 2089, 
         "contribution" : "+21", 
         "affiliation" : "Tsinghua University High School", 
@@ -15,9 +13,7 @@
     {
         "oj" : "CodeForces", 
         "username" : "PP-Automation", 
-        "level" : "CM", 
         "rating" : 2030, 
-        "max-level" : "CM", 
         "max-rating" : 2030, 
         "contribution" : "0",
         "affiliation": "Tsinghua University High School",
@@ -28,9 +24,7 @@
     {
         "oj" : "AtCoder", 
         "username" : "rui_er", 
-        "level" : "2 KYU", 
         "rating" : 1640, 
-        "max-level" : "2 KYU", 
         "max-rating" : 1646, 
         "contribution" : null,
         "affiliation": "Tsinghua University High School",

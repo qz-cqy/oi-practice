@@ -89,3 +89,38 @@ function getATDelta(delta) {
     if(delta[0] == '-') return `<p class='inactive'>${delta}</p>`;
     return `<p class='active'>${delta}</p>`;
 }
+function getATLevel(beta, rating) {
+    if (rating == null) return `U`;
+    if (beta == 'β') return `β`;
+    if (rating >= 4000) return `11 DAN`;
+    if (rating >= 3800) return `10 DAN`;
+    if (rating >= 3600) return `9 DAN`;
+    if (rating >= 3400) return `8 DAN`;
+    if (rating >= 3200) return `7 DAN`;
+    if (rating >= 3000) return `6 DAN`;
+    if (rating >= 2800) return `5 DAN`;
+    if (rating >= 2600) return `4 DAN`;
+    if (rating >= 2400) return `3 DAN`;
+    if (rating >= 2200) return `2 DAN`;
+    if (rating >= 2000) return `1 DAN`;
+    if (rating >= 1800) return `1 KYU`;
+    if (rating >= 1600) return `2 KYU`;
+    if (rating >= 1400) return `3 KYU`;
+    if (rating >= 1200) return `4 KYU`;
+    if (rating >= 1000) return `5 KYU`;
+    if (rating >= 800) return `6 KYU`;
+    if (rating >= 600) return `7 KYU`;
+    if (rating >= 400) return `8 KYU`;
+    if (rating >= 243) return `9 KYU`;
+    if (rating >= 147) return `10 KYU`;
+    if (rating >= 90) return `11 KYU`;
+    if (rating >= 54) return `12 KYU`;
+    if (rating >= 33) return `13 KYU`;
+    if (rating >= 20) return `14 KYU`;
+    if (rating >= 13) return `15 KYU`;
+    if (rating >= 8) return `16 KYU`;
+    if (rating >= 5) return `17 KYU`;
+    if (rating >= 3) return `18 KYU`;
+    if (rating >= 2) return `19 KYU`;
+    return `20 KYU`;
+}

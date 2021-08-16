@@ -13,11 +13,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "-44", 
-        "old-level" : "U", 
-        "old-rating" : 1500, 
-        "new-level" : "S", 
+        "old-rating" : null, 
         "new-rating" : 1456, 
-        "perf-level" : "P", 
         "performance" : 1319
     }, 
     {
@@ -34,11 +31,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+103", 
-        "old-level" : "S", 
         "old-rating" : 1456, 
-        "new-level" : "S", 
         "new-rating" : 1559, 
-        "perf-level" : "E", 
         "performance" : 1810
     }, 
     {
@@ -55,11 +49,8 @@
         "solved" : 1, 
         "ak" : false, 
         "delta" : "-56", 
-        "old-level" : "S", 
         "old-rating" : 1559, 
-        "new-level" : "S", 
         "new-rating" : 1503, 
-        "perf-level" : "P", 
         "performance" : 1316
     }, 
     {
@@ -76,11 +67,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+11", 
-        "old-level" : "S", 
         "old-rating" : 1503, 
-        "new-level" : "S", 
         "new-rating" : 1514, 
-        "perf-level" : "S", 
         "performance" : 1464
     }, 
     {
@@ -97,11 +85,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+1", 
-        "old-level" : "S", 
         "old-rating" : 1514, 
-        "new-level" : "S", 
         "new-rating" : 1515, 
-        "perf-level" : "S", 
         "performance" : 1434
     }, 
     {
@@ -118,11 +103,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+28", 
-        "old-level" : "S", 
         "old-rating" : 1515, 
-        "new-level" : "S", 
         "new-rating" : 1543, 
-        "perf-level" : "S", 
         "performance" : 1584
     }, 
     {
@@ -139,11 +121,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "+26", 
-        "old-level" : "S", 
         "old-rating" : 1543, 
-        "new-level" : "S", 
         "new-rating" : 1569, 
-        "perf-level" : "E", 
         "performance" : 1628
     }, 
     {
@@ -160,11 +139,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+44", 
-        "old-level" : "S", 
         "old-rating" : 1569, 
-        "new-level" : "E", 
         "new-rating" : 1613, 
-        "perf-level" : "E", 
         "performance" : 1685
     }, 
     {
@@ -181,11 +157,8 @@
         "solved" : 6, 
         "ak" : true, 
         "delta" : "+697", 
-        "old-level" : "U", 
-        "old-rating" : 0, 
-        "new-level" : "7 KYU", 
+        "old-rating" : null, 
         "new-rating" : 697, 
-        "perf-level" : "1 KYU", 
         "performance" : 1897
     }, 
     {
@@ -202,11 +175,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+546", 
-        "old-level" : "U", 
-        "old-rating" : 0, 
-        "new-level" : "N", 
+        "old-rating" : null, 
         "new-rating" : 546, 
-        "perf-level" : "S", 
         "performance" : 1484
     }, 
     {
@@ -223,11 +193,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "-36", 
-        "old-level" : "E", 
         "old-rating" : 1613, 
-        "new-level" : "S", 
         "new-rating" : 1577, 
-        "perf-level" : "S", 
         "performance" : 1421
     }, 
     {
@@ -244,11 +211,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+35", 
-        "old-level" : "S", 
         "old-rating" : 1577, 
-        "new-level" : "E", 
         "new-rating" : 1612, 
-        "perf-level" : "E", 
         "performance" : 1659
     }, 
     {
@@ -265,11 +229,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+250", 
-        "old-level" : "7 KYU", 
         "old-rating" : 697, 
-        "new-level" : "6 KYU", 
         "new-rating" : 947, 
-        "perf-level" : "3 KYU", 
         "performance" : 1472
     }, 
     {
@@ -286,11 +247,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+29", 
-        "old-level" : "E", 
         "old-rating" : 1612, 
-        "new-level" : "E", 
         "new-rating" : 1641, 
-        "perf-level" : "E", 
         "performance" : 1676
     }, 
     {
@@ -307,11 +265,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+189", 
-        "old-level" : "6 KYU", 
         "old-rating" : 947, 
-        "new-level" : "5 KYU", 
         "new-rating" : 1136, 
-        "perf-level" : "2 KYU", 
         "performance" : 1661
     }, 
     {
@@ -328,11 +283,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "-51", 
-        "old-level" : "E", 
         "old-rating" : 1641, 
-        "new-level" : "S", 
         "new-rating" : 1590, 
-        "perf-level" : "P", 
         "performance" : 1390
     }, 
     {
@@ -349,11 +301,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "-80", 
-        "old-level" : "S", 
         "old-rating" : 1590, 
-        "new-level" : "S", 
         "new-rating" : 1510, 
-        "perf-level" : "N", 
         "performance" : 1175
     }, 
     {
@@ -370,11 +319,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "-8", 
-        "old-level" : "5 KYU", 
         "old-rating" : 1136, 
-        "new-level" : "5 KYU", 
         "new-rating" : 1128, 
-        "perf-level" : "5 KYU", 
         "performance" : 1174
     }, 
     {
@@ -391,11 +337,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "0", 
-        "old-level" : "S", 
         "old-rating" : 1510, 
-        "new-level" : "S", 
         "new-rating" : 1510, 
-        "perf-level" : null, 
         "performance" : null
     }, 
     {
@@ -412,11 +355,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+188", 
-        "old-level" : "S", 
         "old-rating" : 1510, 
-        "new-level" : "E", 
         "new-rating" : 1698, 
-        "perf-level" : "M", 
         "performance" : 2112
     }, 
     {
@@ -433,11 +373,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+120", 
-        "old-level" : "E", 
         "old-rating" : 1698, 
-        "new-level" : "E", 
         "new-rating" : 1818, 
-        "perf-level" : "M", 
         "performance" : 2101
     }, 
     {
@@ -454,11 +391,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : null, 
-        "old-level" : null, 
         "old-rating" : null, 
-        "new-level" : null, 
         "new-rating" : null, 
-        "perf-level" : null, 
         "performance" : null
     }, 
     {
@@ -475,11 +409,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+41", 
-        "old-level" : "5 KYU", 
         "old-rating" : 1128, 
-        "new-level" : "5 KYU", 
         "new-rating" : 1169, 
-        "perf-level" : "4 KYU", 
         "performance" : 1386
     }, 
     {
@@ -496,11 +427,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "-24", 
-        "old-level" : "E", 
         "old-rating" : 1818, 
-        "new-level" : "E", 
         "new-rating" : 1794, 
-        "perf-level" : "E", 
         "performance" : 1683
     }, 
     {
@@ -517,11 +445,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+79", 
-        "old-level" : "E", 
         "old-rating" : 1794, 
-        "new-level" : "E", 
         "new-rating" : 1873, 
-        "perf-level" : "CM", 
         "performance" : 2068
     }, 
     {
@@ -538,11 +463,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "-16", 
-        "old-level" : "5 KYU", 
         "old-rating" : 1169, 
-        "new-level" : "5 KYU", 
         "new-rating" : 1153, 
-        "perf-level" : "5 KYU", 
         "performance" : 1115
     }, 
     {
@@ -559,11 +481,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "-12", 
-        "old-level" : "E", 
         "old-rating" : 1873, 
-        "new-level" : "E", 
         "new-rating" : 1861, 
-        "perf-level" : "E", 
         "performance" : 1809
     }, 
     {
@@ -580,11 +499,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "-43", 
-        "old-level" : "E", 
         "old-rating" : 1861, 
-        "new-level" : "E", 
         "new-rating" : 1818, 
-        "perf-level" : "E", 
         "performance" : 1634
     }, 
     {
@@ -601,11 +517,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+11", 
-        "old-level" : "E", 
         "old-rating" : 1818, 
-        "new-level" : "E", 
         "new-rating" : 1829, 
-        "perf-level" : "E", 
         "performance" : 1839
     }, 
     {
@@ -622,11 +535,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+383", 
-        "old-level" : "N", 
         "old-rating" : 546, 
-        "new-level" : "N", 
         "new-rating" : 929, 
-        "perf-level" : "S", 
         "performance" : 1494
     }, 
     {
@@ -643,11 +553,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "-47", 
-        "old-level" : "E", 
         "old-rating" : 1829, 
-        "new-level" : "E", 
         "new-rating" : 1782, 
-        "perf-level" : "S", 
         "performance" : 1596
     }, 
     {
@@ -664,11 +571,8 @@
         "solved" : 1, 
         "ak" : false, 
         "delta" : null, 
-        "old-level" : null, 
         "old-rating" : null, 
-        "new-level" : null, 
         "new-rating" : null, 
-        "perf-level" : null, 
         "performance" : null
     }, 
     {
@@ -685,11 +589,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+52", 
-        "old-level" : "E", 
         "old-rating" : 1782, 
-        "new-level" : "E", 
         "new-rating" : 1834, 
-        "perf-level" : "CM", 
         "performance" : 1936
     }, 
     {
@@ -706,11 +607,8 @@
         "solved" : 2, 
         "ak" : false, 
         "delta" : "-32", 
-        "old-level" : "E", 
         "old-rating" : 1834, 
-        "new-level" : "E", 
         "new-rating" : 1802, 
-        "perf-level" : "E", 
         "performance" : 1671
     }, 
     {
@@ -727,11 +625,8 @@
         "solved" : 1, 
         "ak" : false, 
         "delta" : "-160", 
-        "old-level" : "E", 
         "old-rating" : 1802, 
-        "new-level" : "E", 
         "new-rating" : 1642, 
-        "perf-level" : "N", 
         "performance" : 889
     }, 
     {
@@ -748,11 +643,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+26", 
-        "old-level" : "E", 
         "old-rating" : 1642, 
-        "new-level" : "E", 
         "new-rating" : 1668, 
-        "perf-level" : "E", 
         "performance" : 1719
     }, 
     {
@@ -769,11 +661,8 @@
         "solved" : 7, 
         "ak" : true, 
         "delta" : "+433", 
-        "old-level" : "N", 
         "old-rating" : 929, 
-        "new-level" : "P", 
         "new-rating" : 1362, 
-        "perf-level" : "CM", 
         "performance" : 2072
     }, 
     {
@@ -790,11 +679,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+78", 
-        "old-level" : "E", 
         "old-rating" : 1668, 
-        "new-level" : "E", 
         "new-rating" : 1746, 
-        "perf-level" : "CM", 
         "performance" : 1941
     }, 
     {
@@ -811,11 +697,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+127", 
-        "old-level" : "5 KYU", 
         "old-rating" : 1153, 
-        "new-level" : "4 KYU", 
         "new-rating" : 1280, 
-        "perf-level" : "1 KYU", 
         "performance" : 1820
     }, 
     {
@@ -832,11 +715,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+45", 
-        "old-level" : "E", 
         "old-rating" : 1746, 
-        "new-level" : "E", 
         "new-rating" : 1791, 
-        "perf-level" : "E", 
         "performance" : 1889
     }, 
     {
@@ -853,11 +733,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+126", 
-        "old-level" : "4 KYU", 
         "old-rating" : 1280, 
-        "new-level" : "3 KYU", 
         "new-rating" : 1406, 
-        "perf-level" : "1 KYU", 
         "performance" : 1964
     }, 
     {
@@ -868,17 +745,14 @@
         "time" : "2021-05-22", 
         "class" : "ahc", 
         "virtual" : false, 
-        "rated" : false, 
+        "rated" : "β", 
         "team" : 0, 
         "rank" : 632, 
         "solved" : 1, 
         "ak" : true, 
         "delta" : "+161(β)", 
-        "old-level" : "β", 
         "old-rating" : 0, 
-        "new-level" : "β", 
         "new-rating" : 161, 
-        "perf-level" : "β", 
         "performance" : 1035
     }, 
     {
@@ -895,11 +769,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+81", 
-        "old-level" : "E", 
         "old-rating" : 1791, 
-        "new-level" : "E", 
         "new-rating" : 1872, 
-        "perf-level" : "CM", 
         "performance" : 2046
     }, 
     {
@@ -916,11 +787,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+91", 
-        "old-level" : "E", 
         "old-rating" : 1872, 
-        "new-level" : "CM", 
         "new-rating" : 1963, 
-        "perf-level" : "M", 
         "performance" : 2208
     }, 
     {
@@ -937,11 +805,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "-35", 
-        "old-level" : "CM", 
         "old-rating" : 1963, 
-        "new-level" : "CM", 
         "new-rating" : 1928, 
-        "perf-level" : "E", 
         "performance" : 1775
     }, 
     {
@@ -958,11 +823,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+381", 
-        "old-level" : "P", 
         "old-rating" : 1362, 
-        "new-level" : "E", 
         "new-rating" : 1743, 
-        "perf-level" : "GM", 
         "performance" : 2454
     }, 
     {
@@ -979,11 +841,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : null, 
-        "old-level" : null, 
         "old-rating" : null, 
-        "new-level" : null, 
         "new-rating" : null, 
-        "perf-level" : null, 
         "performance" : null
     }, 
     {
@@ -1000,11 +859,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+65", 
-        "old-level" : "3 KYU", 
         "old-rating" : 1406, 
-        "new-level" : "3 KYU", 
         "new-rating" : 1471, 
-        "perf-level" : "1 KYU", 
         "performance" : 1822
     }, 
     {
@@ -1021,11 +877,8 @@
         "solved" : 6, 
         "ak" : true, 
         "delta" : "+175", 
-        "old-level" : "3 KYU", 
         "old-rating" : 1471, 
-        "new-level" : "2 KYU", 
         "new-rating" : 1646, 
-        "perf-level" : "3 DAN", 
         "performance" : 2400
     }, 
     {
@@ -1042,11 +895,8 @@
         "solved" : 1, 
         "ak" : false, 
         "delta" : "-36", 
-        "old-level" : "2 KYU", 
         "old-rating" : 1646, 
-        "new-level" : "2 KYU", 
         "new-rating" : 1610, 
-        "perf-level" : "4 KYU", 
         "performance" : 1351
     }, 
     {
@@ -1063,11 +913,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+86", 
-        "old-level" : "E", 
         "old-rating" : 1743, 
-        "new-level" : "E", 
         "new-rating" : 1829, 
-        "perf-level" : "E", 
         "performance" : 1823
     }, 
     {
@@ -1084,11 +931,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : null, 
-        "old-level" : null, 
         "old-rating" : null, 
-        "new-level" : null, 
         "new-rating" : null, 
-        "perf-level" : null, 
         "performance" : null
     }, 
     {
@@ -1105,11 +949,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+21", 
-        "old-level" : "E", 
         "old-rating" : 1829, 
-        "new-level" : "E", 
         "new-rating" : 1850, 
-        "perf-level" : "E", 
         "performance" : 1720
     }, 
     {
@@ -1126,11 +967,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+42", 
-        "old-level" : "E", 
         "old-rating" : 1850, 
-        "new-level" : "E", 
         "new-rating" : 1892, 
-        "perf-level" : "CM", 
         "performance" : 1995
     }, 
     {
@@ -1147,11 +985,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+138", 
-        "old-level" : "E", 
         "old-rating" : 1892, 
-        "new-level" : "CM", 
         "new-rating" : 2030, 
-        "perf-level" : "IM", 
         "performance" : 2391
     }, 
     {
@@ -1168,11 +1003,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "-26", 
-        "old-level" : "2 KYU", 
         "old-rating" : 1610, 
-        "new-level" : "3 KYU", 
         "new-rating" : 1584, 
-        "perf-level" : "4 KYU", 
         "performance" : 1399
     }, 
     {
@@ -1189,11 +1021,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : "+77", 
-        "old-level" : "CM", 
         "old-rating" : 1928, 
-        "new-level" : "CM", 
         "new-rating" : 2005, 
-        "perf-level" : "M", 
         "performance" : 2183
     }, 
     {
@@ -1210,11 +1039,8 @@
         "solved" : 3, 
         "ak" : false, 
         "delta" : null, 
-        "old-level" : null, 
         "old-rating" : null, 
-        "new-level" : null, 
         "new-rating" : null, 
-        "perf-level" : null, 
         "performance" : null
     }, 
     {
@@ -1231,11 +1057,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+5", 
-        "old-level" : "3 KYU", 
         "old-rating" : 1584, 
-        "new-level" : "3 KYU", 
         "new-rating" : 1589, 
-        "perf-level" : "2 KYU", 
         "performance" : 1638
     }, 
     {
@@ -1252,11 +1075,8 @@
         "solved" : 4, 
         "ak" : false, 
         "delta" : "+55", 
-        "old-level" : "CM", 
         "old-rating" : 2005, 
-        "new-level" : "CM", 
         "new-rating" : 2060, 
-        "perf-level" : "M", 
         "performance" : 2205
     }, 
     {
@@ -1273,11 +1093,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+51", 
-        "old-level" : "3 KYU", 
         "old-rating" : 1589, 
-        "new-level" : "2 KYU", 
         "new-rating" : 1640, 
-        "perf-level" : "1 KYU", 
         "performance" : 1960
     }, 
     {
@@ -1294,11 +1111,8 @@
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+29", 
-        "old-level" : "CM", 
         "old-rating" : 2060, 
-        "new-level" : "CM", 
         "new-rating" : 2089, 
-        "perf-level" : "M", 
         "performance" : 2155
     }
 ]

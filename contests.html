@@ -70,8 +70,8 @@
                     console.log(x, json[x]);
                     if (json[x]['oj'] == 'CodeForces') {
                         var qwq = ``;
-                        if(json[x]['team'] == 0) qwq = `<a href="https://www.codeforces.com/profile/${json[x]['account']}">${getCFUser2(json[x]['old-level'], json[x]['account'])}</a>`;
-                        else qwq = `<a href="https://codeforces.com/team/${json[x]['team']}">${getCFUser2(json[x]['old-level'], json[x]['account'])}</a>`;
+                        if(json[x]['team'] == 0) qwq = `<a href="https://www.codeforces.com/profile/${json[x]['account']}">${getCFUser2(getCFLevel(json[x]['old-rating']), json[x]['account'])}</a>`;
+                        else qwq = `<a href="https://codeforces.com/team/${json[x]['team']}">${getCFUser2(getCFLevel(json[x]['old-rating']), json[x]['account'])}</a>`;
                         var qaq = ``;
                         if(json[x]['class'] == 'gym') qaq = `https://www.codeforces.com/gym/${json[x]['id']}`;
                         else qaq = `https://www.codeforces.com/contest/${json[x]['id']}`;
@@ -84,27 +84,27 @@
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
-                                <td>${getCFUserShortLevel(json[x]['perf-level'], json[x]['performance'])}</td>
+                                <td>${getCFUserShortLevel(getCFLevel(json[x]['performance']), json[x]['performance'])}</td>
                                 <td>${getCFDelta(json[x]['delta'])}</td>
-                                <td>${getCFUserShortLevel(json[x]['old-level'], json[x]['old-rating'])}→${getCFUserShortLevel(json[x]['new-level'], json[x]['new-rating'])}</td>
+                                <td>${getCFUserShortLevel(getCFLevel(json[x]['old-rating']), json[x]['old-rating'])}→${getCFUserShortLevel(getCFLevel(json[x]['new-rating']), json[x]['new-rating'])}</td>
                             </tr>
                         `;
                     }
                     else {
                         var qwq = ``;
-                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(json[x]['old-level'], json[x]['account'])}</a>`;
+                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(json[x]['rated']=='β'?'β':false, json[x]['old-rating']), json[x]['account'])}</a>`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
-                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
+                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated']==true?true:false)}</a></td>
                                 <td>${json[x]['class']}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?'N/A':json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
-                                <td>${getATUserShortLevel(json[x]['perf-level'], json[x]['performance'])}</td>
+                                <td>${getATUserShortLevel(getATLevel(json[x]['rated']=='β'?'β':false, json[x]['performance']), json[x]['performance'])}</td>
                                 <td>${getATDelta(json[x]['delta'])}</td>
-                                <td>${getATUserShortLevel(json[x]['old-level'], json[x]['old-rating'])}→${getATUserShortLevel(json[x]['new-level'], json[x]['new-rating'])}</td>
+                                <td>${getATUserShortLevel(getATLevel(json[x]['rated']=='β'?'β':false, json[x]['old-rating']), json[x]['old-rating'])}→${getATUserShortLevel(getATLevel(json[x]['rated']=='β'?'β':false, json[x]['new-rating']), json[x]['new-rating'])}</td>
                             </tr>
                         `;
                     }

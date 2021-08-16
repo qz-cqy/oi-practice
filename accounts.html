@@ -50,10 +50,10 @@
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
-                                <td><a href="https://www.codeforces.com/profile/${json[x]['username']}">${getCFUser2(json[x]['level'], json[x]['username'])}</a></td>
+                                <td><a href="https://www.codeforces.com/profile/${json[x]['username']}">${getCFUser2(getCFLevel(json[x]['rating']), json[x]['username'])}</a></td>
                                 <td>${json[x]['affiliation']}</td>
-                                <td>${getCFUser(json[x]['level'], json[x]['rating'])}</td>
-                                <td>${getCFUser(json[x]['max-level'], json[x]['max-rating'])}</td>
+                                <td>${getCFUser(getCFLevel(json[x]['rating']), json[x]['rating'])}</td>
+                                <td>${getCFUser(getCFLevel(json[x]['max-rating']), json[x]['max-rating'])}</td>
                                 <td>${getCFDelta(json[x]['contribution'])}</td>
                                 <td>${json[x]['rated-matches']}</td>
                                 <td>${showNA()}</td>
@@ -65,10 +65,10 @@
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
-                                <td><a href="https://atcoder.jp/users/${json[x]['username']}">${getATUser2(json[x]['level'], json[x]['username'])}</a></td>
+                                <td><a href="https://atcoder.jp/users/${json[x]['username']}">${getATUser2(getATLevel(false, json[x]['rating']), json[x]['username'])}</a></td>
                                 <td>${json[x]['affiliation']}</td>
-                                <td>${getATUser(json[x]['level'], json[x]['rating'])}</td>
-                                <td>${getATUser(json[x]['max-level'], json[x]['max-rating'])}</td>
+                                <td>${getATUser(getATLevel(false, json[x]['rating']), json[x]['rating'])}</td>
+                                <td>${getATUser(getATLevel(false, json[x]['max-rating']), json[x]['max-rating'])}</td>
                                 <td>${showNA()}</td>
                                 <td>${json[x]['rated-matches']}</td>
                                 <td>${getATProvisional(json[x]['provisional'])}</td>
