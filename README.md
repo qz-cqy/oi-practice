@@ -6,6 +6,8 @@ Created: 2021.7.27。
 
 本仓库正在完善中。
 
+- 咕一个 rui\_er training round #1 (1600~2200) 题解。
+
 ---
 
 预期功能和已经实现的功能：见 [Project](https://github.com/qz-cqy/oi-practice/projects/1)。

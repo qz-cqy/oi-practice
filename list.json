@@ -429,5 +429,166 @@
             {"id" : 15, "name" : "贪心"}, 
             {"id" : 23, "name" : "离散化"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1251c", "href" : "https://codeforces.com/problemset/problem/1251/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1251C"}
+        ], 
+        "name" : "Minimize The Integer", 
+        "record" : null, 
+        "time" : "2021-08-13 11:09:22", 
+        "difficulty" : {
+            "algorithm" : 4.39, 
+            "thinking" : 3.52, 
+            "code" : 3.53
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1383a", "href" : "https://codeforces.com/problemset/problem/1383/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1383A"}
+        ], 
+        "name" : "String Transformation 1", 
+        "record" : null, 
+        "time" : "2021-08-13 11:21:12", 
+        "difficulty" : {
+            "algorithm" : 5.21, 
+            "thinking" : 5.04, 
+            "code" : 4.55
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 13, "name" : "并查集"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1034a", "href" : "https://codeforces.com/problemset/problem/1034/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1034A"}
+        ], 
+        "name" : "Enlarge GCD", 
+        "record" : null, 
+        "time" : "2021-08-13 11:37:02", 
+        "difficulty" : {
+            "algorithm" : 6.33, 
+            "thinking" : 6.75, 
+            "code" : 6.03
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 24, "name" : "筛法"}, 
+            {"id" : 25, "name" : "素数"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1198c", "href" : "https://codeforces.com/problemset/problem/1198/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1198C"}
+        ], 
+        "name" : "Matching vs Independent Set", 
+        "record" : null, 
+        "time" : "2021-08-13 11:50:53", 
+        "difficulty" : {
+            "algorithm" : 6.76, 
+            "thinking" : 7.96, 
+            "code" : 5.97
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "图论"}, 
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 13, "name" : "并查集"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1073c", "href" : "https://codeforces.com/problemset/problem/1073/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1073C"}
+        ], 
+        "name" : "Vasya and Robot", 
+        "record" : null, 
+        "time" : "2021-08-13 12:15:50", 
+        "difficulty" : {
+            "algorithm" : 5.85, 
+            "thinking" : 6.54, 
+            "code" : 6.33
+        }, 
+        "tags" : [
+            {"id" : 22, "name" : "二分法"}, 
+            {"id" : 26, "name" : "双指针"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7813", "href" : "https://www.luogu.com.cn/problem/P7813"}
+        ], 
+        "name" : "「DCOI」谜", 
+        "record" : null, 
+        "time" : "2021-08-13 14:10:44", 
+        "difficulty" : {
+            "algorithm" : 3.23, 
+            "thinking" : 3.46, 
+            "code" : 3.98
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7814", "href" : "https://www.luogu.com.cn/problem/P7814"}
+        ], 
+        "name" : "「小窝 R3」心の記憶", 
+        "record" : null, 
+        "time" : "2021-08-13 14:40:36", 
+        "difficulty" : {
+            "algorithm" : 5.38, 
+            "thinking" : 5.55, 
+            "code" : 4.98
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 29, "name" : "KMP"}, 
+            {"id" : 30, "name" : "随机化"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3701", "href" : "https://www.luogu.com.cn/problem/P3701"}
+        ], 
+        "name" : "", 
+        "record" : null, 
+        "time" : "", 
+        "difficulty" : {
+            "algorithm" : 8.32, 
+            "thinking" : 7.94, 
+            "code" : 8.44
+        }, 
+        "tags" : [
+            {"id" : 27, "name" : "网络流"}, 
+            {"id" : 28, "name" : "最大流"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "null", "href" : "javascript:void(0);"}
+        ], 
+        "name" : "占位", 
+        "record" : null, 
+        "time" : "2021-08-17 21:08:23", 
+        "difficulty" : {
+            "algorithm" : 0.01, 
+            "thinking" : 0.01, 
+            "code" : 0.01
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "占位"}
+        ]
     }
 ]
