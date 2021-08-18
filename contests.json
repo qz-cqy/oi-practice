@@ -1107,12 +1107,12 @@
         "virtual" : false, 
         "rated" : true, 
         "team" : 0, 
-        "rank" : 246, 
+        "rank" : 243, 
         "solved" : 5, 
         "ak" : false, 
-        "delta" : "+29", 
+        "delta" : "+30", 
         "old-rating" : 2060, 
-        "new-rating" : 2089, 
-        "performance" : 2155
+        "new-rating" : 2090, 
+        "performance" : 2156
     }
 ]
