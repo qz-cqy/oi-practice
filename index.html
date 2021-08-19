@@ -56,12 +56,14 @@
                             <a href="${json[x]['href'][y]['href']}">${json[x]['href'][y]['id']}</a>;
                             `;
                         }
-                        var qaq = "";
+                        var qaq = "", haveTag = 0;
                         for(var y in json[x]['tags']) {
                             qaq += `
                             <a href="javascript:void(0);">${json[x]['tags'][y]['name']}</a>;
                             `;
+                            haveTag = 1;
                         }
+                        if(haveTag == 0) qaq = "<p>(EMPTY)</p>";
                         html += `
                             <tr>
                                 <td>${x}</td>
