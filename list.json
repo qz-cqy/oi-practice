@@ -744,5 +744,22 @@
             {"id" : 31, "name" : "哈希"}, 
             {"id" : 32, "name" : "字符串哈希"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1560a", "href" : "https://codeforces.com/problemset/problem/1560/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1560A"}
+        ], 
+        "name" : "Dislike of Threes", 
+        "record" : null, 
+        "time" : "2021-08-20 22:16:23", 
+        "difficulty" : {
+            "algorithm" : 1.89, 
+            "thinking" : 1.85, 
+            "code" : 2.01
+        }, 
+        "tags" : [
+            {"id" : 1, "name" : "暴力"}
+        ]
     }
 ]
