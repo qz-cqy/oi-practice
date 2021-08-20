@@ -689,5 +689,60 @@
         "tags" : [
             {"id" : 2, "name" : "分治"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf486e", "href" : "https://codeforces.com/problemset/problem/486/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF486E"}
+        ], 
+        "name" : "LIS of Sequence", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/qhfz-20210819.html", 
+        "time" : "2021-08-19 15:34:40", 
+        "difficulty" : {
+            "algorithm" : 6.85, 
+            "thinking" : 7.33, 
+            "code" : 6.96
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lguser", "href" : "https://www.luogu.com.cn/problem/U120054"}
+        ], 
+        "name" : "判断回文子串", 
+        "record" : null, 
+        "time" : "2021-08-20 10:22:41", 
+        "difficulty" : {
+            "algorithm" : 5.44, 
+            "thinking" : 4.85, 
+            "code" : 4.71
+        }, 
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 31, "name" : "哈希"}, 
+            {"id" : 32, "name" : "字符串哈希"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf985f", "href" : "https://codeforces.com/problemset/problem/985/F"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF985F"}
+        ], 
+        "name" : "Isomorphic Strings", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-985F.html", 
+        "time" : "2021-08-20 19:26:27", 
+        "difficulty" : {
+            "algorithm" : 7.32, 
+            "thinking" : 7.86, 
+            "code" : 6.55
+        }, 
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 31, "name" : "哈希"}, 
+            {"id" : 32, "name" : "字符串哈希"}
+        ]
     }
 ]
