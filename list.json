@@ -776,7 +776,27 @@
         }, 
         "tags" : [
             {"id" : 1, "name" : "暴力"}, 
-            {"id" : 17, "name" : "字符串"}
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 1004, "name" : "NOIP提高"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1144e", "href" : "https://codeforces.com/problemset/problem/1144/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1144E"}
+        ], 
+        "name" : "Median String", 
+        "record" : null, 
+        "time" : "2021-08-21 09:48:44", 
+        "difficulty" : {
+            "algorithm" : 3.94, 
+            "thinking" : 2.96, 
+            "code" : 4.23
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 33, "name" : "高精度"}
         ]
     }
 ]
