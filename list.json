@@ -798,5 +798,22 @@
             {"id" : 17, "name" : "字符串"}, 
             {"id" : 33, "name" : "高精度"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1132c", "href" : "https://codeforces.com/problemset/problem/1132/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1132C"}
+        ], 
+        "name" : "Painting the Fence", 
+        "record" : null, 
+        "time" : "2021-08-21 10:39:55", 
+        "difficulty" : {
+            "algorithm" : 4.03, 
+            "thinking" : 5.11, 
+            "code" : 5.18
+        }, 
+        "tags" : [
+            {"id" : 18, "name" : "前缀和/差分"}
+        ]
     }
 ]
