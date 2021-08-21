@@ -761,5 +761,22 @@
         "tags" : [
             {"id" : 1, "name" : "暴力"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1079", "href" : "https://www.luogu.com.cn/problem/P1079"}
+        ], 
+        "name" : "[NOIP2012TG]Vigenère 密码", 
+        "record" : null, 
+        "time" : "2021-08-21 09:10:05", 
+        "difficulty" : {
+            "algorithm" : 3.65, 
+            "thinking" : 2.94, 
+            "code" : 3.03
+        }, 
+        "tags" : [
+            {"id" : 1, "name" : "暴力"}, 
+            {"id" : 17, "name" : "字符串"}
+        ]
     }
 ]
