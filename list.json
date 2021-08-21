@@ -815,5 +815,22 @@
         "tags" : [
             {"id" : 18, "name" : "前缀和/差分"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1365f", "href" : "https://codeforces.com/problemset/problem/1365/F"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1365F"}
+        ], 
+        "name" : "Swaps Again", 
+        "record" : null, 
+        "time" : "2021-08-21 15:30:26", 
+        "difficulty" : {
+            "algorithm" : 6.47, 
+            "thinking" : 6.93, 
+            "code" : 5.86
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
