@@ -25,8 +25,8 @@
         "time" : "2021-07-12 18:35:03", 
         "difficulty" : {
             "algorithm" : 8.03, 
-            "thinking" : 5.34, 
-            "code" : 3.37
+            "thinking" : 6.76, 
+            "code" : 5.09
         }, 
         "tags" : [
             {"id" : 2, "name" : "分治"}, 
