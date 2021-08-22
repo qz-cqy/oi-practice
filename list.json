@@ -923,5 +923,23 @@
             {"id" : 14, "name" : "排序"}, 
             {"id" : 26, "name" : "双指针"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1015b", "href" : "https://codeforces.com/problemset/problem/1015/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1015B"}
+        ], 
+        "name" : "Obtaining the String", 
+        "record" : null, 
+        "time" : "2021-08-22 10:10:05", 
+        "difficulty" : {
+            "algorithm" : 5.33, 
+            "thinking" : 4.74, 
+            "code" : 5.49
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 14, "name" : "排序"}
+        ]
     }
 ]
