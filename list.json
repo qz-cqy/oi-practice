@@ -904,5 +904,24 @@
             {"id" : 15, "name" : "贪心"}, 
             {"id" : 1007, "name" : "USACO-G"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1311b", "href" : "https://codeforces.com/problemset/problem/1311/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1311B"}
+        ], 
+        "name" : "WeirdSort", 
+        "record" : null, 
+        "time" : "2021-08-22 09:41:22", 
+        "difficulty" : {
+            "algorithm" : 5.33, 
+            "thinking" : 4.74, 
+            "code" : 5.49
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 26, "name" : "双指针"}
+        ]
     }
 ]
