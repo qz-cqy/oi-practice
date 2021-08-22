@@ -832,5 +832,77 @@
         "tags" : [
             {"id" : 11, "name" : "构造"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1223", "href" : "https://www.luogu.com.cn/problem/P1223"}
+        ], 
+        "name" : "排队接水", 
+        "record" : null, 
+        "time" : "2021-08-22 08:34:39", 
+        "difficulty" : {
+            "algorithm" : 3.03, 
+            "thinking" : 3.26, 
+            "code" : 2.96
+        }, 
+        "tags" : [
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1327", "href" : "https://www.luogu.com.cn/problem/P1327"}
+        ], 
+        "name" : "数列排序", 
+        "record" : null, 
+        "time" : "2021-08-22 08:52:39", 
+        "difficulty" : {
+            "algorithm" : 3.11, 
+            "thinking" : 4.36, 
+            "code" : 3.44
+        }, 
+        "tags" : [
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4378", "href" : "https://www.luogu.com.cn/problem/P4378"}
+        ], 
+        "name" : "[USACO18OPEN]Out of Sorts S", 
+        "record" : null, 
+        "time" : "2021-08-22 08:59:39", 
+        "difficulty" : {
+            "algorithm" : 4.38, 
+            "thinking" : 4.56, 
+            "code" : 3.97
+        }, 
+        "tags" : [
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 1006, "name" : "USACO-S"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4375", "href" : "https://www.luogu.com.cn/problem/P4375"}
+        ], 
+        "name" : "[USACO18OPEN]Out of Sorts G", 
+        "record" : null, 
+        "time" : "2021-08-22 09:10:23", 
+        "difficulty" : {
+            "algorithm" : 4.96, 
+            "thinking" : 5.31, 
+            "code" : 4.23
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 1007, "name" : "USACO-G"}
+        ]
     }
 ]
