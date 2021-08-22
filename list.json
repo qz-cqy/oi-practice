@@ -933,9 +933,9 @@
         "record" : null, 
         "time" : "2021-08-22 10:10:05", 
         "difficulty" : {
-            "algorithm" : 5.33, 
-            "thinking" : 4.74, 
-            "code" : 5.49
+            "algorithm" : 4.76, 
+            "thinking" : 4.81, 
+            "code" : 5.76
         }, 
         "tags" : [
             {"id" : 11, "name" : "构造"}, 
