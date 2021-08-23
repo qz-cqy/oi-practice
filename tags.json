@@ -46,6 +46,7 @@
     {"id" : 1006, "name" : "USACO-S"}, 
     {"id" : 1007, "name" : "USACO-G"}, 
     {"id" : 1008, "name" : "USACO-P"}, 
+    {"id" : 1009, "name" : "USACO题库"}, 
 
     {"id" : 2000, "name" : "天津"}, 
     {"id" : 2001, "name" : "河南"}, 

@@ -1028,5 +1028,24 @@
             {"id" : 4, "name" : "动态规划"}, 
             {"id" : 5, "name" : "背包问题"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1474", "href" : "https://www.luogu.com.cn/problem/P1474"}
+        ], 
+        "name" : "Money System / Cow Cash G", 
+        "record" : null, 
+        "time" : "2021-08-23 09:08:50", 
+        "difficulty" : {
+            "algorithm" : 3.54, 
+            "thinking" : 3.23, 
+            "code" : 3.41
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 5, "name" : "背包问题"}, 
+            {"id" : 1007, "name" : "USACO-G"}, 
+            {"id" : 1009, "name" : "USACO题库"}
+        ]
     }
 ]
