@@ -1047,5 +1047,23 @@
             {"id" : 1007, "name" : "USACO-G"}, 
             {"id" : 1009, "name" : "USACO题库"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2736", "href" : "https://www.luogu.com.cn/problem/P2736"}
+        ], 
+        "name" : "Raucous Rockers", 
+        "record" : null, 
+        "time" : "2021-08-23 09:33:52", 
+        "difficulty" : {
+            "algorithm" : 4.65, 
+            "thinking" : 5.11, 
+            "code" : 4.03
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 5, "name" : "背包问题"}, 
+            {"id" : 1009, "name" : "USACO题库"}
+        ]
     }
 ]
