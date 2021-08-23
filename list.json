@@ -975,5 +975,58 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 34, "name" : "区间DP"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1510", "href" : "https://www.luogu.com.cn/problem/P1510"}
+        ], 
+        "name" : "精卫填海", 
+        "record" : null, 
+        "time" : "2021-08-23 08:41:15", 
+        "difficulty" : {
+            "algorithm" : 3.23, 
+            "thinking" : 2.98, 
+            "code" : 3.17
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 5, "name" : "背包问题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1877", "href" : "https://www.luogu.com.cn/problem/P1877"}
+        ], 
+        "name" : "音量调节", 
+        "record" : null, 
+        "time" : "2021-08-23 08:51:01", 
+        "difficulty" : {
+            "algorithm" : 3.71, 
+            "thinking" : 3.86, 
+            "code" : 3.18
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 5, "name" : "背包问题"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2001, "name" : "河南"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1855", "href" : "https://www.luogu.com.cn/problem/P1855"}
+        ], 
+        "name" : "榨取kkksc03", 
+        "record" : null, 
+        "time" : "2021-08-23 08:59:37", 
+        "difficulty" : {
+            "algorithm" : 3.87, 
+            "thinking" : 3.96, 
+            "code" : 3.89
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 5, "name" : "背包问题"}
+        ]
     }
 ]
