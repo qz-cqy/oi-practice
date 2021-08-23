@@ -1101,5 +1101,22 @@
             {"id" : 15, "name" : "贪心"}, 
             {"id" : 26, "name" : "双指针"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf48a", "href" : "https://codeforces.com/problemset/problem/48/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF48A"}
+        ], 
+        "name" : "Rock-paper-scissors", 
+        "record" : null, 
+        "time" : "2021-08-23 22:19:33", 
+        "difficulty" : {
+            "algorithm" : 1.64, 
+            "thinking" : 1.28, 
+            "code" : 1.54
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}
+        ]
     }
 ]
