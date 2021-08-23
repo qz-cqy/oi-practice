@@ -1082,5 +1082,24 @@
         "tags" : [
             {"id" : 0, "name" : "模拟"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1012a", "href" : "https://codeforces.com/problemset/problem/1012/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1012A"}
+        ], 
+        "name" : "Photo of The Sky", 
+        "record" : null, 
+        "time" : "2021-08-23 10:37:38", 
+        "difficulty" : {
+            "algorithm" : 5.98, 
+            "thinking" : 6.13, 
+            "code" : 5.84
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 26, "name" : "双指针"}
+        ]
     }
 ]
