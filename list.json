@@ -1154,5 +1154,21 @@
             {"id" : 35, "name" : "线性DP"}, 
             {"id" : 1003, "name" : "NOIP普及"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5018", "href" : "https://www.luogu.com.cn/problem/P5018"}
+        ], 
+        "name" : "[NOIP2018PJ]对称二叉树", 
+        "record" : null, 
+        "time" : "2021-08-24 09:29:04", 
+        "difficulty" : {
+            "algorithm" : 6.33, 
+            "thinking" : 6.18, 
+            "code" : 6.24
+        }, 
+        "tags" : [
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
     }
 ]
