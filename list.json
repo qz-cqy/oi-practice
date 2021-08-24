@@ -1136,5 +1136,23 @@
             {"id" : 4, "name" : "动态规划"}, 
             {"id" : 35, "name" : "线性DP"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1982", "href" : "https://www.luogu.com.cn/problem/P1982"}
+        ], 
+        "name" : "[NOIP2013PJ]小朋友的数字", 
+        "record" : null, 
+        "time" : "2021-08-24 09:09:24", 
+        "difficulty" : {
+            "algorithm" : 5.89, 
+            "thinking" : 6.02, 
+            "code" : 5.76
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 35, "name" : "线性DP"}, 
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
     }
 ]
