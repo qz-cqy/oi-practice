@@ -1170,5 +1170,23 @@
         "tags" : [
             {"id" : 1003, "name" : "NOIP普及"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1144c", "href" : "https://codeforces.com/problemset/problem/1144/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1144C"}
+        ], 
+        "name" : "Two Shuffled Sequences", 
+        "record" : null, 
+        "time" : "2021-08-24 16:57:46", 
+        "difficulty" : {
+            "algorithm" : 3.52, 
+            "thinking" : 3.48, 
+            "code" : 3.76
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 14, "name" : "排序"}
+        ]
     }
 ]
