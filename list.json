@@ -1118,5 +1118,23 @@
         "tags" : [
             {"id" : 0, "name" : "模拟"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lguser", "href" : "https://www.luogu.com.cn/problem/U125888"}, 
+            {"id" : "noi8462", "href" : "http://noi.openjudge.cn/ch0206/8462"}
+        ], 
+        "name" : "大盗阿福", 
+        "record" : null, 
+        "time" : "2021-08-24 08:37:23", 
+        "difficulty" : {
+            "algorithm" : 3.85, 
+            "thinking" : 3.76, 
+            "code" : 3.45
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 35, "name" : "线性DP"}
+        ]
     }
 ]
