@@ -1188,5 +1188,22 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 14, "name" : "排序"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2642", "href" : "https://www.luogu.com.cn/problem/P2642"}
+        ], 
+        "name" : "双子序列最大和", 
+        "record" : null, 
+        "time" : "2021-08-25 09:52:49", 
+        "difficulty" : {
+            "algorithm" : 4.33, 
+            "thinking" : 4.76, 
+            "code" : 4.53
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 35, "name" : "线性DP"}
+        ]
     }
 ]
