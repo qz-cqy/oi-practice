@@ -1245,5 +1245,24 @@
             {"id" : 4, "name" : "动态规划"}, 
             {"id" : 35, "name" : "线性DP"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf685b", "href" : "https://codeforces.com/problemset/problem/685/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF685B"}
+        ], 
+        "name" : "Kay and Snowflake", 
+        "record" : null, 
+        "time" : "2021-08-25 20:43:24", 
+        "difficulty" : {
+            "algorithm" : 6.74, 
+            "thinking" : 7.23, 
+            "code" : 6.87
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 6, "name" : "树形DP"}, 
+            {"id" : 36, "name" : "树的重心"}
+        ]
     }
 ]
