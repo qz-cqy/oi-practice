@@ -1205,5 +1205,45 @@
             {"id" : 4, "name" : "动态规划"}, 
             {"id" : 35, "name" : "线性DP"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1183e", "href" : "https://codeforces.com/problemset/problem/1183/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1183E"}, 
+            {"id" : "cf1183h", "href" : "https://codeforces.com/problemset/problem/1183/H"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1183H"}
+        ], 
+        "name" : "Subsequences", 
+        "record" : null, 
+        "time" : "2021-08-25 17:50:41", 
+        "difficulty" : {
+            "algorithm" : 6.82, 
+            "thinking" : 7.24, 
+            "code" : 6.85
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 35, "name" : "线性DP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1144g", "href" : "https://codeforces.com/problemset/problem/1144/G"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1144G"}
+        ], 
+        "name" : "Two Merged Sequences", 
+        "record" : null, 
+        "time" : "2021-08-25 17:56:34", 
+        "difficulty" : {
+            "algorithm" : 7.56, 
+            "thinking" : 7.96, 
+            "code" : 6.95
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 35, "name" : "线性DP"}
+        ]
     }
 ]
