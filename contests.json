@@ -1132,5 +1132,23 @@
         "old-rating" : 1640, 
         "new-rating" : 1708, 
         "performance" : 2129
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #740 (based on VK Cup 2021 - Final (Engine))", 
+        "id" : "1558", 
+        "time" : "2021-08-24", 
+        "class" : "div1", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 308, 
+        "solved" : 3, 
+        "ak" : false, 
+        "delta" : "+61", 
+        "old-rating" : 2090, 
+        "new-rating" : 2151, 
+        "performance" : 2308
     }
 ]
