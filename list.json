@@ -1252,7 +1252,7 @@
             {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF685B"}
         ], 
         "name" : "Kay and Snowflake", 
-        "record" : null, 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-685B.html", 
         "time" : "2021-08-25 20:43:24", 
         "difficulty" : {
             "algorithm" : 6.74, 
