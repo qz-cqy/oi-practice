@@ -1281,5 +1281,22 @@
         "tags" : [
             {"id" : 1, "name" : "暴力"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1266a", "href" : "https://codeforces.com/problemset/problem/1266/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1266A"}
+        ], 
+        "name" : "Competitive Programmer", 
+        "record" : null, 
+        "time" : "2021-08-26 13:46:19", 
+        "difficulty" : {
+            "algorithm" : 4.61, 
+            "thinking" : 4.25, 
+            "code" : 4.85
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
