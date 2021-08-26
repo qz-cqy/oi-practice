@@ -1264,5 +1264,22 @@
             {"id" : 6, "name" : "树形DP"}, 
             {"id" : 36, "name" : "树的重心"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf681b", "href" : "https://codeforces.com/problemset/problem/681/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF681B"}
+        ], 
+        "name" : "Economy Game", 
+        "record" : null, 
+        "time" : "2021-08-26 08:25:45", 
+        "difficulty" : {
+            "algorithm" : 3.86, 
+            "thinking" : 3.44, 
+            "code" : 3.98
+        }, 
+        "tags" : [
+            {"id" : 1, "name" : "暴力"}
+        ]
     }
 ]
