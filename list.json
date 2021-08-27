@@ -1298,5 +1298,22 @@
         "tags" : [
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1541a", "href" : "https://codeforces.com/problemset/problem/1541/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1541A"}
+        ], 
+        "name" : "Pretty Permutations", 
+        "record" : null, 
+        "time" : "2021-08-27 20:26:43", 
+        "difficulty" : {
+            "algorithm" : 4.33, 
+            "thinking" : 4.74, 
+            "code" : 4.32
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
