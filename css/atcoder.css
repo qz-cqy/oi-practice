@@ -1,4 +1,5 @@
 .user {
+    display: inline-block;
     font-weight: bold;
 }
 .at-unrated {

@@ -1,8 +1,10 @@
 .unrated {
     color: #000000;
+    display: inline-block;
     font-weight: 400;
 }
 .rated {
+    display: inline-block;
     font-weight: 700;
 }
 .newbie, .zero, .negative {
