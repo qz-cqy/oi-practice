@@ -1351,5 +1351,25 @@
             "code" : 3.01
         }, 
         "tags" : []
+    }, 
+    {
+        "href" : [
+            {"id" : "cf915a", "href" : "https://codeforces.com/problemset/problem/915/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF915A"}
+        ], 
+        "name" : "Garden", 
+        "record" : null, 
+        "time" : "2021-08-29 09:57:48", 
+        "difficulty" : {
+            "algorithm" : 3.57, 
+            "thinking" : 3.22, 
+            "code" : 3.32
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
