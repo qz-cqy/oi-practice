@@ -14,6 +14,12 @@
     <script language=javascript src="./script/contest.js"></script>
     <script>
         /* Initialize */
+        var only_cf = parseInt(getQueryVariable('only-cf'));
+        if (only_cf != 1) only_cf = 0;
+        var only_at = parseInt(getQueryVariable('only-at'));
+        if (only_at != 1) only_at = 0;
+        var only_rui_er = parseInt(getQueryVariable('only-rui_er'));
+        if (only_rui_er != 0) only_rui_er = 1;
         /* generating table */
         var url = "accounts.json";
         var request = new XMLHttpRequest();
@@ -45,6 +51,9 @@
                 var shown = 0;
                 console.log("from", from, "to", to);
                 for (var x = from; x <= to; x++) {
+                    if(only_cf == 1 && json[x]['oj'] != 'CodeForces') continue;
+                    if(only_at == 1 && json[x]['oj'] != 'AtCoder') continue;
+                    if(only_rui_er == 1 && json[x]['username'].match("rui_er") == -1) continue;
                     console.log(x, json[x]);
                     if(json[x]['oj'] == 'CodeForces') {
                         html += `
@@ -86,6 +95,7 @@
                 document.getElementById("details").innerHTML = `
                     <p>总记录数：<strong>${to - from + 1}</strong></p>
                     <p>已显示记录数：<strong>${shown}</strong></p>
+                    <p>可以使用 ?only-cf(0/1, default: 0)、?only-at(0/1, default: 0)、?only-rui_er(0/1, default: 1) 来限制页面显示范围。</p>
                     <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
                     `;
             }
