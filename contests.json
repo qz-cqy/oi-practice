@@ -1168,5 +1168,23 @@
         "old-rating" : 1708, 
         "new-rating" : 1662, 
         "performance" : 1228
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Deltix Round, Summer 2021 (open for everyone, rated)", 
+        "id" : "1556", 
+        "time" : "2021-08-29", 
+        "class" : "glb", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 520, 
+        "solved" : 5, 
+        "ak" : false, 
+        "delta" : "+23", 
+        "old-rating" : 2151, 
+        "new-rating" : 2174, 
+        "performance" : 2231
     }
 ]
