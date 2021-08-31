@@ -1371,5 +1371,20 @@
             {"id" : 15, "name" : "贪心"}, 
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf7a", "href" : "https://codeforces.com/problemset/problem/7/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF7A"}
+        ], 
+        "name" : "Kalevitch and Chess", 
+        "record" : null, 
+        "time" : "2021-08-31 20:38:41", 
+        "difficulty" : {
+            "algorithm" : 1.96, 
+            "thinking" : 2.03, 
+            "code" : 2.11
+        }, 
+        "tags" : []
     }
 ]
