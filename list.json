@@ -1386,5 +1386,23 @@
             "code" : 2.11
         }, 
         "tags" : []
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1404a", "href" : "https://codeforces.com/problemset/problem/1404/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1404A"}
+        ], 
+        "name" : "Balanced Bitstring", 
+        "record" : null, 
+        "time" : "2021-09-01 22:08:42", 
+        "difficulty" : {
+            "algorithm" : 4.75, 
+            "thinking" : 5.13, 
+            "code" : 4.38
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
