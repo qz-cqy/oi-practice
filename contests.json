@@ -1179,13 +1179,13 @@
         "virtual" : false, 
         "rated" : true, 
         "team" : 0, 
-        "rank" : 520, 
+        "rank" : 517, 
         "solved" : 5, 
         "ak" : false, 
         "delta" : "+23", 
         "old-rating" : 2151, 
         "new-rating" : 2174, 
-        "performance" : 2231
+        "performance" : 2230
     }, 
     {
         "oj" : "AtCoder", 
