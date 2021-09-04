@@ -75,12 +75,16 @@
                         var qaq = ``;
                         if(json[x]['class'] == 'gym') qaq = `https://www.codeforces.com/gym/${json[x]['id']}`;
                         else qaq = `https://www.codeforces.com/contest/${json[x]['id']}`;
+                        var cls = ``;
+                        if(json[x]['rated'] == true) cls = `${json[x]['class']}`;
+                        else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
+                        else cls = `${json[x]['class']}*`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
                                 <td><a href="${qaq}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
-                                <td>${json[x]['class']}</td>
+                                <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
@@ -93,12 +97,16 @@
                     else {
                         var qwq = ``;
                         qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(json[x]['rated'], json[x]['old-rating']), json[x]['account'])}</a>`;
+                        var cls = ``;
+                        if(json[x]['rated'] == true) cls = `${json[x]['class']}`;
+                        else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
+                        else cls = `${json[x]['class']}*`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
                                 <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated']==true?true:false)}</a></td>
-                                <td>${json[x]['class']}</td>
+                                <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?'N/A':json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
