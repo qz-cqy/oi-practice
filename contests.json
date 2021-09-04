@@ -1186,5 +1186,23 @@
         "old-rating" : 2151, 
         "new-rating" : 2174, 
         "performance" : 2231
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "ACL Contest 1", 
+        "id" : "acl1", 
+        "time" : "2021-09-04", 
+        "class" : "arc", 
+        "virtual" : true, 
+        "rated" : false, 
+        "team" : 0, 
+        "rank" : null, 
+        "solved" : 2, 
+        "ak" : false, 
+        "delta" : null, 
+        "old-rating" : null, 
+        "new-rating" : null, 
+        "performance" : null
     }
 ]
