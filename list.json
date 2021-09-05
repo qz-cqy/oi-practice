@@ -1473,5 +1473,23 @@
             {"id" : 20, "name" : "位运算"}, 
             {"id" : 26, "name" : "双指针"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1485d", "href" : "https://codeforces.com/problemset/problem/1485/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1485D"}
+        ], 
+        "name" : "Multiples and Power Differences", 
+        "record" : null, 
+        "time" : "2021-09-05 20:16:13", 
+        "difficulty" : {
+            "algorithm" : 6.48, 
+            "thinking" : 7.33, 
+            "code" : 5.45
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
