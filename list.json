@@ -1404,5 +1404,74 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "poj3061", "href" : "http://poj.org/problem?id=3061"}, 
+            {"id" : "lguser", "href" : "https://www.luogu.com.cn/problem/U177842"}
+        ], 
+        "name" : "Subsequence", 
+        "record" : null, 
+        "time" : "2021-09-05 08:52:03", 
+        "difficulty" : {
+            "algorithm" : 6.02, 
+            "thinking" : 5.96, 
+            "code" : 5.98
+        }, 
+        "tags" : [
+            {"id" : 26, "name" : "双指针"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf961b", "href" : "https://codeforces.com/problemset/problem/961/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF961B"}
+        ], 
+        "name" : "Lecture Sleep", 
+        "record" : null, 
+        "time" : "2021-09-05 09:03:49", 
+        "difficulty" : {
+            "algorithm" : 5.44, 
+            "thinking" : 5.36, 
+            "code" : 5.76
+        }, 
+        "tags" : [
+            {"id" : 1, "name" : "暴力"}, 
+            {"id" : 26, "name" : "双指针"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lguser", "href" : "https://www.luogu.com.cn/problem/U177844"}
+        ], 
+        "name" : "最长独立子序列", 
+        "record" : null, 
+        "time" : "2021-09-05 09:31:30", 
+        "difficulty" : {
+            "algorithm" : 5.52, 
+            "thinking" : 5.53, 
+            "code" : 5.68
+        }, 
+        "tags" : [
+            {"id" : 26, "name" : "双指针"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "arc098b", "href" : "https://atcoder.jp/contests/abc098/tasks/arc098_b"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/AT4142"}
+        ], 
+        "name" : "Xor Sum 2", 
+        "record" : null, 
+        "time" : "2021-09-05 10:49:24", 
+        "difficulty" : {
+            "algorithm" : 6.03, 
+            "thinking" : 6.75, 
+            "code" : 5.98
+        }, 
+        "tags" : [
+            {"id" : 20, "name" : "位运算"}, 
+            {"id" : 26, "name" : "双指针"}
+        ]
     }
 ]
