@@ -108,7 +108,7 @@
                                 <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated']==true?true:false)}</a></td>
                                 <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
-                                <td>${json[x]['rank']==null?'N/A':json[x]['rank']}</td>
+                                <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}</td>
                                 <td>${getATDelta(json[x]['delta'])}</td>
