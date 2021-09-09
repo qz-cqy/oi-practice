@@ -1491,5 +1491,22 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4369", "href" : "https://www.luogu.com.cn/problem/P4369"}
+        ], 
+        "name" : "[Code+#4]组合数问题", 
+        "record" : null, 
+        "time" : "2021-09-09 22:17:58", 
+        "difficulty" : {
+            "algorithm" : 4.83, 
+            "thinking" : 5.77, 
+            "code" : 4.64
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
