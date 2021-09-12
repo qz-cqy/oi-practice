@@ -1508,5 +1508,62 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1131", "href" : "https://www.luogu.com.cn/problem/P1131"}
+        ], 
+        "name" : "时态同步", 
+        "record" : null, 
+        "time" : "2021-09-12 09:25:35", 
+        "difficulty" : {
+            "algorithm" : 6.98, 
+            "thinking" : 6.86, 
+            "code" : 7.03
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 6, "name" : "树形DP"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2002, "name" : "浙江"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "agc030c", "href" : "https://atcoder.jp/contests/agc030/tasks/agc030_c"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/AT4512"}
+        ], 
+        "name" : "Coloring Torus", 
+        "record" : null, 
+        "time" : "2021-09-12 09:57:45", 
+        "difficulty" : {
+            "algorithm" : 6.77, 
+            "thinking" : 6.94, 
+            "code" : 6.03
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4777", "href" : "https://www.luogu.com.cn/problem/P4777"}, 
+            {"id" : "lg1495", "href" : "https://www.luogu.com.cn/problem/P1495"}
+        ], 
+        "name" : "扩展中国剩余定理/中国剩余定理", 
+        "record" : null, 
+        "time" : "2021-09-12 11:28:45", 
+        "difficulty" : {
+            "algorithm" : 7.83, 
+            "thinking" : 8.03, 
+            "code" : 8.02
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 38, "name" : "扩展欧几里得"}, 
+            {"id" : 39, "name" : "同余方程"}, 
+            {"id" : 40, "name" : "中国剩余定理"}
+        ]
     }
 ]
