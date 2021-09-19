@@ -1565,5 +1565,24 @@
             {"id" : 39, "name" : "同余方程"}, 
             {"id" : 40, "name" : "中国剩余定理"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1051d", "href" : "https://codeforces.com/problemset/problem/1051/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1051D"}
+        ], 
+        "name" : "Bicolorings", 
+        "record" : null, 
+        "time" : "2021-09-16 20:31:50", 
+        "difficulty" : {
+            "algorithm" : 6.97, 
+            "thinking" : 7.33, 
+            "code" : 7.26
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 41, "name" : "状态压缩"}, 
+            {"id" : 42, "name" : "状压DP"}
+        ]
     }
 ]
