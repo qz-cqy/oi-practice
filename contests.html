@@ -99,6 +99,7 @@
                         qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(json[x]['rated'], json[x]['old-rating']), json[x]['account'])}</a>`;
                         var cls = ``;
                         if(json[x]['rated'] == true) cls = `${json[x]['class']}`;
+                        else if(json[x]['rated'] == 'β') cls = `${json[x]['class']}β`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
                         html += `
