@@ -1587,6 +1587,40 @@
     }, 
     {
         "href" : [
+            {"id" : "lg7869", "href" : "https://www.luogu.com.cn/problem/P7869"}
+        ], 
+        "name" : "使用三个系统程度的能力", 
+        "record" : null, 
+        "time" : "2021-09-20 09:14:18", 
+        "difficulty" : {
+            "algorithm" : 3.22, 
+            "thinking" : 3.08, 
+            "code" : 3.07
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 17, "name" : "字符串"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7870", "href" : "https://www.luogu.com.cn/problem/P7870"}
+        ], 
+        "name" : "兔已着陆", 
+        "record" : null, 
+        "time" : "2021-09-20 09:28:05", 
+        "difficulty" : {
+            "algorithm" : 4.08, 
+            "thinking" : 4.23, 
+            "code" : 4.78
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 43, "name" : "线性结构"}
+        ]
+    }, 
+    {
+        "href" : [
             {"id" : "cf1055a", "href" : "https://codeforces.com/problemset/problem/1055/A"}, 
             {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1055A"}
         ], 
@@ -1600,6 +1634,24 @@
         }, 
         "tags" : [
             {"id" : 0, "name" : "模拟"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1093c", "href" : "https://codeforces.com/problemset/problem/1093/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1093C"}
+        ], 
+        "name" : "Mishka and the Last Exam", 
+        "record" : null, 
+        "time" : "2021-09-20 16:13:04", 
+        "difficulty" : {
+            "algorithm" : 4.24, 
+            "thinking" : 4.86, 
+            "code" : 4.33
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}
         ]
     }
 ]
