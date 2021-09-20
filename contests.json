@@ -1258,5 +1258,23 @@
         "old-rating" : 1648, 
         "new-rating" : 1748, 
         "performance" : 2333
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "AtCoder Regular Contest 126", 
+        "id" : "arc126", 
+        "time" : "2021-09-19", 
+        "class" : "arc", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 696, 
+        "solved" : 2, 
+        "ak" : false, 
+        "delta" : "-19", 
+        "old-rating" : 1748, 
+        "new-rating" : 1729, 
+        "performance" : 1564
     }
 ]
