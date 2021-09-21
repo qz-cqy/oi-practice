@@ -1676,5 +1676,22 @@
             {"id" : 44, "name" : "树/图论"}, 
             {"id" : 10000, "name" : "交互题"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf353b", "href" : "https://codeforces.com/problemset/problem/353/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF353B"}
+        ], 
+        "name" : "Two Heaps", 
+        "record" : null, 
+        "time" : "2021-09-21 13:04:34", 
+        "difficulty" : {
+            "algorithm" : 5.33, 
+            "thinking" : 5.64, 
+            "code" : 5.43
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
