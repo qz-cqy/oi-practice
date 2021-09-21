@@ -1693,5 +1693,23 @@
         "tags" : [
             {"id" : 11, "name" : "构造"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf847a", "href" : "https://codeforces.com/problemset/problem/847/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF847A"}
+        ], 
+        "name" : "Union of Doubly Linked Lists", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/cf-847a.html", 
+        "time" : "2021-09-21 20:41:14", 
+        "difficulty" : {
+            "algorithm" : 4.68, 
+            "thinking" : 4.65, 
+            "code" : 4.33
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 43, "name" : "线性结构"}
+        ]
     }
 ]
