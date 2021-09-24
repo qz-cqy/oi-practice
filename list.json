@@ -1711,5 +1711,41 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 43, "name" : "线性结构"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5151", "href" : "https://www.luogu.com.cn/problem/P5151"}
+        ], 
+        "name" : "HKE与他的小朋友", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/LG-P5151.html", 
+        "time" : "2021-09-24 21:20:15", 
+        "difficulty" : {
+            "algorithm" : 7.86, 
+            "thinking" : 5.44, 
+            "code" : 5.66
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 45, "name" : "置换"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "uva306", "href" : "https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=5&page=show_problem&problem=242"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/UVA306"}
+        ], 
+        "name" : "Cipher", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/UVA-306.html", 
+        "time" : "2021-09-24 21:28:37", 
+        "difficulty" : {
+            "algorithm" : 7.86, 
+            "thinking" : 5.44, 
+            "code" : 6.03
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 45, "name" : "置换"}
+        ]
     }
 ]
