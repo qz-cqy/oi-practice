@@ -1849,5 +1849,22 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 20, "name" : "位运算"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf995a", "href" : "https://codeforces.com/problemset/problem/995/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF995A"}
+        ], 
+        "name" : "Tesla", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-995A.html", 
+        "time" : "2021-09-25 22:39:40", 
+        "difficulty" : {
+            "algorithm" : 4.64, 
+            "thinking" : 5.03, 
+            "code" : 5.21
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
