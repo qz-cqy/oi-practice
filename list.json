@@ -1779,5 +1779,22 @@
         "tags" : [
             {"id" : 4, "name" : "动态规划"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7043", "href" : "https://www.luogu.com.cn/problem/P7043"}
+        ], 
+        "name" : "「MCOI-03」村国", 
+        "record" : null, 
+        "time" : "2021-09-25 12:43:31", 
+        "difficulty" : {
+            "algorithm" : 4.66, 
+            "thinking" : 5.01, 
+            "code" : 4.76
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
     }
 ]
