@@ -1747,5 +1747,37 @@
             {"id" : 17, "name" : "字符串"}, 
             {"id" : 45, "name" : "置换"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1192", "href" : "https://www.luogu.com.cn/problem/P1192"}
+        ], 
+        "name" : "台阶问题", 
+        "record" : null, 
+        "time" : "2021-09-25 10:47:37", 
+        "difficulty" : {
+            "algorithm" : 3.64, 
+            "thinking" : 3.22, 
+            "code" : 3.44
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1280", "href" : "https://www.luogu.com.cn/problem/P1280"}
+        ], 
+        "name" : "尼克的任务", 
+        "record" : null, 
+        "time" : "2021-09-25 11:01:32", 
+        "difficulty" : {
+            "algorithm" : 4.33, 
+            "thinking" : 4.76, 
+            "code" : 4.55
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}
+        ]
     }
 ]
