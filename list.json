@@ -1832,5 +1832,22 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 15, "name" : "贪心"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg6161", "href" : "https://www.luogu.com.cn/problem/P6161"}
+        ], 
+        "name" : "[Cnoi2020]高维", 
+        "record" : null, 
+        "time" : "2021-09-25 13:07:31", 
+        "difficulty" : {
+            "algorithm" : 3.86, 
+            "thinking" : 4.01, 
+            "code" : 4.03
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 20, "name" : "位运算"}
+        ]
     }
 ]
