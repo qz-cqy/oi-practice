@@ -1714,6 +1714,42 @@
     }, 
     {
         "href" : [
+            {"id" : "uva442", "href" : "https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=6&page=show_problem&problem=383"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/UVA442"}
+        ], 
+        "name" : "矩阵链乘 / Matrix Chain Multiplication", 
+        "record" : null, 
+        "time" : "2021-09-23 21:18:23", 
+        "difficulty" : {
+            "algorithm" : 4.43, 
+            "thinking" : 4.45, 
+            "code" : 5.21
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 43, "name" : "线性结构"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1622", "href" : "https://www.luogu.com.cn/problem/P1622"}
+        ], 
+        "name" : "释放囚犯", 
+        "record" : null, 
+        "time" : "2021-09-23 21:30:16", 
+        "difficulty" : {
+            "algorithm" : 6.33, 
+            "thinking" : 7.01, 
+            "code" : 6.84
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 34, "name" : "区间DP"}
+        ]
+    }, 
+    {
+        "href" : [
             {"id" : "lg5151", "href" : "https://www.luogu.com.cn/problem/P5151"}
         ], 
         "name" : "HKE与他的小朋友", 
