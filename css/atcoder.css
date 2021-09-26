@@ -3,31 +3,31 @@
     font-weight: bold;
 }
 .at-unrated {
-    color: #000000;
+    color: #000000 !important;
 }
 .gray, .inactive {
-    color: #808080;
+    color: #808080 !important;
 }
 .brown {
-    color: #804000;
+    color: #804000 !important;
 }
 .green, .active {
-    color: #008000;
+    color: #008000 !important;
 }
 .cyan {
-    color: #00c0c0;
+    color: #00c0c0 !important;
 }
 .blue {
-    color: #0000ff;
+    color: #0000ff !important;
 }
 .yellow {
-    color: #c0c000;
+    color: #c0c000 !important;
 }
 .orange {
-    color: #ff8000;
+    color: #ff8000 !important;
 }
 .red {
-    color: #ff0000;
+    color: #ff0000 !important;
 }
 .active, .inactive {
     font-weight: bold;

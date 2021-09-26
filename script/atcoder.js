@@ -125,3 +125,9 @@ function getATLevel(rated, rating) {
     if (rating >= 2) return `19 KYU`;
     return `20 KYU`;
 }
+function topPerf(rank, type, perf) {
+    if(type == 'abc' && perf == 2400) return 1;
+    if(type == 'arc' && perf == 3200) return 1;
+    if(type == 'agc' && rank == 1) return 1;
+    return 0;
+}

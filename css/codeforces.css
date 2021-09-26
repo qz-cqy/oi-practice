@@ -1,5 +1,5 @@
 .unrated {
-    color: #000000;
+    color: #000000 !important;
     display: inline-block;
     font-weight: 400;
 }
@@ -8,31 +8,31 @@
     font-weight: 700;
 }
 .newbie, .zero, .negative {
-    color: #808080;
+    color: #808080 !important;
 }
 .pupil, .positive {
-    color: #008000;
+    color: #008000 !important;
 }
 .specialist {
-    color: #03a89e;
+    color: #03a89e !important;
 }
 .expert {
-    color: #0000ff;
+    color: #0000ff !important;
 }
 .candidate-master {
-    color: #aa00aa;
+    color: #aa00aa !important;
 }
 .master, .international-master {
-    color: #ff8c00;
+    color: #ff8c00 !important;
 }
 .grandmaster, .international-grandmaster, .legendary-grandmaster {
-    color: #ff0000;
+    color: #ff0000 !important;
 }
 .legendary-grandmaster:first-letter {
-    color: #000000;
+    color: #000000 !important;
 }
 .head-quarters {
-    color: #000000;
+    color: #000000 !important;
 }
 .positive, .zero, .negative {
     font-weight: bold;

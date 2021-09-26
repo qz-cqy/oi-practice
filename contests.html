@@ -79,6 +79,7 @@
                         if(json[x]['rated'] == true) cls = `${json[x]['class']}`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
+                        var perf = `${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
@@ -88,7 +89,7 @@
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
-                                <td>${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}</td>
+                                <td>${perf}</td>
                                 <td>${getCFDelta(json[x]['delta'])}</td>
                                 <td>${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['old-rating']), json[x]['old-rating'])}→${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['new-rating']), json[x]['new-rating'])}</td>
                             </tr>
@@ -102,6 +103,8 @@
                         else if(json[x]['rated'] == 'β') cls = `${json[x]['class']}β`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
+                        var perf = `${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}`;
+                        if(topPerf(json[x]['rank'], json[x]['class'], json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
@@ -111,7 +114,7 @@
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
-                                <td>${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}</td>
+                                <td>${perf}</td>
                                 <td>${getATDelta(json[x]['delta'])}</td>
                                 <td>${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['old-rating']), json[x]['old-rating'])}→${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['new-rating']), json[x]['new-rating'])}</td>
                             </tr>
