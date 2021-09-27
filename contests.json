@@ -1294,5 +1294,23 @@
         "old-rating" : 1729, 
         "new-rating" : 1824, 
         "performance" : 2400
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "Aiming CNOI: rui_er, zplqwq", 
+        "name" : "Codeforces Round #619", 
+        "id" : "1301", 
+        "time" : "2021-09-27", 
+        "class" : "div2", 
+        "virtual" : true, 
+        "rated" : false, 
+        "team" : 86956, 
+        "rank" : null, 
+        "solved" : 6, 
+        "ak" : true, 
+        "delta" : null, 
+        "old-rating" : null, 
+        "new-rating" : null, 
+        "performance" : null
     }
 ]
