@@ -1866,5 +1866,22 @@
         "tags" : [
             {"id" : 11, "name" : "构造"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1569a", "href" : "https://codeforces.com/problemset/problem/1569/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1569A"}
+        ], 
+        "name" : "Balanced Substring", 
+        "record" : null, 
+        "time" : "2021-10-01 22:01:07", 
+        "difficulty" : {
+            "algorithm" : 3.12, 
+            "thinking" : 3.21, 
+            "code" : 3.23
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
