@@ -1312,5 +1312,41 @@
         "old-rating" : null, 
         "new-rating" : null, 
         "performance" : null
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #745", 
+        "id" : "1580", 
+        "time" : "2021-09-30", 
+        "class" : "div1", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 118, 
+        "solved" : 2, 
+        "ak" : false, 
+        "delta" : "+97", 
+        "old-rating" : 2175, 
+        "new-rating" : 2272, 
+        "performance" : 2521
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "AtCoder Beginner Contest 221", 
+        "id" : "abc221", 
+        "time" : "2021-10-02", 
+        "class" : "abc", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 189, 
+        "solved" : 6, 
+        "ak" : false, 
+        "delta" : "+51", 
+        "old-rating" : 1824, 
+        "new-rating" : 1875, 
+        "performance" : 2229
     }
 ]
