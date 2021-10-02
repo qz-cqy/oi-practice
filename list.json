@@ -1883,5 +1883,22 @@
         "tags" : [
             {"id" : 11, "name" : "构造"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1066c", "href" : "https://codeforces.com/problemset/problem/1066/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1066C"}
+        ], 
+        "name" : "Books Queries", 
+        "record" : null, 
+        "time" : "2021-10-02 23:22:29", 
+        "difficulty" : {
+            "algorithm" : 4.33, 
+            "thinking" : 4.33, 
+            "code" : 4.33
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}
+        ]
     }
 ]
