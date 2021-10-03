@@ -62,5 +62,10 @@ function getCFLevel(rated, rating) {
     if(rating >= 1400) return `S`;
     if(rating >= 1200) return `P`;
     if(rating != null) return `N`;
-    return `U`;
+    if(rated == true) return `U`;
+    return null;
+}
+function topPerfCF(perf) {
+    if(perf == '∞') return 1;
+    return 0;
 }

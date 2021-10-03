@@ -80,6 +80,7 @@
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
                         var perf = `${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}`;
+                        if(topPerfCF(json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
@@ -104,7 +105,7 @@
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
                         var perf = `${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}`;
-                        if(topPerf(json[x]['rank'], json[x]['class'], json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
+                        if(topPerfAT(json[x]['rank'], json[x]['class'], json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
