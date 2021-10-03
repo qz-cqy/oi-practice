@@ -1900,5 +1900,23 @@
         "tags" : [
             {"id" : 0, "name" : "模拟"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1017c", "href" : "https://codeforces.com/problemset/problem/1017/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1017C"}
+        ], 
+        "name" : "The Phone Number", 
+        "record" : null, 
+        "time" : "2021-10-03 21:02:56", 
+        "difficulty" : {
+            "algorithm" : 5.86, 
+            "thinking" : 6.03, 
+            "code" : 5.44
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 46, "name" : "分块"}
+        ]
     }
 ]
