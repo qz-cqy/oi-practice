@@ -51,7 +51,6 @@ function getCFDelta(delta) { // delta / contribution
     return `<p class='positive'>${delta}</p>`;
 }
 function getCFLevel(rated, rating) {
-    if(rating == null) return `U`;
     if(rating == '∞') return `INF`;
     if(rating >= 3000) return `LGM`;
     if(rating >= 2600) return `IGM`;
@@ -62,5 +61,6 @@ function getCFLevel(rated, rating) {
     if(rating >= 1600) return `E`;
     if(rating >= 1400) return `S`;
     if(rating >= 1200) return `P`;
-    return `N`;
+    if(rating != null) return `N`;
+    return `U`;
 }
