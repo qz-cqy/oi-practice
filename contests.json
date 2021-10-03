@@ -387,13 +387,13 @@
         "virtual" : true, 
         "rated" : false, 
         "team" : 0, 
-        "rank" : null, 
+        "rank" : 215, 
         "solved" : 4, 
         "ak" : false, 
         "delta" : null, 
         "old-rating" : null, 
         "new-rating" : null, 
-        "performance" : null
+        "performance" : 2240
     }, 
     {
         "oj" : "AtCoder", 
@@ -837,13 +837,13 @@
         "virtual" : true, 
         "rated" : false, 
         "team" : 0, 
-        "rank" : null, 
+        "rank" : 239, 
         "solved" : 3, 
         "ak" : false, 
         "delta" : null, 
         "old-rating" : null, 
         "new-rating" : null, 
-        "performance" : null
+        "performance" : 2382
     }, 
     {
         "oj" : "AtCoder", 
@@ -927,13 +927,13 @@
         "virtual" : true, 
         "rated" : false, 
         "team" : 86956, 
-        "rank" : null, 
+        "rank" : 12, 
         "solved" : 5, 
         "ak" : false, 
         "delta" : null, 
         "old-rating" : null, 
         "new-rating" : null, 
-        "performance" : null
+        "performance" : 2538
     }, 
     {
         "oj" : "CodeForces", 
@@ -1197,13 +1197,13 @@
         "virtual" : true, 
         "rated" : false, 
         "team" : 0, 
-        "rank" : null, 
+        "rank" : 253, 
         "solved" : 2, 
         "ak" : false, 
         "delta" : null, 
         "old-rating" : null, 
         "new-rating" : null, 
-        "performance" : null
+        "performance" : 1997
     }, 
     {
         "oj" : "AtCoder", 
@@ -1305,13 +1305,13 @@
         "virtual" : true, 
         "rated" : false, 
         "team" : 86956, 
-        "rank" : null, 
+        "rank" : 1, 
         "solved" : 6, 
         "ak" : true, 
         "delta" : null, 
         "old-rating" : null, 
         "new-rating" : null, 
-        "performance" : null
+        "performance" : "∞"
     }, 
     {
         "oj" : "CodeForces", 

@@ -15,6 +15,7 @@ function getCFUser(level, rating) { // user rating
 }
 function getCFUserShortLevel(level, rating) { // user rating
     if (level == null) return `${showNA_span()}`;
+    if (level == 'INF') return `<span class='unrated'>∞</span>`;
     if (level == 'U') return `<span class='unrated'>U</span>`;
     if (level == 'N') return `<span class='rated newbie'>N${rating}</span>`;
     if (level == 'P') return `<span class='rated pupil'>P${rating}</span>`;
@@ -52,6 +53,7 @@ function getCFDelta(delta) { // delta / contribution
 function getCFLevel(rated, rating) {
     if(rated == false) return null;
     if(rating == null) return `U`;
+    if(rating == '∞') return `INF`;
     if(rating >= 3000) return `LGM`;
     if(rating >= 2600) return `IGM`;
     if(rating >= 2400) return `GM`;
