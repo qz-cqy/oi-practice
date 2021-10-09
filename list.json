@@ -1918,5 +1918,28 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 46, "name" : "分块"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4213", "href" : "https://www.luogu.com.cn/problem/P4213"}
+        ], 
+        "name" : "杜教筛", 
+        "record" : null, 
+        "time" : "2021-10-09 23:20:11", 
+        "difficulty" : {
+            "algorithm" : 9.12, 
+            "thinking" : 9.09, 
+            "code" : 8.94
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 24, "name" : "筛法"}, 
+            {"id" : 46, "name" : "分块"}, 
+            {"id" : 47, "name" : "数论分块"}, 
+            {"id" : 48, "name" : "莫比乌斯反演"}, 
+            {"id" : 49, "name" : "欧拉函数"}, 
+            {"id" : 50, "name" : "杜教筛"}
+        ]
     }
 ]
