@@ -1384,5 +1384,23 @@
         "old-rating" : 1875, 
         "new-rating" : 1835, 
         "performance" : 1429
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #749 (based on Technocup 2022 Elimination Round 1)", 
+        "id" : "1586", 
+        "time" : "2021-10-17", 
+        "class" : "glb", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 481, 
+        "solved" : 5, 
+        "ak" : false, 
+        "delta" : "-16", 
+        "old-rating" : 2272, 
+        "new-rating" : 2256, 
+        "performance" : 2170
     }
 ]
