@@ -2110,5 +2110,21 @@
             {"id" : 17, "name" : "字符串"}, 
             {"id" : 1003, "name" : "NOIP普及"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2186", "href" : "https://www.luogu.com.cn/problem/P2186"}
+        ], 
+        "name" : "小 Z 的栈函数", 
+        "record" : null, 
+        "time" : "2021-10-31 12:32:55", 
+        "difficulty" : {
+            "algorithm" : 3.67, 
+            "thinking" : 2.44, 
+            "code" : 6.32
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}
+        ]
     }
 ]
