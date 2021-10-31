@@ -2158,8 +2158,25 @@
             "code" : 8.65
         }, 
         "tags" : [
-            {"id" : 55, "name" : "平衡树"}, 
+            {"id" : 13, "name" : "平衡树"}, 
             {"id" : 1012, "name" : "NOI"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf438d", "href" : "https://codeforces.com/problemset/problem/438/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF438D"}
+        ], 
+        "name" : "The Child and Sequence", 
+        "record" : null, 
+        "time" : "2021-10-31 20:55:04", 
+        "difficulty" : {
+            "algorithm" : 6.55, 
+            "thinking" : 6.92, 
+            "code" : 6.87
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}
         ]
     }
 ]
