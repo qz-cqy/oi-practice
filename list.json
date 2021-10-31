@@ -2144,5 +2144,22 @@
             {"id" : 54, "name" : "链表"}, 
             {"id" : 1003, "name" : "NOIP普及"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1486", "href" : "https://www.luogu.com.cn/problem/P1486"}
+        ], 
+        "name" : "[NOI2004]郁闷的出纳员", 
+        "record" : null, 
+        "time" : "2021-10-31 20:26:16", 
+        "difficulty" : {
+            "algorithm" : 8.34, 
+            "thinking" : 8.83, 
+            "code" : 8.65
+        }, 
+        "tags" : [
+            {"id" : 55, "name" : "平衡树"}, 
+            {"id" : 1012, "name" : "NOI"}
+        ]
     }
 ]
