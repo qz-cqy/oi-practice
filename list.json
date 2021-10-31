@@ -2132,7 +2132,7 @@
             {"id" : "lg7912", "href" : "https://www.luogu.com.cn/problem/P7912"}
         ], 
         "name" : "[CSP2021J]小熊的果篮", 
-        "record" : null, 
+        "record" : "https://www.luogu.com.cn/blog/ak-ioi/csp2021-j2-t4-bu-ti-cai-di-keng", 
         "time" : "2021-10-31 12:56:51", 
         "difficulty" : {
             "algorithm" : 6.34, 
