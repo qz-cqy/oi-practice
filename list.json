@@ -2038,5 +2038,77 @@
             {"id" : 21, "name" : "树的直径"},
             {"id" : 44, "name" : "树/图论"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7913", "href" : "https://www.luogu.com.cn/problem/P7913"}
+        ], 
+        "name" : "[CSP2021S]廊桥分配", 
+        "record" : null, 
+        "time" : "2021-10-23 22:49:47", 
+        "difficulty" : {
+            "algorithm" : 6.44, 
+            "thinking" : 6.88, 
+            "code" : 7.03
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 1004, "name" : "NOIP提高"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7909", "href" : "https://www.luogu.com.cn/problem/P7909"}
+        ], 
+        "name" : "[CSP2021J]分糖果", 
+        "record" : null, 
+        "time" : "2021-10-24 08:50:26", 
+        "difficulty" : {
+            "algorithm" : 3.22, 
+            "thinking" : 3.54, 
+            "code" : 3.44
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7910", "href" : "https://www.luogu.com.cn/problem/P7910"}
+        ], 
+        "name" : "[CSP2021J]插入排序", 
+        "record" : null, 
+        "time" : "2021-10-24 09:16:18", 
+        "difficulty" : {
+            "algorithm" : 4.29, 
+            "thinking" : 4.21, 
+            "code" : 5.03
+        }, 
+        "tags" : [
+            {"id" : 1, "name" : "暴力"}, 
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7911", "href" : "https://www.luogu.com.cn/problem/P7911"}
+        ], 
+        "name" : "[CSP2021J]网络连接", 
+        "record" : null, 
+        "time" : "2021-10-26 12:14:37", 
+        "difficulty" : {
+            "algorithm" : 5.33, 
+            "thinking" : 5.64, 
+            "code" : 6.02
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 1, "name" : "暴力"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
     }
 ]
