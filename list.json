@@ -2178,5 +2178,108 @@
         "tags" : [
             {"id" : 8, "name" : "线段树"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7917", "href" : "https://www.luogu.com.cn/problem/P7917"}
+        ], 
+        "name" : "[Kubic] Addition", 
+        "record" : null, 
+        "time" : "2021-11-02 15:34:08", 
+        "difficulty" : {
+            "algorithm" : 2.83, 
+            "thinking" : 3.03, 
+            "code" : 2.87
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7918", "href" : "https://www.luogu.com.cn/problem/P7918"}
+        ], 
+        "name" : "[Kubic] Lines", 
+        "record" : null, 
+        "time" : "2021-11-04 19:18:11", 
+        "difficulty" : {
+            "algorithm" : 3.32, 
+            "thinking" : 4.02, 
+            "code" : 3.87
+        }, 
+        "tags" : [
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg6492", "href" : "https://www.luogu.com.cn/problem/P6492"}
+        ], 
+        "name" : "[COCI2010-2011#6] STEP", 
+        "record" : null, 
+        "time" : "2021-11-04 19:31:20", 
+        "difficulty" : {
+            "algorithm" : 6.74, 
+            "thinking" : 6.82, 
+            "code" : 7.03
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf919b", "href" : "https://codeforces.com/problemset/problem/919/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF919B"}
+        ], 
+        "name" : "Perfect Number", 
+        "record" : null, 
+        "time" : "2021-11-06 17:29:05", 
+        "difficulty" : {
+            "algorithm" : 2.44, 
+            "thinking" : 2.45, 
+            "code" : 2.53
+        }, 
+        "tags" : [
+            {"id" : 0, "name" : "模拟"}, 
+            {"id" : 1, "name" : "暴力"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf351b", "href" : "https://codeforces.com/problemset/problem/351/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF351B"}
+        ], 
+        "name" : "Jeff and Furik", 
+        "record" : null, 
+        "time" : "2021-11-06 17:42:26", 
+        "difficulty" : {
+            "algorithm" : 6.34, 
+            "thinking" : 6.75, 
+            "code" : 5.84
+        }, 
+        "tags" : [
+            {"id" : 10, "name" : "概率期望"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf888d", "href" : "https://codeforces.com/problemset/problem/888/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF888D"}
+        ], 
+        "name" : "Almost Identity Permutations", 
+        "record" : null, 
+        "time" : "2021-11-06 19:48:10", 
+        "difficulty" : {
+            "algorithm" : 4.12, 
+            "thinking" : 4.65, 
+            "code" : 4.33
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
