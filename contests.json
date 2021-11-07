@@ -1420,5 +1420,23 @@
         "old-rating" : 2272, 
         "new-rating" : 2256, 
         "performance" : 2170
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "AtCoder Beginner Contest 226", 
+        "id" : "abc226", 
+        "time" : "2021-11-07", 
+        "class" : "abc", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 93, 
+        "solved" : 7, 
+        "ak" : false, 
+        "delta" : "+75", 
+        "old-rating" : 1835, 
+        "new-rating" : 1910, 
+        "performance" : 2400
     }
 ]
