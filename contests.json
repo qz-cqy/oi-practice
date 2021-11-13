@@ -1438,5 +1438,23 @@
         "old-rating" : 1835, 
         "new-rating" : 1910, 
         "performance" : 2400
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "KEYENCE Programming Contest 2021 (AtCoder Beginner Contest 227)", 
+        "id" : "abc227", 
+        "time" : "2021-11-13", 
+        "class" : "abc", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 672, 
+        "solved" : 4, 
+        "ak" : false, 
+        "delta" : "-27", 
+        "old-rating" : 1910, 
+        "new-rating" : 1883, 
+        "performance" : 1629
     }
 ]
