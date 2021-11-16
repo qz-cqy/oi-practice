@@ -2336,5 +2336,290 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2165", "href" : "https://www.luogu.com.cn/problem/P2165"}
+        ], 
+        "name" : "[AHOI2009]飞行棋", 
+        "record" : null, 
+        "time" : "2021-11-08 12:05:51", 
+        "difficulty" : {
+            "algorithm" : 4.52, 
+            "thinking" : 4.54, 
+            "code" : 4.22
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2004, "name" : "安徽"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7914", "href" : "https://www.luogu.com.cn/problem/P7914"}
+        ], 
+        "name" : "[CSP2021S]括号序列", 
+        "record" : null, 
+        "time" : "2021-11-08 12:19:39", 
+        "difficulty" : {
+            "algorithm" : 6.74, 
+            "thinking" : 6.87, 
+            "code" : 7.02
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 34, "name" : "区间DP"}, 
+            {"id" : 1004, "name" : "NOIP提高"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1055b", "href" : "https://codeforces.com/problemset/problem/1055/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1055B"}
+        ], 
+        "name" : "Alice and Hairdresser", 
+        "record" : null, 
+        "time" : "2021-11-08 22:53:16", 
+        "difficulty" : {
+            "algorithm" : 4.75, 
+            "thinking" : 5.01, 
+            "code" : 4.44
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1603a", "href" : "https://codeforces.com/problemset/problem/1603/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1603A"}
+        ], 
+        "name" : "Di-visible Confusion", 
+        "record" : null, 
+        "time" : "2021-11-09 12:13:11", 
+        "difficulty" : {
+            "algorithm" : 5.12, 
+            "thinking" : 5.21, 
+            "code" : 4.76
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7915", "href" : "https://www.luogu.com.cn/problem/P7915"}
+        ], 
+        "name" : "[CSP2021S]回文", 
+        "record" : null, 
+        "time" : "2021-11-09 22:22:31", 
+        "difficulty" : {
+            "algorithm" : 6.33, 
+            "thinking" : 6.88, 
+            "code" : 6.87
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 1004, "name" : "NOIP提高"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf16c", "href" : "https://codeforces.com/problemset/problem/16/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF16C"}
+        ], 
+        "name" : "Monitor", 
+        "record" : null, 
+        "time" : "2021-11-11 23:51:50", 
+        "difficulty" : {
+            "algorithm" : 4.22, 
+            "thinking" : 4.32, 
+            "code" : 3.44
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3957", "href" : "https://www.luogu.com.cn/problem/P3957"}
+        ], 
+        "name" : "[NOIP2017PJ]跳房子", 
+        "record" : null, 
+        "time" : "2021-11-12 19:47:20", 
+        "difficulty" : {
+            "algorithm" : 7.13, 
+            "thinking" : 7.33, 
+            "code" : 7.02
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 55, "name" : "单调队列"}, 
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3803", "href" : "https://www.luogu.com.cn/problem/P3803"}
+        ], 
+        "name" : "多项式乘法/FFT", 
+        "record" : null, 
+        "time" : "2021-11-12 21:23:03", 
+        "difficulty" : {
+            "algorithm" : 8.44, 
+            "thinking" : 8.54, 
+            "code" : 8.43
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 56, "name" : "快速傅里叶变换/FFT"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf140c", "href" : "https://codeforces.com/problemset/problem/140/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF140C"}
+        ], 
+        "name" : "New Year Snowmen", 
+        "record" : null, 
+        "time" : "2021-11-13 20:58:51", 
+        "difficulty" : {
+            "algorithm" : 5.32, 
+            "thinking" : 5.73, 
+            "code" : 5.03
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1325", "href" : "https://www.luogu.com.cn/problem/P1325"}
+        ], 
+        "name" : "雷达安装", 
+        "record" : null, 
+        "time" : "2021-11-14 10:12:25", 
+        "difficulty" : {
+            "algorithm" : 4.53, 
+            "thinking" : 4.84, 
+            "code" : 4.52
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1158", "href" : "https://www.luogu.com.cn/problem/P1158"}
+        ], 
+        "name" : "[NOIP2010PJ]导弹拦截", 
+        "record" : null, 
+        "time" : "2021-11-14 10:29:00", 
+        "difficulty" : {
+            "algorithm" : 4.87, 
+            "thinking" : 4.93, 
+            "code" : 4.84
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1199", "href" : "https://www.luogu.com.cn/problem/P1199"}
+        ], 
+        "name" : "[NOIP2010PJ]三国游戏", 
+        "record" : null, 
+        "time" : "2021-11-14 10:38:39", 
+        "difficulty" : {
+            "algorithm" : 4.63, 
+            "thinking" : 5.11, 
+            "code" : 4.54
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 1003, "name" : "NOIP普及"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1230", "href" : "https://www.luogu.com.cn/problem/P1230"}
+        ], 
+        "name" : "智力大冲浪", 
+        "record" : null, 
+        "time" : "2021-11-14 11:21:23", 
+        "difficulty" : {
+            "algorithm" : 4.71, 
+            "thinking" : 4.95, 
+            "code" : 4.74
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7916", "href" : "https://www.luogu.com.cn/problem/P7916"}
+        ], 
+        "name" : "[CSP2021S]交通规划", 
+        "record" : null, 
+        "time" : "2021-11-15 20:30:26", 
+        "difficulty" : {
+            "algorithm" : 9.12, 
+            "thinking" : 9.75, 
+            "code" : 8.94
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 27, "name" : "网络流"}, 
+            {"id" : 28, "name" : "最大流"}, 
+            {"id" : 34, "name" : "区间DP"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 57, "name" : "平面图/对偶图"}, 
+            {"id" : 58, "name" : "最短路径"}, 
+            {"id" : 1004, "name" : "NOIP提高"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5490", "href" : "https://www.luogu.com.cn/problem/P5490"}
+        ], 
+        "name" : "扫描线", 
+        "record" : null, 
+        "time" : "2021-11-16 19:28:24", 
+        "difficulty" : {
+            "algorithm" : 7.13, 
+            "thinking" : 7.34, 
+            "code" : 6.84
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 59, "name" : "扫描线"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3389", "href" : "https://www.luogu.com.cn/problem/P3389"}
+        ], 
+        "name" : "高斯消元", 
+        "record" : null, 
+        "time" : "2021-11-16 19:45:27", 
+        "difficulty" : {
+            "algorithm" : 6.56, 
+            "thinking" : 6.33, 
+            "code" : 6.55
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 60, "name" : "高斯消元"}
+        ]
     }
 ]
