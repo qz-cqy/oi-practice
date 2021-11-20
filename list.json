@@ -2621,5 +2621,57 @@
             {"id" : 16, "name" : "数学"}, 
             {"id" : 60, "name" : "高斯消元"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf242e", "href" : "https://codeforces.com/problemset/problem/242/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF242E"}
+        ], 
+        "name" : "XOR on Segment", 
+        "record" : null, 
+        "time" : "2021-11-17 18:20:26", 
+        "difficulty" : {
+            "algorithm" : 6.86, 
+            "thinking" : 6.94, 
+            "code" : 6.75
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7077", "href" : "https://www.luogu.com.cn/problem/P7077"}
+        ], 
+        "name" : "[CSP2020S]函数调用", 
+        "record" : null, 
+        "time" : "2021-11-17 19:35:07", 
+        "difficulty" : {
+            "algorithm" : 6.54, 
+            "thinking" : 7.43, 
+            "code" : 6.86
+        }, 
+        "tags" : [
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 61, "name" : "拓扑排序"}, 
+            {"id" : 1004, "name" : "NOIP提高"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7947", "href" : "https://www.luogu.com.cn/problem/P7947"}
+        ], 
+        "name" : "[✗✓OI R1] 铝锤制作", 
+        "record" : null, 
+        "time" : "2021-11-17 20:05:19", 
+        "difficulty" : {
+            "algorithm" : 4.34, 
+            "thinking" : 4.66, 
+            "code" : 4.65
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
     }
 ]
