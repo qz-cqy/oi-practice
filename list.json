@@ -2801,5 +2801,208 @@
             {"id" : 16, "name" : "数学"}, 
             {"id" : 62, "name" : "线性基"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1009d", "href" : "https://codeforces.com/problemset/problem/1009/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1009D"}
+        ], 
+        "name" : "Relatively Prime Graph", 
+        "record" : null, 
+        "time" : "2021-11-27 18:49:33", 
+        "difficulty" : {
+            "algorithm" : 5.47, 
+            "thinking" : 5.23, 
+            "code" : 5.33
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf27e", "href" : "https://codeforces.com/problemset/problem/27/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF27E"}
+        ], 
+        "name" : "Number With The Given Amount Of Divisors", 
+        "record" : null, 
+        "time" : "2021-11-27 19:01:54", 
+        "difficulty" : {
+            "algorithm" : 6.12, 
+            "thinking" : 6.55, 
+            "code" : 6.17
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 12, "name" : "搜索"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf486b", "href" : "https://codeforces.com/problemset/problem/486/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF486B"}
+        ], 
+        "name" : "OR in Matrix", 
+        "record" : null, 
+        "time" : "2021-11-28 11:32:48", 
+        "difficulty" : {
+            "algorithm" : 4.75, 
+            "thinking" : 5.88, 
+            "code" : 5.64
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf258a", "href" : "https://codeforces.com/problemset/problem/258/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF258A"}
+        ], 
+        "name" : "Little Elephant and Bits", 
+        "record" : null, 
+        "time" : "2021-11-28 13:27:04", 
+        "difficulty" : {
+            "algorithm" : 4.21, 
+            "thinking" : 4.02, 
+            "code" : 3.88
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1100f", "href" : "https://codeforces.com/problemset/problem/1100/F"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1100F"}
+        ], 
+        "name" : "Ivan and Burgers", 
+        "record" : null, 
+        "time" : "2021-11-30 21:10:00", 
+        "difficulty" : {
+            "algorithm" : 7.75, 
+            "thinking" : 8.22, 
+            "code" : 7.84
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf959f", "href" : "https://codeforces.com/problemset/problem/959/F"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF959F"}
+        ], 
+        "name" : "Mahmoud and Ehab and yet another xor task", 
+        "record" : null, 
+        "time" : "2021-11-30 21:37:41", 
+        "difficulty" : {
+            "algorithm" : 7.29, 
+            "thinking" : 7.33, 
+            "code" : 6.45
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3375", "href" : "https://www.luogu.com.cn/problem/P3375"}
+        ], 
+        "name" : "KMP 字符串匹配", 
+        "record" : null, 
+        "time" : "2021-12-03 12:09:32", 
+        "difficulty" : {
+            "algorithm" : 5.32, 
+            "thinking" : 5.66, 
+            "code" : 5.11
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 29, "name" : "KMP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5410", "href" : "https://www.luogu.com.cn/problem/P5410"}
+        ], 
+        "name" : "扩展 KMP（Z 函数）", 
+        "record" : null, 
+        "time" : "2021-12-04 22:35:13", 
+        "difficulty" : {
+            "algorithm" : 9.22, 
+            "thinking" : 9.12, 
+            "code" : 8.33
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 29, "name" : "KMP"}, 
+            {"id" : 63, "name" : "扩展KMP/Z算法"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3435", "href" : "https://www.luogu.com.cn/problem/P3435"}
+        ], 
+        "name" : "[POI2006]OKR-Periods of Words", 
+        "record" : null, 
+        "time" : "2021-12-04 22:47:57", 
+        "difficulty" : {
+            "algorithm" : 5.89, 
+            "thinking" : 6.11, 
+            "code" : 5.34
+        }, 
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 29, "name" : "KMP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3808", "href" : "https://www.luogu.com.cn/problem/P3808"}
+        ], 
+        "name" : "AC 自动机 1", 
+        "record" : null, 
+        "time" : "2021-12-05 10:19:49", 
+        "difficulty" : {
+            "algorithm" : 8.12, 
+            "thinking" : 8.12, 
+            "code" : 7.85
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 65, "name" : "自动机"}, 
+            {"id" : 66, "name" : "AC自动机"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3796", "href" : "https://www.luogu.com.cn/problem/P3796"}
+        ], 
+        "name" : "AC 自动机 2", 
+        "record" : null, 
+        "time" : "2021-12-05 11:24:56", 
+        "difficulty" : {
+            "algorithm" : 8.12, 
+            "thinking" : 8.21, 
+            "code" : 7.88
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 65, "name" : "自动机"}, 
+            {"id" : 66, "name" : "AC自动机"}
+        ]
     }
 ]
