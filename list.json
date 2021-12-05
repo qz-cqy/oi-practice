@@ -289,7 +289,7 @@
             {"id" : "loj3526", "href" : "https://loj.ac/p/3526"}, 
             {"id" : "uoj663", "href" : "https://uoj.ac/problem/663"}
         ],
-        "name" : "[IOI2021] dna",
+        "name" : "[IOI2021]dna",
         "record" : "https://www.cnblogs.com/ruierqwq/p/ioi2021-d2t1.html",
         "time" : "2021-08-05 23:58:21",
         "difficulty" : {
@@ -2183,7 +2183,7 @@
         "href" : [
             {"id" : "lg7917", "href" : "https://www.luogu.com.cn/problem/P7917"}
         ], 
-        "name" : "[Kubic] Addition", 
+        "name" : "[Kubic]Addition", 
         "record" : null, 
         "time" : "2021-11-02 15:34:08", 
         "difficulty" : {
@@ -2200,7 +2200,7 @@
         "href" : [
             {"id" : "lg7918", "href" : "https://www.luogu.com.cn/problem/P7918"}
         ], 
-        "name" : "[Kubic] Lines", 
+        "name" : "[Kubic]Lines", 
         "record" : null, 
         "time" : "2021-11-04 19:18:11", 
         "difficulty" : {
@@ -2217,7 +2217,7 @@
         "href" : [
             {"id" : "lg6492", "href" : "https://www.luogu.com.cn/problem/P6492"}
         ], 
-        "name" : "[COCI2010-2011#6] STEP", 
+        "name" : "[COCI2010-2011#6]STEP", 
         "record" : null, 
         "time" : "2021-11-04 19:31:20", 
         "difficulty" : {
@@ -2661,7 +2661,7 @@
         "href" : [
             {"id" : "lg7947", "href" : "https://www.luogu.com.cn/problem/P7947"}
         ], 
-        "name" : "[✗✓OI R1] 铝锤制作", 
+        "name" : "[✗✓OI R1]铝锤制作", 
         "record" : null, 
         "time" : "2021-11-17 20:05:19", 
         "difficulty" : {
@@ -2672,6 +2672,134 @@
         "tags" : [
             {"id" : 11, "name" : "构造"}, 
             {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg7960", "href" : "https://www.luogu.com.cn/problem/P7960"}
+        ], 
+        "name" : "[NOIP2021]报数", 
+        "record" : null, 
+        "time" : "2021-11-20 18:01:38", 
+        "difficulty" : {
+            "algorithm" : 5.12, 
+            "thinking" : 5.32, 
+            "code" : 5.21
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 1004, "name" : "NOIP提高"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3812", "href" : "https://www.luogu.com.cn/problem/P3812"}
+        ], 
+        "name" : "线性基", 
+        "record" : null, 
+        "time" : "2021-11-24 12:07:06", 
+        "difficulty" : {
+            "algorithm" : 7.02, 
+            "thinking" : 6.85, 
+            "code" : 6.22
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5607", "href" : "https://www.luogu.com.cn/problem/P5607"}
+        ], 
+        "name" : "[Ynoi2013]无力回天 NOI2017", 
+        "record" : null, 
+        "time" : "2021-11-24 12:25:57", 
+        "difficulty" : {
+            "algorithm" : 7.82, 
+            "thinking" : 8.33, 
+            "code" : 8.23
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4151", "href" : "https://www.luogu.com.cn/problem/P4151"}
+        ], 
+        "name" : "[WC2011]最大XOR和路径", 
+        "record" : null, 
+        "time" : "2021-11-25 20:44:56", 
+        "difficulty" : {
+            "algorithm" : 7.34, 
+            "thinking" : 7.69, 
+            "code" : 7.53
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 62, "name" : "线性基"}, 
+            {"id" : 1001, "name" : "NOI冬令营"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf845g", "href" : "https://codeforces.com/problemset/problem/845/G"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF845G"}
+        ], 
+        "name" : "Shortest Path Problem?", 
+        "record" : null, 
+        "time" : "2021-11-27 16:25:36", 
+        "difficulty" : {
+            "algorithm" : 7.34, 
+            "thinking" : 7.69, 
+            "code" : 7.53
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4839", "href" : "https://www.luogu.com.cn/problem/P4839"}
+        ], 
+        "name" : "P哥的桶", 
+        "record" : null, 
+        "time" : "2021-11-27 17:24:20", 
+        "difficulty" : {
+            "algorithm" : 7.53, 
+            "thinking" : 7.65, 
+            "code" : 7.86
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf895c", "href" : "https://codeforces.com/problemset/problem/895/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF895C"}
+        ], 
+        "name" : "Square Subsets", 
+        "record" : null, 
+        "time" : "2021-11-27 18:04:23", 
+        "difficulty" : {
+            "algorithm" : 7.58, 
+            "thinking" : 7.94, 
+            "code" : 7.64
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 62, "name" : "线性基"}
         ]
     }
 ]
