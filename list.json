@@ -2789,7 +2789,7 @@
             {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF895C"}
         ], 
         "name" : "Square Subsets", 
-        "record" : null, 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/cf-895c.html", 
         "time" : "2021-11-27 18:04:23", 
         "difficulty" : {
             "algorithm" : 7.58, 
