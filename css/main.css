@@ -69,3 +69,10 @@ a.btn {
     padding-bottom: 4px !important;
     transition: all .15s !important;
 }
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
