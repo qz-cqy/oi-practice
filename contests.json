@@ -1494,6 +1494,24 @@
         "performance" : 1951
     }, 
     {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #757 (Div. 2)", 
+        "id" : "1614", 
+        "time" : "2021-11-26", 
+        "class" : "div2", 
+        "virtual" : false, 
+        "rated" : false, 
+        "team" : 0, 
+        "rank" : 1153, 
+        "solved" : 3, 
+        "ak" : false, 
+        "delta" : null, 
+        "old-rating" : null, 
+        "new-rating" : null, 
+        "performance" : 1664
+    }, 
+    {
         "oj" : "AtCoder", 
         "account" : "rui_er", 
         "name" : "NEC Programming Contest 2021(AtCoder Beginner Contest 229)", 
@@ -1546,5 +1564,41 @@
         "old-rating" : 1872, 
         "new-rating" : 1884, 
         "performance" : 1977
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #758 (Div.1 + Div. 2)", 
+        "id" : "1608", 
+        "time" : "2021-12-11", 
+        "class" : "glb", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 293, 
+        "solved" : 3, 
+        "ak" : false, 
+        "delta" : "+26", 
+        "old-rating" : 2190, 
+        "new-rating" : 2216, 
+        "performance" : 2252
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "THIRD PROGRAMMING CONTEST 2021 （AtCoder Heuristic Contest 007）", 
+        "id" : "ahc007", 
+        "time" : "2021-12-12", 
+        "class" : "ahc", 
+        "virtual" : false, 
+        "rated" : "β", 
+        "team" : 0, 
+        "rank" : 423, 
+        "solved" : 1, 
+        "ak" : true, 
+        "delta" : "+168(β)", 
+        "old-rating" : 606, 
+        "new-rating" : 774, 
+        "performance" : 1218
     }
 ]
