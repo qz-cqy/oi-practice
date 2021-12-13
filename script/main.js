@@ -13,13 +13,13 @@ function qpow(x, y) {
     return ans;
 }
 function setStyle(name, stylename, styleval) {
-    $(name).style[stylename] = styleval;
+    document.getElementsByTagName(name)[0].style[stylename] = styleval;
 }
 (function () {
     var date = new Date();
     var month = date.getMonth() + 1;
     var day = date.getDate();
-    if(month == 12 && day == 13) {
+    if((month == 9 && day == 18) || (month == 12 && day == 13)) {
         setStyle("html", "-webkit-filter", "grayscale(100%)");
         setStyle("html", "-moz-filter", "grayscale(100%)");
         setStyle("html", "-ms-filter", "grayscale(100%)");
