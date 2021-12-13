@@ -3045,5 +3045,97 @@
             {"id" : 65, "name" : "自动机"}, 
             {"id" : 66, "name" : "AC自动机"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf803g", "href" : "https://codeforces.com/problemset/problem/803/G"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF803G"}
+        ], 
+        "name" : "Periodic RMQ Problem", 
+        "record" : null, 
+        "time" : "2021-12-12 09:52:35", 
+        "difficulty" : {
+            "algorithm" : 7.64, 
+            "thinking" : 8.33, 
+            "code" : 8.01
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 67, "name" : "ST表"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf792d", "href" : "https://codeforces.com/problemset/problem/792/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF792D"}
+        ], 
+        "name" : "Paths in a Complete Binary Tree", 
+        "record" : null, 
+        "time" : "2021-12-12 11:07:44", 
+        "difficulty" : {
+            "algorithm" : 4.23, 
+            "thinking" : 5.02, 
+            "code" : 5.11
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3605", "href" : "https://www.luogu.com.cn/problem/P3605"}
+        ], 
+        "name" : "[USACO17JAN]Promotion Counting P", 
+        "record" : null, 
+        "time" : "2021-12-12 15:06:31", 
+        "difficulty" : {
+            "algorithm" : 8.55, 
+            "thinking" : 8.61, 
+            "code" : 8.17
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 68, "name" : "线段树合并"}, 
+            {"id" : 1008, "name" : "USACO-P"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3224", "href" : "https://www.luogu.com.cn/problem/P3224"}
+        ], 
+        "name" : "[HNOI2012]永无乡", 
+        "record" : null, 
+        "time" : "2021-12-12 18:32:26", 
+        "difficulty" : {
+            "algorithm" : 8.55, 
+            "thinking" : 8.73, 
+            "code" : 8.18
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 68, "name" : "线段树合并"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2005, "name" : "湖南"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4197", "href" : "https://www.luogu.com.cn/problem/P4197"}
+        ], 
+        "name" : "Peaks", 
+        "record" : null, 
+        "time" : "2021-12-13 21:43:40", 
+        "difficulty" : {
+            "algorithm" : 8.55, 
+            "thinking" : 8.86, 
+            "code" : 8.32
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 68, "name" : "线段树合并"}
+        ]
     }
 ]
