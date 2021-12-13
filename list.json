@@ -3004,5 +3004,46 @@
             {"id" : 65, "name" : "自动机"}, 
             {"id" : 66, "name" : "AC自动机"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3966", "href" : "https://www.luogu.com.cn/problem/P3966"}
+        ], 
+        "name" : "[TJOI2013]单词", 
+        "record" : null, 
+        "time" : "2021-12-05 22:33:53", 
+        "difficulty" : {
+            "algorithm" : 8.31, 
+            "thinking" : 8.33, 
+            "code" : 7.95
+        }, 
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 65, "name" : "自动机"}, 
+            {"id" : 66, "name" : "AC自动机"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2000, "name" : "天津"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2444", "href" : "https://www.luogu.com.cn/problem/P2444"}
+        ], 
+        "name" : "[POI2000]病毒", 
+        "record" : null, 
+        "time" : "2021-12-05 22:48:16", 
+        "difficulty" : {
+            "algorithm" : 8.34, 
+            "thinking" : 8.53, 
+            "code" : 8.11
+        }, 
+        "tags" : [
+            {"id" : 12, "name" : "搜索"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 65, "name" : "自动机"}, 
+            {"id" : 66, "name" : "AC自动机"}
+        ]
     }
 ]
