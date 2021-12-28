@@ -3137,5 +3137,78 @@
             {"id" : 44, "name" : "树/图论"}, 
             {"id" : 68, "name" : "线段树合并"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2341", "href" : "https://www.luogu.com.cn/problem/P2341"}
+        ], 
+        "name" : "[USACO03FALL][HAOI2006]受欢迎的牛 G", 
+        "record" : null, 
+        "time" : "2021-12-17 12:10:52", 
+        "difficulty" : {
+            "algorithm" : 7.86, 
+            "thinking" : 6.99, 
+            "code" : 6.85
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 69, "name" : "连通性"}, 
+            {"id" : 70, "name" : "Tarjan"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 1007, "name" : "USACO-G"}, 
+            {"id" : 2001, "name" : "河南"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3388", "href" : "https://www.luogu.com.cn/problem/P3388"}
+        ], 
+        "name" : "割点", 
+        "record" : null, 
+        "time" : "2021-12-19 11:16:04", 
+        "difficulty" : {
+            "algorithm" : 7.89, 
+            "thinking" : 7.01, 
+            "code" : 6.63
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 69, "name" : "连通性"}, 
+            {"id" : 70, "name" : "Tarjan"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lgteam", "href" : "https://www.luogu.com.cn/problem/T214983"}
+        ], 
+        "name" : "集合查询1", 
+        "record" : null, 
+        "time" : "2021-12-20 12:47:42", 
+        "difficulty" : {
+            "algorithm" : 6.75, 
+            "thinking" : 6.84, 
+            "code" : 6.95
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4168", "href" : "https://www.luogu.com.cn/problem/P4168"}
+        ], 
+        "name" : "[Violet]蒲公英", 
+        "record" : null, 
+        "time" : "2021-12-22 13:01:44", 
+        "difficulty" : {
+            "algorithm" : 7.33, 
+            "thinking" : 7.65, 
+            "code" : 7.23
+        }, 
+        "tags" : [
+            {"id" : 46, "name" : "分块"}
+        ]
     }
 ]
