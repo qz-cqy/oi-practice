@@ -3210,5 +3210,43 @@
         "tags" : [
             {"id" : 46, "name" : "分块"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3376", "href" : "https://www.luogu.com.cn/problem/P3376"}
+        ], 
+        "name" : "网络最大流", 
+        "record" : null, 
+        "time" : "2021-12-23 20:59:34", 
+        "difficulty" : {
+            "algorithm" : 8.44, 
+            "thinking" : 7.03, 
+            "code" : 8.02
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 27, "name" : "网络流"}, 
+            {"id" : 28, "name" : "最大流"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3899", "href" : "https://www.luogu.com.cn/problem/P3899"}
+        ], 
+        "name" : "[湖南集训]更为厉害", 
+        "record" : null, 
+        "time" : "2021-12-24 12:45:50", 
+        "difficulty" : {
+            "algorithm" : 8.75, 
+            "thinking" : 8.97, 
+            "code" : 8.56
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 71, "name" : "主席树"}, 
+            {"id" : 2005, "name" : "湖南"}
+        ]
     }
 ]
