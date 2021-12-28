@@ -1600,5 +1600,23 @@
         "old-rating" : 606, 
         "new-rating" : 774, 
         "performance" : 1218
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Global Round 18", 
+        "id" : "1615", 
+        "time" : "2021-12-24", 
+        "class" : "glb", 
+        "virtual" : false, 
+        "rated" : true, 
+        "team" : 0, 
+        "rank" : 694, 
+        "solved" : 3, 
+        "ak" : false, 
+        "delta" : "-26", 
+        "old-rating" : 2216, 
+        "new-rating" : 2190, 
+        "performance" : 2092
     }
 ]
