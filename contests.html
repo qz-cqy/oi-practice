@@ -81,7 +81,7 @@
                         if(json[x]['class'] == 'gym') qaq = `https://www.codeforces.com/gym/${json[x]['id']}`;
                         else qaq = `https://www.codeforces.com/contest/${json[x]['id']}`;
                         var cls = ``;
-                        if(rated == true) cls = `${json[x]['class']}`;
+                        if(json[x]['official'] == true) cls = `${json[x]['class']}`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
                         var perf = `${getCFUserShortLevel(getCFLevel(rated, json[x]['performance']), json[x]['performance'])}`;
@@ -105,8 +105,8 @@
                         var qwq = ``;
                         qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(rated, json[x]['old-rating']), json[x]['account'])}</a>`;
                         var cls = ``;
-                        if(rated == true) cls = `${json[x]['class']}`;
-                        else if(rated == 'β') cls = `${json[x]['class']}β`;
+                        if(json[x]['official'] == true) cls = `${json[x]['class']}`;
+                        else if(json[x]['official'] == 'β') cls = `${json[x]['class']}β`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
                         var perf = `${getATUserShortLevel(getATLevel(rated, json[x]['performance']), json[x]['performance'])}`;
