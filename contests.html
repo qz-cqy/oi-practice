@@ -20,6 +20,8 @@
         if(only_at != 1) only_at = 0;
         var only_rated = parseInt(getQueryVariable('only-rated'));
         if(only_rated != 1) only_rated = 0;
+        var only_official = parseInt(getQueryVariable('only-official'));
+        if (only_official != 1) only_official = 0;
         var only_virtual = parseInt(getQueryVariable('only-virtual'));
         if(only_virtual != 1) only_virtual = 0;
         var only_unrated = parseInt(getQueryVariable('only-unrated'));
@@ -60,64 +62,67 @@
                 var shown = 0;
                 console.log("from", from, "to", to);
                 for (var x = to; x >= from; x--) {
+                    var rated = false;
+                    if(json[x]['delta'] != null) rated = true;
                     if(only_cf == 1 && json[x]['oj'] != 'CodeForces') continue;
                     if(only_at == 1 && json[x]['oj'] != 'AtCoder') continue;
-                    if(only_rated == 1 && json[x]['rated'] != true) continue;
+                    if(only_rated == 1 && json[x]['delta'] == null) continue;
+                    if(only_official == 1 && json[x]['official'] != true) continue;
                     if(only_virtual == 1 && json[x]['virtual'] != true) continue;
-                    if(only_unrated == 1 && json[x]['virtual'] != false && json[x]['rated'] != false) continue;
+                    if(only_unrated == 1 && json[x]['virtual'] != false && rated != false) continue;
                     if(only_ak == 1 && json[x]['ak'] != true) continue;
                     if(only_rui_er == 1 && json[x]['account'].search("rui_er") == -1) continue;
                     console.log(x, json[x]);
                     if (json[x]['oj'] == 'CodeForces') {
                         var qwq = ``;
-                        if(json[x]['team'] == 0) qwq = `<a href="https://www.codeforces.com/profile/${json[x]['account']}">${getCFUser2(getCFLevel(json[x]['rated'], json[x]['old-rating']), json[x]['account'])}</a>`;
-                        else qwq = `<a href="https://codeforces.com/team/${json[x]['team']}">${getCFUser2(getCFLevel(json[x]['rated'], json[x]['old-rating']), json[x]['account'])}</a>`;
+                        if(json[x]['team'] == 0) qwq = `<a href="https://www.codeforces.com/profile/${json[x]['account']}">${getCFUser2(getCFLevel(rated, json[x]['old-rating']), json[x]['account'])}</a>`;
+                        else qwq = `<a href="https://codeforces.com/team/${json[x]['team']}">${getCFUser2(getCFLevel(rated, json[x]['old-rating']), json[x]['account'])}</a>`;
                         var qaq = ``;
                         if(json[x]['class'] == 'gym') qaq = `https://www.codeforces.com/gym/${json[x]['id']}`;
                         else qaq = `https://www.codeforces.com/contest/${json[x]['id']}`;
                         var cls = ``;
-                        if(json[x]['rated'] == true) cls = `${json[x]['class']}`;
+                        if(rated == true) cls = `${json[x]['class']}`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
-                        var perf = `${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}`;
+                        var perf = `${getCFUserShortLevel(getCFLevel(rated, json[x]['performance']), json[x]['performance'])}`;
                         if(topPerfCF(json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
-                                <td><a href="${qaq}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated'])}</a></td>
+                                <td><a href="${qaq}">${getContest(json[x]['name'], json[x]['virtual'], rated)}</a></td>
                                 <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${perf}</td>
                                 <td>${getCFDelta(json[x]['delta'])}</td>
-                                <td>${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['old-rating']), json[x]['old-rating'])}→${getCFUserShortLevel(getCFLevel(json[x]['rated'], json[x]['new-rating']), json[x]['new-rating'])}</td>
+                                <td>${getCFUserShortLevel(getCFLevel(rated, json[x]['old-rating']), json[x]['old-rating'])}→${getCFUserShortLevel(getCFLevel(rated, json[x]['new-rating']), json[x]['new-rating'])}</td>
                             </tr>
                         `;
                     }
                     else {
                         var qwq = ``;
-                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(json[x]['rated'], json[x]['old-rating']), json[x]['account'])}</a>`;
+                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(rated, json[x]['old-rating']), json[x]['account'])}</a>`;
                         var cls = ``;
-                        if(json[x]['rated'] == true) cls = `${json[x]['class']}`;
-                        else if(json[x]['rated'] == 'β') cls = `${json[x]['class']}β`;
+                        if(rated == true) cls = `${json[x]['class']}`;
+                        else if(rated == 'β') cls = `${json[x]['class']}β`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
-                        var perf = `${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['performance']), json[x]['performance'])}`;
+                        var perf = `${getATUserShortLevel(getATLevel(rated, json[x]['performance']), json[x]['performance'])}`;
                         if(topPerfAT(json[x]['rank'], json[x]['class'], json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
-                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], json[x]['rated']==true?true:false)}</a></td>
+                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], rated==true?true:false)}</a></td>
                                 <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${perf}</td>
                                 <td>${getATDelta(json[x]['delta'])}</td>
-                                <td>${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['old-rating']), json[x]['old-rating'])}→${getATUserShortLevel(getATLevel(json[x]['rated'], json[x]['new-rating']), json[x]['new-rating'])}</td>
+                                <td>${getATUserShortLevel(getATLevel(rated, json[x]['old-rating']), json[x]['old-rating'])}→${getATUserShortLevel(getATLevel(rated, json[x]['new-rating']), json[x]['new-rating'])}</td>
                             </tr>
                         `;
                     }
