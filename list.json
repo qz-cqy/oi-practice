@@ -3342,5 +3342,65 @@
             {"id" : 16, "name" : "数学"}, 
             {"id" : 10000, "name" : "交互题"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf888g", "href" : "https://codeforces.com/problemset/problem/888/G"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF888G"}
+        ], 
+        "name" : "Xor-MST", 
+        "record" : null, 
+        "time" : "2021-12-25 15:14:30", 
+        "difficulty" : {
+            "algorithm" : 8.65, 
+            "thinking" : 9.22, 
+            "code" : 8.68
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 72, "name" : "生成树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf652e", "href" : "https://codeforces.com/problemset/problem/652/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF652E"}
+        ], 
+        "name" : "Pursuit For Artifacts", 
+        "record" : null, 
+        "time" : "2021-12-25 15:45:14", 
+        "difficulty" : {
+            "algorithm" : 8.43, 
+            "thinking" : 8.76, 
+            "code" : 8.86
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 69, "name" : "连通性"}, 
+            {"id" : 70, "name" : "Tarjan"}, 
+            {"id" : 73, "name" : "缩点"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf797d", "href" : "https://codeforces.com/problemset/problem/797/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF797D"}
+        ], 
+        "name" : "Broken BST", 
+        "record" : null, 
+        "time" : "2021-12-27 12:31:55", 
+        "difficulty" : {
+            "algorithm" : 5.75, 
+            "thinking" : 6.21, 
+            "code" : 5.44
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 44, "name" : "树/图论"}
+        ]
     }
 ]
