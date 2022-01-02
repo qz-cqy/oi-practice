@@ -3589,5 +3589,22 @@
             {"id" : 75, "name" : "费用流"}, 
             {"id" : 1013, "name" : "网络流24题"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf527c", "href" : "https://codeforces.com/problemset/problem/527/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF527C"}
+        ], 
+        "name" : "Glass Carving", 
+        "record" : null, 
+        "time" : "2022-01-02 22:08:45", 
+        "difficulty" : {
+            "algorithm" : 5.93, 
+            "thinking" : 6.34, 
+            "code" : 5.82
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
