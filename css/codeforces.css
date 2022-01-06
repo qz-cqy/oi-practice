@@ -10,6 +10,9 @@
 .newbie, .zero, .negative {
     color: #808080 !important;
 }
+.high-newbie {
+    color: #88cc22 !important;
+}
 .pupil, .positive {
     color: #008000 !important;
 }
@@ -22,11 +25,17 @@
 .candidate-master {
     color: #aa00aa !important;
 }
-.master, .international-master {
+.master, .international-master, .international-master2 {
     color: #ff8c00 !important;
 }
-.grandmaster, .international-grandmaster, .legendary-grandmaster {
+.grandmaster, .international-grandmaster, .international-grandmaster2, .legendary-grandmaster {
     color: #ff0000 !important;
+}
+.international-master2:first-letter {
+    color: #ff0000 !important;
+}
+.international-grandmaster2:first-letter {
+    color: #ff00ff !important;
 }
 .legendary-grandmaster:first-letter {
     color: #000000 !important;

@@ -20,6 +20,8 @@
         if (only_at != 1) only_at = 0;
         var only_rui_er = parseInt(getQueryVariable('only-rui_er'));
         if (only_rui_er != 0) only_rui_er = 1;
+        var type = parseInt(getQueryVariable('type'));
+        if (type != 0) type = 1;
         /* generating table */
         var url = "accounts.json";
         var request = new XMLHttpRequest();
@@ -59,10 +61,10 @@
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
-                                <td><a href="https://www.codeforces.com/profile/${json[x]['username']}">${getCFUser2(getCFLevel(true, json[x]['rating']), json[x]['username'])}</a></td>
+                                <td><a href="https://www.codeforces.com/profile/${json[x]['username']}">${getCFUser2(getCFLevel(true, json[x]['rating']), json[x]['rating'], json[x]['username'], type)}</a></td>
                                 <td>${json[x]['affiliation']}</td>
-                                <td>${getCFUser(getCFLevel(true, json[x]['rating']), json[x]['rating'])}</td>
-                                <td>${getCFUser(getCFLevel(true, json[x]['max-rating']), json[x]['max-rating'])}</td>
+                                <td>${getCFUser(getCFLevel(true, json[x]['rating']), json[x]['rating'], type)}</td>
+                                <td>${getCFUser(getCFLevel(true, json[x]['max-rating']), json[x]['max-rating'], type)}</td>
                                 <td>${getCFDelta(json[x]['contribution'])}</td>
                                 <td>${json[x]['rated-matches']}</td>
                                 <td>${showNA()}</td>
@@ -96,6 +98,7 @@
                     <p>总记录数：<strong>${to - from + 1}</strong></p>
                     <p>已显示记录数：<strong>${shown}</strong></p>
                     <p>可以使用 ?only-cf(0/1, default: 0)、?only-at(0/1, default: 0)、?only-rui_er(0/1, default: 1) 来限制页面显示范围。</p>
+                    <p>默认使用改进版颜色（1000~1199N、IM、IGM 的显示不同），若希望显示 CF 原来的颜色，请加上 ?type=0。</p>
                     <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
                     `;
             }
