@@ -27,10 +27,10 @@ function getCFUserShortLevel(level, rating, type) { // user rating
     if (level == 'E') return `<span class='rated expert'>E${rating}</span>`;
     if (level == 'CM') return `<span class='rated candidate-master'>CM${rating}</span>`;
     if (level == 'M') return `<span class='rated master'>M${rating}</span>`;
-    if (type == 1 && level == 'IM') return `<p class='rated international-master2'>International Master, ${rating}</p>`;
+    if (type == 1 && level == 'IM') return `<p class='rated international-master2'>IM${rating}</p>`;
     if (level == 'IM') return `<span class='rated international-master'>IM${rating}</span>`;
     if (level == 'GM') return `<span class='rated grandmaster'>GM${rating}</span>`;
-    if (type == 1 && level == 'IGM') return `<p class='rated international-grandmaster2'>International Grandmaster, ${rating}</p>`;
+    if (type == 1 && level == 'IGM') return `<p class='rated international-grandmaster2'>IGM${rating}</p>`;
     if (level == 'IGM') return `<span class='rated international-grandmaster'>IGM${rating}</span>`;
     if (level == 'LGM') return `<span class='rated legendary-grandmaster'>LGM${rating}</span>`;
     return `<span class='rated headquarters'>HQ${rating}</span>`;
@@ -48,7 +48,7 @@ function getCFUser2(level, rating, name, type) { // user rating
     if (type == 1 && level == 'IM') return `<p class='rated international-master2'>${name}</p>`;
     if (level == 'IM') return `<p class='rated international-master'>${name}</p>`;
     if (level == 'GM') return `<p class='rated grandmaster'>${name}</p>`;
-    if (type == 1 && level == 'IGM') return `<p class='rated international-grandmaster2'>International Grandmaster, ${name}</p>`;
+    if (type == 1 && level == 'IGM') return `<p class='rated international-grandmaster2'>${name}</p>`;
     if (level == 'IGM') return `<p class='rated international-grandmaster'>${name}</p>`;
     if (level == 'LGM') return `<p class='rated legendary-grandmaster'>${name}</p>`;
     return `<p class='rated headquarters'>${name}</p>`;
