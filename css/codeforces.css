@@ -42,6 +42,8 @@
 }
 .head-quarters {
     color: #000000 !important;
+    display: inline-block;
+    font-weight: 700;
 }
 .positive, .zero, .negative {
     font-weight: bold;

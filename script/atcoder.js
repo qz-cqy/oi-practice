@@ -7,6 +7,9 @@ function getATUser(level, rating) {
     if(level == 'K') { // king
         return `<p class='user red'>King, ${rating}</p>`;
     }
+    if(level == "L") { // legend
+        return `<p class='user red'>Legend, ${rating}</p>`;
+    }
     var lv_arr = level.match(/KYU/ig);
     if(lv_arr != null) { // is KYU
         var num_arr = level.match(/\d+/g);
@@ -34,6 +37,9 @@ function getATUserShortLevel(level, rating) {
     if(level == 'K') { // king
         return `<span class='user red'>K${rating}</span>`;
     }
+    if(level == "L") { // legend
+        return `<p class='user red'>L${rating}</p>`;
+    }
     var lv_arr = level.match(/KYU/ig);
     if(lv_arr != null) { // is KYU
         var num_arr = level.match(/\d+/g);
@@ -59,6 +65,9 @@ function getATUser2(level, name) {
         return `<p class='user at-unrated'>${name}</p>`;
     }
     if(level == 'K') { // king
+        return `<p class='user red'>${name}</p>`;
+    }
+    if(level == "L") { // legend
         return `<p class='user red'>${name}</p>`;
     }
     var lv_arr = level.match(/KYU/ig);
@@ -93,7 +102,8 @@ function getATLevel(rated, rating) {
     if (rated == false) return null;
     if (rated == 'β') return `β`;
     if (rating == null) return `U`;
-    if (rating >= 4000) return `11 DAN`;
+    if (rating >= 4200) return `KING`;
+    if (rating >= 4000) return `LEGEND`;
     if (rating >= 3800) return `10 DAN`;
     if (rating >= 3600) return `9 DAN`;
     if (rating >= 3400) return `8 DAN`;
