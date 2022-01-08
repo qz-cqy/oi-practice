@@ -3246,6 +3246,7 @@
             {"id" : 8, "name" : "线段树"}, 
             {"id" : 44, "name" : "树/图论"}, 
             {"id" : 71, "name" : "主席树"}, 
+            {"id" : 77, "name" : "可持久化"}, 
             {"id" : 2005, "name" : "湖南"}
         ]
     }, 
@@ -3623,6 +3624,195 @@
             {"id" : 44, "name" : "树/图论"},
             {"id" : 58, "name" : "最短路径"}, 
             {"id" : 76, "name" : "分层图"}, 
+            {"id" : 1013, "name" : "网络流24题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf797e", "href" : "https://codeforces.com/problemset/problem/797/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF797E"}
+        ], 
+        "name" : "Array Queries", 
+        "record" : null, 
+        "time" : "2022-01-06 19:31:44", 
+        "difficulty" : {
+            "algorithm" : 8.05, 
+            "thinking" : 7.22, 
+            "code" : 7.11
+        }, 
+        "tags" : [
+            {"id" : 2, "name" : "分治"}, 
+            {"id" : 3, "name" : "根号分治"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf505e", "href" : "https://codeforces.com/problemset/problem/505/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF505E"}
+        ], 
+        "name" : "Mr. Kitayuta vs. Bamboos", 
+        "record" : null, 
+        "time" : "2022-01-08 13:04:53", 
+        "difficulty" : {
+            "algorithm" : 7.25, 
+            "thinking" : 9.03, 
+            "code" : 7.33
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 22, "name" : "二分法"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "sp-FAVDICE", "href" : "https://www.spoj.com/problems/FAVDICE"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/SP1026"}
+        ], 
+        "name" : "Favorite Dice", 
+        "record" : null, 
+        "time" : "2022-01-08 13:15:43", 
+        "difficulty" : {
+            "algorithm" : 6.33, 
+            "thinking" : 5.84, 
+            "code" : 4.77
+        }, 
+        "tags" : [
+            {"id" : 10, "name" : "概率期望"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf482b", "href" : "https://codeforces.com/problemset/problem/482/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF482B"}
+        ], 
+        "name" : "Interesting Array", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/cf-482b.html", 
+        "time" : "2022-01-08 16:45:27", 
+        "difficulty" : {
+            "algorithm" : 6.64, 
+            "thinking" : 6.77, 
+            "code" : 6.78
+        }, 
+        "tags" : [ 
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 20, "name" : "位运算"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf380c", "href" : "https://codeforces.com/problemset/problem/380/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF380C"}
+        ], 
+        "name" : "Sereja and Brackets", 
+        "record" : null, 
+        "time" : "2022-01-08 17:48:35", 
+        "difficulty" : {
+            "algorithm" : 6.68, 
+            "thinking" : 7.02, 
+            "code" : 6.79
+        }, 
+        "tags" : [ 
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf323c", "href" : "https://codeforces.com/problemset/problem/323/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF323C"}
+        ], 
+        "name" : "Two permutations", 
+        "record" : null, 
+        "time" : "2022-01-08 18:08:12", 
+        "difficulty" : {
+            "algorithm" : 8.65, 
+            "thinking" : 7.24, 
+            "code" : 7.44
+        }, 
+        "tags" : [ 
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 71, "name" : "主席树"}, 
+            {"id" : 77, "name" : "可持久化"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4011", "href" : "https://www.luogu.com.cn/problem/P4011"}
+        ], 
+        "name" : "孤岛营救问题", 
+        "record" : null, 
+        "time" : "2022-01-08 19:06:16", 
+        "difficulty" : {
+            "algorithm" : 6.85, 
+            "thinking" : 7.66, 
+            "code" : 7.45
+        }, 
+        "tags" : [
+            {"id" : 41, "name" : "状态压缩"}, 
+            {"id" : 44, "name" : "树/图论"},
+            {"id" : 58, "name" : "最短路径"}, 
+            {"id" : 76, "name" : "分层图"}, 
+            {"id" : 78, "name" : "01bfs"}, 
+            {"id" : 1013, "name" : "网络流24题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2765", "href" : "https://www.luogu.com.cn/problem/P2765"}
+        ], 
+        "name" : "魔术球问题", 
+        "record" : null, 
+        "time" : "2022-01-08 19:23:34", 
+        "difficulty" : {
+            "algorithm" : 6.22, 
+            "thinking" : 6.31, 
+            "code" : 5.86
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 1013, "name" : "网络流24题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4014", "href" : "https://www.luogu.com.cn/problem/P4014"}
+        ], 
+        "name" : "分配问题", 
+        "record" : null, 
+        "time" : "2022-01-08 19:28:16", 
+        "difficulty" : {
+            "algorithm" : 8.64, 
+            "thinking" : 8.37, 
+            "code" : 8.28
+        }, 
+        "tags" : [
+            {"id" : 27, "name" : "网络流"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 75, "name" : "费用流"}, 
+            {"id" : 1013, "name" : "网络流24题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1251", "href" : "https://www.luogu.com.cn/problem/P1251"}
+        ], 
+        "name" : "餐巾计划问题", 
+        "record" : null, 
+        "time" : "2022-01-08 19:30:57", 
+        "difficulty" : {
+            "algorithm" : 8.64, 
+            "thinking" : 8.87, 
+            "code" : 8.31
+        }, 
+        "tags" : [
+            {"id" : 27, "name" : "网络流"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 75, "name" : "费用流"}, 
             {"id" : 1013, "name" : "网络流24题"}
         ]
     }
