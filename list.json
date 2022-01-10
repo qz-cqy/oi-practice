@@ -3868,5 +3868,23 @@
             {"id" : 15, "name" : "贪心"}, 
             {"id" : 16, "name" : "数学"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf255c", "href" : "https://codeforces.com/problemset/problem/255/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF255C"}
+        ], 
+        "name" : "Almost Arithmetical Progression", 
+        "record" : null, 
+        "time" : "2022-01-10 21:53:48", 
+        "difficulty" : {
+            "algorithm" : 4.75, 
+            "thinking" : 5.33, 
+            "code" : 4.56
+        }, 
+        "tags" : [ 
+            {"id" : 1, "name" : "暴力"}, 
+            {"id" : 4, "name" : "动态规划"}
+        ]
     }
 ]
