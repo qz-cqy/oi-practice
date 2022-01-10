@@ -3815,5 +3815,39 @@
             {"id" : 75, "name" : "费用流"}, 
             {"id" : 1013, "name" : "网络流24题"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf303a", "href" : "https://codeforces.com/problemset/problem/303/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF303A"}
+        ], 
+        "name" : "Lucky Permutation Triple", 
+        "record" : null, 
+        "time" : "2022-01-09 12:22:14", 
+        "difficulty" : {
+            "algorithm" : 4.22, 
+            "thinking" : 4.36, 
+            "code" : 3.72
+        }, 
+        "tags" : [ 
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf949a", "href" : "https://codeforces.com/problemset/problem/949/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF949A"}
+        ], 
+        "name" : "Zebras", 
+        "record" : null, 
+        "time" : "2022-01-10 21:19:58", 
+        "difficulty" : {
+            "algorithm" : 4.39, 
+            "thinking" : 5.07, 
+            "code" : 4.24
+        }, 
+        "tags" : [ 
+            {"id" : 11, "name" : "构造"}
+        ]
     }
 ]
