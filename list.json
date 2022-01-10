@@ -3844,10 +3844,29 @@
         "difficulty" : {
             "algorithm" : 4.39, 
             "thinking" : 5.07, 
-            "code" : 4.24
+            "code" : 4.35
         }, 
         "tags" : [ 
             {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf735c", "href" : "https://codeforces.com/problemset/problem/735/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF735C"}
+        ], 
+        "name" : "Tennis Championship", 
+        "record" : null, 
+        "time" : "2022-01-10 21:39:53", 
+        "difficulty" : {
+            "algorithm" : 4.48, 
+            "thinking" : 5.12, 
+            "code" : 4.12
+        }, 
+        "tags" : [ 
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 16, "name" : "数学"}
         ]
     }
 ]
