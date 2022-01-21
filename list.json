@@ -3187,9 +3187,9 @@
         "record" : null, 
         "time" : "2021-12-20 12:47:42", 
         "difficulty" : {
-            "algorithm" : 6.75, 
-            "thinking" : 6.84, 
-            "code" : 6.95
+            "algorithm" : 6.16, 
+            "thinking" : 6.22, 
+            "code" : 6.32
         }, 
         "tags" : [
             {"id" : 8, "name" : "线段树"}
@@ -4116,6 +4116,221 @@
             {"id" : 11, "name" : "构造"}, 
             {"id" : 16, "name" : "数学"}, 
             {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lgteam", "href" : "https://www.luogu.com.cn/problem/T161677"}
+        ], 
+        "name" : "集合查询2", 
+        "record" : null, 
+        "time" : "2022-01-14 19:44:04", 
+        "difficulty" : {
+            "algorithm" : 6.22, 
+            "thinking" : 6.54, 
+            "code" : 6.33
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1147", "href" : "https://www.luogu.com.cn/problem/P1147"}, 
+            {"id" : "lg8039", "href" : "https://www.luogu.com.cn/problem/P8039"}
+        ], 
+        "name" : "连续自然数和/[COCI2016-2017#7] UZASTOPNI", 
+        "record" : null, 
+        "time" : "2022-01-14 20:07:49", 
+        "difficulty" : {
+            "algorithm" : 4.33, 
+            "thinking" : 4.56, 
+            "code" : 4.54
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf156d", "href" : "https://codeforces.com/problemset/problem/156/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF156D"}
+        ], 
+        "name" : "Clues", 
+        "record" : null, 
+        "time" : "2022-01-16 19:08:51", 
+        "difficulty" : {
+            "algorithm" : 8.76, 
+            "thinking" : 9.33, 
+            "code" : 5.32
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 83, "name" : "Prufer序列"}, 
+            {"id" : 84, "name" : "组合数"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf837d", "href" : "https://codeforces.com/problemset/problem/837/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF837D"}
+        ], 
+        "name" : "Round Subset", 
+        "record" : null, 
+        "time" : "2022-01-17 12:30:28", 
+        "difficulty" : {
+            "algorithm" : 6.11, 
+            "thinking" : 6.15, 
+            "code" : 6.03
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 35, "name" : "线性DP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf540d", "href" : "https://codeforces.com/problemset/problem/540/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF540D"}
+        ], 
+        "name" : "Bad Luck Island", 
+        "record" : null, 
+        "time" : "2022-01-17 12:39:03", 
+        "difficulty" : {
+            "algorithm" : 6.18, 
+            "thinking" : 6.21, 
+            "code" : 6.11
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 10, "name" : "概率期望"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1092f", "href" : "https://codeforces.com/problemset/problem/1092/F"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1092F"}
+        ], 
+        "name" : "Tree with Maximum Cost", 
+        "record" : null, 
+        "time" : "2022-01-17 12:48:44", 
+        "difficulty" : {
+            "algorithm" : 6.22, 
+            "thinking" : 6.22, 
+            "code" : 6.12
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 6, "name" : "树形DP"}, 
+            {"id" : 85, "name" : "二次扫描与换根法"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf710e", "href" : "https://codeforces.com/problemset/problem/710/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF710E"}
+        ], 
+        "name" : "Generate a String", 
+        "record" : null, 
+        "time" : "2022-01-17 12:55:50", 
+        "difficulty" : {
+            "algorithm" : 6.23, 
+            "thinking" : 6.37, 
+            "code" : 6.02
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 35, "name" : "线性DP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf165e", "href" : "https://codeforces.com/problemset/problem/165/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF165E"}
+        ], 
+        "name" : "Compatible Numbers", 
+        "record" : null, 
+        "time" : "2022-01-17 19:21:42", 
+        "difficulty" : {
+            "algorithm" : 7.33, 
+            "thinking" : 7.45, 
+            "code" : 6.11
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 18, "name" : "前缀和/差分"}, 
+            {"id" : 86, "name" : "高位前缀和"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf292e", "href" : "https://codeforces.com/problemset/problem/292/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF292E"}
+        ], 
+        "name" : "Copying Data", 
+        "record" : null, 
+        "time" : "2022-01-17 20:53:50", 
+        "difficulty" : {
+            "algorithm" : 6.34, 
+            "thinking" : 6.63, 
+            "code" : 6.54
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf274a", "href" : "https://codeforces.com/problemset/problem/274/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF274A"}
+        ], 
+        "name" : "k-Multiple Free Set", 
+        "record" : null, 
+        "time" : "2022-01-17 21:01:24", 
+        "difficulty" : {
+            "algorithm" : 4.89, 
+            "thinking" : 4.87, 
+            "code" : 4.88
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1106d", "href" : "https://codeforces.com/problemset/problem/1106/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1106D"}
+        ], 
+        "name" : "Lunar New Year and a Wander", 
+        "record" : null, 
+        "time" : "2022-01-17 21:06:39", 
+        "difficulty" : {
+            "algorithm" : 5.12, 
+            "thinking" : 5.04, 
+            "code" : 5.02
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 44, "name" : "树/图论"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf776d", "href" : "https://codeforces.com/problemset/problem/776/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF776D"}
+        ], 
+        "name" : "The Door Problem", 
+        "record" : null, 
+        "time" : "2022-01-17 21:32:40", 
+        "difficulty" : {
+            "algorithm" : 6.33, 
+            "thinking" : 6.46, 
+            "code" : 6.21
+        }, 
+        "tags" : [
+            {"id" : 9, "name" : "并查集"}, 
+            {"id" : 87, "name" : "扩展域并查集"}
         ]
     }
 ]
