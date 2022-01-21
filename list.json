@@ -4332,5 +4332,198 @@
             {"id" : 9, "name" : "并查集"}, 
             {"id" : 87, "name" : "扩展域并查集"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2568", "href" : "https://www.luogu.com.cn/problem/P2568"}
+        ], 
+        "name" : "GCD", 
+        "record" : null, 
+        "time" : "2022-01-18 20:57:02", 
+        "difficulty" : {
+            "algorithm" : 8.22, 
+            "thinking" : 8.46, 
+            "code" : 6.73
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 47, "name" : "数论分块"}, 
+            {"id" : 48, "name" : "莫比乌斯反演"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf917b", "href" : "https://codeforces.com/problemset/problem/917/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF917B"}
+        ], 
+        "name" : "MADMAX", 
+        "record" : null, 
+        "time" : "2022-01-18 21:12:20", 
+        "difficulty" : {
+            "algorithm" : 6.13, 
+            "thinking" : 6.38, 
+            "code" : 6.11
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 19, "name" : "记忆化搜索"}, 
+            {"id" : 44, "name" : "树/图论"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "abc141f", "href" : "https://atcoder.jp/contests/abc141/tasks/abc141_f"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/AT4835"}
+        ], 
+        "name" : "Xor Sum 3", 
+        "record" : null, 
+        "time" : "2022-01-18 23:01:08", 
+        "difficulty" : {
+            "algorithm" : 7.55, 
+            "thinking" : 8.22, 
+            "code" : 6.89
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1390", "href" : "https://www.luogu.com.cn/problem/P1390"}
+        ], 
+        "name" : "公约数的和", 
+        "record" : null, 
+        "time" : "2022-01-19 12:16:42", 
+        "difficulty" : {
+            "algorithm" : 7.95, 
+            "thinking" : 7.97, 
+            "code" : 6.69
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 48, "name" : "莫比乌斯反演"}, 
+            {"id" : 49, "name" : "欧拉函数"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1611b", "href" : "https://codeforces.com/problemset/problem/1611/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1611B"}
+        ], 
+        "name" : "Team Composition: Programmers and Mathematicians", 
+        "record" : null, 
+        "time" : "2022-01-19 12:22:33", 
+        "difficulty" : {
+            "algorithm" : 3.89, 
+            "thinking" : 4.11, 
+            "code" : 3.91
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1485c", "href" : "https://codeforces.com/problemset/problem/1485/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1485C"}
+        ], 
+        "name" : "Floor and Mod", 
+        "record" : null, 
+        "time" : "2022-01-20 12:14:57", 
+        "difficulty" : {
+            "algorithm" : 6.54, 
+            "thinking" : 6.68, 
+            "code" : 6.14
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3426", "href" : "https://www.luogu.com.cn/problem/P3426"}
+        ], 
+        "name" : "[POI2005]SZA-Template", 
+        "record" : null, 
+        "time" : "2022-01-20 12:23:24", 
+        "difficulty" : {
+            "algorithm" : 5.92, 
+            "thinking" : 6.74, 
+            "code" : 5.12
+        }, 
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 29, "name" : "KMP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5357", "href" : "https://www.luogu.com.cn/problem/P5357"}
+        ], 
+        "name" : "AC 自动机 3", 
+        "record" : null, 
+        "time" : "2022-01-20 12:38:09", 
+        "difficulty" : {
+            "algorithm" : 8.12, 
+            "thinking" : 8.27, 
+            "code" : 7.92
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 65, "name" : "自动机"}, 
+            {"id" : 66, "name" : "AC自动机"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3041", "href" : "https://www.luogu.com.cn/problem/P3041"}, 
+            {"id" : "sp-VIDEO", "href" : "https://www.spoj.com/problems/VIDEO"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/SP10502"}
+        ], 
+        "name" : "[USACO12JAN]Video Game G", 
+        "record" : null, 
+        "time" : "2022-01-20 12:56:11", 
+        "difficulty" : {
+            "algorithm" : 8.34, 
+            "thinking" : 8.56, 
+            "code" : 8.22
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 35, "name" : "线性DP"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 65, "name" : "自动机"}, 
+            {"id" : 66, "name" : "AC自动机"}, 
+            {"id" : 1007, "name" : "USACO-G"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4052", "href" : "https://www.luogu.com.cn/problem/P4052"}
+        ], 
+        "name" : "[JSOI2007]文本生成器", 
+        "record" : null, 
+        "time" : "2022-01-20 21:44:21", 
+        "difficulty" : {
+            "algorithm" : 8.32, 
+            "thinking" : 8.53, 
+            "code" : 8.22
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 35, "name" : "线性DP"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 65, "name" : "自动机"}, 
+            {"id" : 66, "name" : "AC自动机"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2007, "name" : "江苏"}
+        ]
     }
 ]
