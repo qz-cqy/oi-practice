@@ -4357,7 +4357,7 @@
             {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF917B"}
         ], 
         "name" : "MADMAX", 
-        "record" : null, 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-917B.html", 
         "time" : "2022-01-18 21:12:20", 
         "difficulty" : {
             "algorithm" : 6.13, 
