@@ -3982,5 +3982,140 @@
             {"id" : 17, "name" : "字符串"}, 
             {"id" : 29, "name" : "KMP"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "sp-LCMSUM", "href" : "https://www.spoj.com/problems/LCMSUM"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/SP5971"}
+        ], 
+        "name" : "LCM Sum", 
+        "record" : null, 
+        "time" : "2022-01-13 16:40:52", 
+        "difficulty" : {
+            "algorithm" : 8.22, 
+            "thinking" : 8.67, 
+            "code" : 6.73
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 47, "name" : "数论分块"}, 
+            {"id" : 48, "name" : "莫比乌斯反演"}, 
+            {"id" : 49, "name" : "欧拉函数"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1166e", "href" : "https://codeforces.com/problemset/problem/1166/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1166E"}
+        ], 
+        "name" : "The LCMs Must be Large", 
+        "record" : null, 
+        "time" : "2022-01-13 17:45:02", 
+        "difficulty" : {
+            "algorithm" : 7.38, 
+            "thinking" : 8.77, 
+            "code" : 6.11
+        }, 
+        "tags" : [ 
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1242b", "href" : "https://codeforces.com/problemset/problem/1242/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1242B"}
+        ], 
+        "name" : "0-1 MST", 
+        "record" : null, 
+        "time" : "2022-01-14 18:30:23", 
+        "difficulty" : {
+            "algorithm" : 6.77, 
+            "thinking" : 6.97, 
+            "code" : 6.54
+        }, 
+        "tags" : [
+            {"id" : 9, "name" : "并查集"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 72, "name" : "生成树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf4b", "href" : "https://codeforces.com/problemset/problem/4/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF4B"}
+        ], 
+        "name" : "Before an Exam", 
+        "record" : null, 
+        "time" : "2022-01-14 18:32:58", 
+        "difficulty" : {
+            "algorithm" : 4.22, 
+            "thinking" : 4.31, 
+            "code" : 3.97
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1039d", "href" : "https://codeforces.com/problemset/problem/1039/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1039D"}
+        ], 
+        "name" : "You Are Given a Tree", 
+        "record" : null, 
+        "time" : "2022-01-14 18:58:20", 
+        "difficulty" : {
+            "algorithm" : 8.87, 
+            "thinking" : 9.12, 
+            "code" : 8.65
+        }, 
+        "tags" : [
+            {"id" : 2, "name" : "分治"}, 
+            {"id" : 3, "name" : "根号分治"}, 
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 6, "name" : "树形DP"}, 
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 22, "name" : "二分法"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 47, "name" : "数论分块"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf18a", "href" : "https://codeforces.com/problemset/problem/18/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF18A"}
+        ], 
+        "name" : "Triangle", 
+        "record" : null, 
+        "time" : "2022-01-14 19:10:36", 
+        "difficulty" : {
+            "algorithm" : 4.56, 
+            "thinking" : 4.61, 
+            "code" : 4.53
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1237c1", "href" : "https://codeforces.com/problemset/problem/1237/C1"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1237C1"}
+        ], 
+        "name" : "Balanced Removals (Easier)", 
+        "record" : null, 
+        "time" : "2022-01-14 19:25:17", 
+        "difficulty" : {
+            "algorithm" : 5.64, 
+            "thinking" : 5.55, 
+            "code" : 4.73
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
     }
 ]
