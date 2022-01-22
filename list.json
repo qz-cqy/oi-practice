@@ -4525,5 +4525,42 @@
             {"id" : 1000, "name" : "各省省选"}, 
             {"id" : 2007, "name" : "江苏"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1584a", "href" : "https://codeforces.com/problemset/problem/1584/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1584A"}
+        ], 
+        "name" : "Mathematical Addition", 
+        "record" : null, 
+        "time" : "2022-01-21 17:10:58", 
+        "difficulty" : {
+            "algorithm" : 2.84, 
+            "thinking" : 3.13, 
+            "code" : 2.65
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2766", "href" : "https://www.luogu.com.cn/problem/P2766"}
+        ], 
+        "name" : "最长不下降子序列问题", 
+        "record" : null, 
+        "time" : "2022-01-21 19:16:20", 
+        "difficulty" : {
+            "algorithm" : 8.44, 
+            "thinking" : 8.34, 
+            "code" : 8.23
+        }, 
+        "tags" : [
+            {"id" : 27, "name" : "网络流"}, 
+            {"id" : 28, "name" : "最大流"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 1013, "name" : "网络流24题"}
+        ]
     }
 ]
