@@ -1636,5 +1636,41 @@
         "old-rating" : null, 
         "new-rating" : null, 
         "performance" : null
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "HHKB Programming Contest 2022（AtCoder Beginner Contest 235）", 
+        "id" : "abc235", 
+        "time" : "2022-01-15", 
+        "class" : "abc", 
+        "virtual" : false, 
+        "official" : true, 
+        "team" : 0, 
+        "rank" : 548, 
+        "solved" : 5, 
+        "ak" : false, 
+        "delta" : "-10", 
+        "old-rating" : 1884, 
+        "new-rating" : 1874, 
+        "performance" : 1791
+    }, 
+    {
+        "oj" : "CodeForces", 
+        "account" : "rui_er", 
+        "name" : "Codeforces Round #767", 
+        "id" : "1628", 
+        "time" : "2022-01-22", 
+        "class" : "div1", 
+        "virtual" : false, 
+        "official" : true, 
+        "team" : 0, 
+        "rank" : 170, 
+        "solved" : 5, 
+        "ak" : false, 
+        "delta" : "+96", 
+        "old-rating" : 2190, 
+        "new-rating" : 2286, 
+        "performance" : 2538
     }
 ]
