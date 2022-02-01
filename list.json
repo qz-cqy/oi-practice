@@ -5340,5 +5340,117 @@
         "tags" : [
             {"id" : 8, "name" : "线段树"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf763e", "href" : "https://codeforces.com/problemset/problem/763/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF763E"}
+        ], 
+        "name" : "Timofey and our friends animals", 
+        "record" : null, 
+        "time" : "2022-01-31 14:40:03", 
+        "difficulty" : {
+            "algorithm" : 9.02, 
+            "thinking" : 9.43, 
+            "code" : 9.22
+        }, 
+        "tags" : [
+            {"id" : 9, "name" : "并查集"}, 
+            {"id" : 46, "name" : "分块"}, 
+            {"id" : 88, "name" : "莫队"}, 
+            {"id" : 90, "name" : "回滚莫队"}, 
+            {"id" : 97, "name" : "可撤销并查集"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1354e", "href" : "https://codeforces.com/problemset/problem/1354/E"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1354E"}
+        ], 
+        "name" : "Graph Coloring", 
+        "record" : null, 
+        "time" : "2022-01-31 16:21:12", 
+        "difficulty" : {
+            "algorithm" : 6.53, 
+            "thinking" : 6.87, 
+            "code" : 6.56
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 74, "name" : "二分图"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1121b", "href" : "https://codeforces.com/problemset/problem/1121/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1121B"}
+        ], 
+        "name" : "Mike and Children", 
+        "record" : null, 
+        "time" : "2022-01-31 16:34:37", 
+        "difficulty" : {
+            "algorithm" : 4.63, 
+            "thinking" : 4.85, 
+            "code" : 4.56
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cfgym361606a", "href" : "https://codeforces.com/gym/361606/problem/A"}, 
+            {"id" : "lguser", "href" : "https://www.luogu.com.cn/problem/U198784"}
+        ], 
+        "name" : "Linear Basis", 
+        "record" : null, 
+        "time" : "2022-01-31 13:24:52", 
+        "difficulty" : {
+            "algorithm" : 10.02, 
+            "thinking" : 10.34, 
+            "code" : 9.11
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 38, "name" : "扩展欧几里得"}, 
+            {"id" : 62, "name" : "线性基"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1892", "href" : "https://www.luogu.com.cn/problem/P1892"}
+        ], 
+        "name" : "[BOI2003]团伙", 
+        "record" : null, 
+        "time" : "2022-02-01 09:57:20", 
+        "difficulty" : {
+            "algorithm" : 6.32, 
+            "thinking" : 6.44, 
+            "code" : 6.21
+        }, 
+        "tags" : [
+            {"id" : 9, "name" : "并查集"}, 
+            {"id" : 87, "name" : "扩展域并查集"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg2596", "href" : "https://www.luogu.com.cn/problem/P2596"}
+        ], 
+        "name" : "[ZJOI2006]书架", 
+        "record" : null, 
+        "time" : "2022-02-01 16:21:43", 
+        "difficulty" : {
+            "algorithm" : 8.58, 
+            "thinking" : 8.61, 
+            "code" : 8.66
+        }, 
+        "tags" : [
+            {"id" : 13, "name" : "平衡树"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2000, "name" : "天津"}, 
+            {"id" : 2011, "name" : "河北"}
+        ]
     }
 ]
