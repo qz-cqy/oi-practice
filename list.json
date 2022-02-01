@@ -4914,5 +4914,23 @@
             {"id" : 64, "name" : "字典树"}, 
             {"id" : 96, "name" : "单调栈"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1829", "href" : "https://www.luogu.com.cn/problem/P1829"}
+        ], 
+        "name" : "[国家集训队]Crash的数字表格 / JZPTAB", 
+        "record" : null, 
+        "time" : "2022-01-25 15:22:15", 
+        "difficulty" : {
+            "algorithm" : 8.23, 
+            "thinking" : 8.48, 
+            "code" : 6.78
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 47, "name" : "数论分块"}, 
+            {"id" : 48, "name" : "莫比乌斯反演"}
+        ]
     }
 ]
