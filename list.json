@@ -2619,7 +2619,8 @@
         "tags" : [
             {"id" : -1, "name" : "模板"}, 
             {"id" : 16, "name" : "数学"}, 
-            {"id" : 60, "name" : "高斯消元"}
+            {"id" : 60, "name" : "高斯消元"}, 
+            {"id" : 91, "name" : "矩阵"}
         ]
     }, 
     {
@@ -4561,6 +4562,138 @@
             {"id" : 28, "name" : "最大流"}, 
             {"id" : 44, "name" : "树/图论"}, 
             {"id" : 1013, "name" : "网络流24题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5906", "href" : "https://www.luogu.com.cn/problem/P5906"}
+        ], 
+        "name" : "回滚莫队", 
+        "record" : null, 
+        "time" : "2022-01-22 10:30:21", 
+        "difficulty" : {
+            "algorithm" : 8.76, 
+            "thinking" : 8.55, 
+            "code" : 8.33
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 46, "name" : "分块"}, 
+            {"id" : 88, "name" : "莫队"}, 
+            {"id" : 90, "name" : "回滚莫队"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4696", "href" : "https://www.luogu.com.cn/problem/P4696"}
+        ], 
+        "name" : "[CEOI2011]Matching", 
+        "record" : null, 
+        "time" : "2022-01-22 17:03:10", 
+        "difficulty" : {
+            "algorithm" : 6.22, 
+            "thinking" : 8.67, 
+            "code" : 7.21
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 29, "name" : "KMP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg1666", "href" : "https://www.luogu.com.cn/problem/P1666"}
+        ], 
+        "name" : "前缀单词", 
+        "record" : null, 
+        "time" : "2022-01-23 10:55:04", 
+        "difficulty" : {
+            "algorithm" : 4.86, 
+            "thinking" : 5.11, 
+            "code" : 5.32
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 35, "name" : "线性DP"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3193", "href" : "https://www.luogu.com.cn/problem/P3193"}
+        ], 
+        "name" : "[HNOI2008]GT考试", 
+        "record" : null, 
+        "time" : "2022-01-23 13:53:01", 
+        "difficulty" : {
+            "algorithm" : 5.76, 
+            "thinking" : 7.54, 
+            "code" : 6.72
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 29, "name" : "KMP"}, 
+            {"id" : 91, "name" : "矩阵"}, 
+            {"id" : 92, "name" : "矩阵快速幂"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2005, "name" : "湖南"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4929", "href" : "https://www.luogu.com.cn/problem/P4929"}
+        ], 
+        "name" : "舞蹈链", 
+        "record" : null, 
+        "time" : "2022-01-23 17:04:19", 
+        "difficulty" : {
+            "algorithm" : 8.78, 
+            "thinking" : 8.66, 
+            "code" : 9.03
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 12, "name" : "搜索"}, 
+            {"id" : 54, "name" : "链表"}, 
+            {"id" : 43, "name" : "线性结构"}, 
+            {"id" : 93, "name" : "舞蹈链"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1584b", "href" : "https://codeforces.com/problemset/problem/1584/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1584B"}
+        ], 
+        "name" : "Coloring Rectangles", 
+        "record" : null, 
+        "time" : "2022-01-23 18:16:53", 
+        "difficulty" : {
+            "algorithm" : 4.22, 
+            "thinking" : 4.52, 
+            "code" : 3.87
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf915d", "href" : "https://codeforces.com/problemset/problem/915/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF915D"}
+        ], 
+        "name" : "Almost Acyclic Graph", 
+        "record" : null, 
+        "time" : "2022-01-23 22:40:07", 
+        "difficulty" : {
+            "algorithm" : 6.12, 
+            "thinking" : 6.21, 
+            "code" : 6.06
+        }, 
+        "tags" : [
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 61, "name" : "拓扑排序"}
         ]
     }
 ]
