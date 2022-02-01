@@ -5106,7 +5106,7 @@
     }, 
     {
         "href" : [
-            {"id" : "cf1207e", "href" : "https://codeforces.com/problemset/problem/1207/e"}, 
+            {"id" : "cf1207e", "href" : "https://codeforces.com/problemset/problem/1207/E"}, 
             {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1207E"}
         ], 
         "name" : "XOR Guessing", 
@@ -5178,6 +5178,112 @@
             {"id" : 28, "name" : "最大流"}, 
             {"id" : 44, "name" : "树/图论"}, 
             {"id" : 1007, "name" : "USACO-G"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf578b", "href" : "https://codeforces.com/problemset/problem/578/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF578B"}
+        ], 
+        "name" : "\"Or\" Game", 
+        "record" : null, 
+        "time" : "2022-01-29 08:10:24", 
+        "difficulty" : {
+            "algorithm" : 4.16, 
+            "thinking" : 4.18, 
+            "code" : 4.14
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 18, "name" : "前缀和/差分"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1611c", "href" : "https://codeforces.com/problemset/problem/1611/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1611C"}
+        ], 
+        "name" : "Polycarp Recovers the Permutation", 
+        "record" : null, 
+        "time" : "2022-01-30 11:49:06", 
+        "difficulty" : {
+            "algorithm" : 4.43, 
+            "thinking" : 4.56, 
+            "code" : 4.28
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf510d", "href" : "https://codeforces.com/problemset/problem/510/D"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF510D"}
+        ], 
+        "name" : "Fox And Jumping", 
+        "record" : null, 
+        "time" : "2022-01-30 13:27:17", 
+        "difficulty" : {
+            "algorithm" : 5.89, 
+            "thinking" : 6.21, 
+            "code" : 6.02
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 58, "name" : "最短路径"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf840b", "href" : "https://codeforces.com/problemset/problem/840/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF840B"}
+        ], 
+        "name" : "Leha and another game about graph", 
+        "record" : null, 
+        "time" : "2022-01-30 13:57:17", 
+        "difficulty" : {
+            "algorithm" : 6.53, 
+            "thinking" : 7.21, 
+            "code" : 6.33
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 72, "name" : "生成树"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg8086", "href" : "https://www.luogu.com.cn/problem/P8086"}
+        ], 
+        "name" : "『JROI-5』Music", 
+        "record" : null, 
+        "time" : "2022-01-30 14:02:28", 
+        "difficulty" : {
+            "algorithm" : 2.33, 
+            "thinking" : 2.11, 
+            "code" : 2.32
+        }, 
+        "tags" : []
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1059c", "href" : "https://codeforces.com/problemset/problem/1059/C"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1059C"}
+        ], 
+        "name" : "Sequence Transformation", 
+        "record" : null, 
+        "time" : "2022-01-30 18:05:51", 
+        "difficulty" : {
+            "algorithm" : 5.831, 
+            "thinking" : 6.15, 
+            "code" : 5.82
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}
         ]
     }
 ]
