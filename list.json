@@ -4140,7 +4140,7 @@
             {"id" : "lg1147", "href" : "https://www.luogu.com.cn/problem/P1147"}, 
             {"id" : "lg8039", "href" : "https://www.luogu.com.cn/problem/P8039"}
         ], 
-        "name" : "连续自然数和/[COCI2016-2017#7] UZASTOPNI", 
+        "name" : "连续自然数和/[COCI2016-2017#7UZASTOPNI", 
         "record" : null, 
         "time" : "2022-01-14 20:07:49", 
         "difficulty" : {
@@ -4972,6 +4972,61 @@
         "tags" : [
             {"id" : 22, "name" : "二分法"}, 
             {"id" : 51, "name" : "倍增"}, 
+            {"id" : 10000, "name" : "交互题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1629a", "href" : "https://codeforces.com/problemset/problem/1629/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1629A"}
+        ], 
+        "name" : "Download More RAM", 
+        "record" : null, 
+        "time" : "2022-01-26 09:06:26", 
+        "difficulty" : {
+            "algorithm" : 4.12, 
+            "thinking" : 4.31, 
+            "code" : 4.35
+        }, 
+        "tags" : [
+            {"id" : 14, "name" : "排序"}, 
+            {"id" : 15, "name" : "贪心"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1629b", "href" : "https://codeforces.com/problemset/problem/1629/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1629B"}
+        ], 
+        "name" : "GCD Arrays", 
+        "record" : null, 
+        "time" : "2022-01-26 09:10:56", 
+        "difficulty" : {
+            "algorithm" : 4.36, 
+            "thinking" : 4.54, 
+            "code" : 4.37
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 16, "name" : "数学"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1624f", "href" : "https://codeforces.com/problemset/problem/1624/F"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1624F"}
+        ], 
+        "name" : "Interacdive Problem", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-1624F.html", 
+        "time" : "2022-01-26 09:30:57", 
+        "difficulty" : {
+            "algorithm" : 5.83, 
+            "thinking" : 6.34, 
+            "code" : 5.87
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 22, "name" : "二分法"}, 
             {"id" : 10000, "name" : "交互题"}
         ]
     }
