@@ -4645,7 +4645,7 @@
             {"id" : "lg4929", "href" : "https://www.luogu.com.cn/problem/P4929"}
         ], 
         "name" : "舞蹈链", 
-        "record" : null, 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/DLX.html", 
         "time" : "2022-01-23 17:04:19", 
         "difficulty" : {
             "algorithm" : 8.78, 
@@ -4694,6 +4694,117 @@
         "tags" : [
             {"id" : 44, "name" : "树/图论"}, 
             {"id" : 61, "name" : "拓扑排序"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg5500", "href" : "https://www.luogu.com.cn/problem/P5500"}
+        ], 
+        "name" : "[LnOI2019]真正的OIer从不女装", 
+        "record" : null, 
+        "time" : "2022-01-24 09:34:22", 
+        "difficulty" : {
+            "algorithm" : 6.75, 
+            "thinking" : 7.22, 
+            "code" : 6.85
+        }, 
+        "tags" : [
+            {"id" : 8, "name" : "线段树"}, 
+            {"id" : 11, "name" : "构造"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4819", "href" : "https://www.luogu.com.cn/problem/P4819"}, 
+            {"id" : "lguser", "href" : "https://www.luogu.com.cn/problem/U155953"}
+        ], 
+        "name" : "[中山市选]杀人游戏", 
+        "record" : null, 
+        "time" : "2022-01-24 10:25:11", 
+        "difficulty" : {
+            "algorithm" : 7.88, 
+            "thinking" : 7.24, 
+            "code" : 7.21
+        }, 
+        "tags" : [
+            {"id" : 10, "name" : "概率期望"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 69, "name" : "连通性"}, 
+            {"id" : 70, "name" : "Tarjan"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3805", "href" : "https://www.luogu.com.cn/problem/P3805"}
+        ], 
+        "name" : "manacher 算法", 
+        "record" : null, 
+        "time" : "2022-01-24 11:26:35", 
+        "difficulty" : {
+            "algorithm" : 8.12, 
+            "thinking" : 6.33, 
+            "code" : 5.32
+        }, 
+        "tags" : [
+            {"id" : -1, "name" : "模板"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 94, "name" : "manacher"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "sp-NUMOFPAL", "href" : "https://www.spoj.com/problems/NUMOFPAL"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/SP7586"}
+        ], 
+        "name" : "Number of Palindromes", 
+        "record" : null, 
+        "time" : "2022-01-24 11:37:20", 
+        "difficulty" : {
+            "algorithm" : 4.53, 
+            "thinking" : 4.22, 
+            "code" : 4.23
+        }, 
+        "tags" : [
+            {"id" : 1, "name" : "暴力"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 94, "name" : "manacher"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4555", "href" : "https://www.luogu.com.cn/problem/P4555"}
+        ], 
+        "name" : "[国家集训队]最长双回文串", 
+        "record" : null, 
+        "time" : "2022-01-24 12:12:58", 
+        "difficulty" : {
+            "algorithm" : 8.15, 
+            "thinking" : 7.54, 
+            "code" : 6.21
+        }, 
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 94, "name" : "manacher"}, 
+            {"id" : 1014, "name" : "国家集训队"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4287", "href" : "https://www.luogu.com.cn/problem/P4287"}
+        ], 
+        "name" : "[SHOI2011]双倍回文", 
+        "record" : null, 
+        "time" : "2022-01-24 15:17:11", 
+        "difficulty" : {
+            "algorithm" : 8.15, 
+            "thinking" : 7.61, 
+            "code" : 6.23
+        }, 
+        "tags" : [
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 94, "name" : "manacher"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2008, "name" : "上海"}
         ]
     }
 ]
