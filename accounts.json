@@ -2,13 +2,13 @@
     {
         "oj" : "CodeForces", 
         "username" : "rui_er", 
-        "rating" : 2286, 
+        "rating" : 2202, 
         "max-rating" : 2286, 
-        "contribution" : "+22", 
+        "contribution" : "+21", 
         "affiliation" : "Tsinghua University High School", 
-        "rated-matches" : 41, 
+        "rated-matches" : 42, 
         "provisional" : null, 
-        "last-competed" : "2022-01-22"
+        "last-competed" : "2022-01-27"
     }, 
     {
         "oj" : "CodeForces", 
@@ -24,12 +24,12 @@
     {
         "oj" : "AtCoder", 
         "username" : "rui_er", 
-        "rating" : 1867, 
+        "rating" : 1908, 
         "max-rating" : 1910, 
         "contribution" : null,
         "affiliation": "Tsinghua University High School",
-        "rated-matches" : 29, 
+        "rated-matches" : 30, 
         "provisional" : false, 
-        "last-competed" : "2022-01-23"
+        "last-competed" : "2022-01-30"
     }
 ]
