@@ -5102,5 +5102,43 @@
             {"id" : 1000, "name" : "各省省选"}, 
             {"id" : 2998, "name" : "省选联考A卷/统一卷"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1207e", "href" : "https://codeforces.com/problemset/problem/1207/e"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1207E"}
+        ], 
+        "name" : "XOR Guessing", 
+        "record" : "https://www.cnblogs.com/ruierqwq/p/CF-1207E.html", 
+        "time" : "2022-01-27 17:14:23", 
+        "difficulty" : {
+            "algorithm" : 4.22, 
+            "thinking" : 4.87, 
+            "code" : 4.33
+        }, 
+        "tags" : [
+            {"id" : 11, "name" : "构造"}, 
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 10000, "name" : "交互题"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1572a", "href" : "https://codeforces.com/problemset/problem/1572/A"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1572A"}
+        ], 
+        "name" : "Book", 
+        "record" : null, 
+        "time" : "2022-01-28 09:46:09", 
+        "difficulty" : {
+            "algorithm" : 6.11, 
+            "thinking" : 6.22, 
+            "code" : 6.08
+        }, 
+        "tags" : [
+            {"id" : 4, "name" : "动态规划"}, 
+            {"id" : 44, "name" : "树/图论"}, 
+            {"id" : 61, "name" : "拓扑排序"}
+        ]
     }
 ]
