@@ -4935,5 +4935,44 @@
             {"id" : 48, "name" : "莫比乌斯反演"}, 
             {"id" : 1014, "name" : "国家集训队"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3294", "href" : "https://www.luogu.com.cn/problem/P3294"}
+        ], 
+        "name" : "[SCOI2016]背单词", 
+        "record" : null, 
+        "time" : "2022-01-25 16:14:16", 
+        "difficulty" : {
+            "algorithm" : 7.72, 
+            "thinking" : 8.21, 
+            "code" : 8.14
+        }, 
+        "tags" : [
+            {"id" : 15, "name" : "贪心"}, 
+            {"id" : 17, "name" : "字符串"}, 
+            {"id" : 64, "name" : "字典树"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2010, "name" : "四川"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "cf1103b", "href" : "https://codeforces.com/problemset/problem/1103/B"}, 
+            {"id" : "lgrmj", "href" : "https://www.luogu.com.cn/problem/CF1103B"}
+        ], 
+        "name" : "Game with modulo", 
+        "record" : null, 
+        "time" : "2022-01-25 18:35:08", 
+        "difficulty" : {
+            "algorithm" : 5.82, 
+            "thinking" : 6.22, 
+            "code" : 5.85
+        }, 
+        "tags" : [
+            {"id" : 22, "name" : "二分法"}, 
+            {"id" : 51, "name" : "倍增"}, 
+            {"id" : 10000, "name" : "交互题"}
+        ]
     }
 ]
