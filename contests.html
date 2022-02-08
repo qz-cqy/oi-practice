@@ -127,7 +127,7 @@
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${perf}</td>
-                                <td>${getATDelta(json[x]['delta'], beta)}</td>
+                                <td>${getATDelta(json[x]['delta'])}</td>
                                 <td>${getATUserShortLevel(getATLevel(rated, json[x]['old-rating']), json[x]['old-rating'], beta)}→${getATUserShortLevel(getATLevel(rated, json[x]['new-rating']), json[x]['new-rating'], beta)}</td>
                             </tr>
                         `;

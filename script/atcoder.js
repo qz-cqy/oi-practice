@@ -89,11 +89,11 @@ function getATProvisional(provisional) {
     if(provisional == true) return `<p class='active'>+</p>`;
     else return `<p class='inactive'>-</p>`;
 }
-function getATDelta(delta, beta) {
+function getATDelta(delta) {
     if (delta == null) return `${showNA()}`;
-    if(delta == '0') return `<p class='inactive'>${delta}${beta?"(β)":""}</p>`;
-    if(delta[0] == '-') return `<p class='inactive'>${delta}${beta?"(β)":""}</p>`;
-    return `<p class='active'>${delta}${beta?"(β)":""}</p>`;
+    if(delta == '0') return `<p class='inactive'>${delta}</p>`;
+    if(delta[0] == '-') return `<p class='inactive'>${delta}</p>`;
+    return `<p class='active'>${delta}</p>`;
 }
 function getATLevel(rated, rating) {
     if (rated == false) return null;
