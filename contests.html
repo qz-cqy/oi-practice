@@ -112,9 +112,9 @@
                         qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(rated, json[x]['old-rating']), json[x]['account'], beta)}</a>`;
                         var cls = ``;
                         if(json[x]['official'] == true) cls = `${json[x]['class']}`;
-                        else if(beta == true) cls = `${json[x]['class']}β`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
+                        if(beta == true) cls += 'β';
                         var perf = `${getATUserShortLevel(getATLevel(rated, json[x]['performance']), json[x]['performance'], beta)}`;
                         if(topPerfAT(json[x]['rank'], json[x]['class'], json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
