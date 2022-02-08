@@ -67,8 +67,8 @@
                 console.log("from", from, "to", to);
                 for (var x = to; x >= from; x--) {
                     var rated = false, beta = false;
-                    if(json[x]['official'] == 'β') {rated = true; beta = true;}
-                    else if(json[x]['delta'] != null) rated = true;
+                    if(json[x]['delta'] != null) rated = true;
+                    if(/β/g.test(json[x]['delta'])) beta = true;
                     if(only_cf == 1 && json[x]['oj'] != 'CodeForces') continue;
                     if(only_at == 1 && json[x]['oj'] != 'AtCoder') continue;
                     if(only_rated == 1 && json[x]['delta'] == null) continue;
