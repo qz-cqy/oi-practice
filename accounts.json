@@ -31,5 +31,16 @@
         "rated-matches" : 30, 
         "provisional" : false, 
         "last-competed" : "2022-01-30"
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "username" : "rui_erβ", 
+        "rating" : 575, 
+        "max-rating" : 575, 
+        "contribution" : null,
+        "affiliation": "Tsinghua University High School",
+        "rated-matches" : 4, 
+        "provisional" : true, 
+        "last-competed" : "2021-12-12"
     }
 ]
