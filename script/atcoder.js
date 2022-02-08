@@ -1,6 +1,5 @@
 function getATUser(level, rating) {
     if (level == null) return `${showNA()}`;
-    if(level == 'β') return `<p class='user at-unrated'>β${rating}</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>Unrated</p>`;
     }
@@ -30,7 +29,6 @@ function getATUser(level, rating) {
 }
 function getATUserShortLevel(level, rating) {
     if (level == null) return `${showNA_span()}`;
-    if(level == 'β') return `<span class='user at-unrated'>β${rating}</span>`;
     if(level == 'U') { // unrated
         return `<span class='user at-unrated'>U</span>`;
     }
@@ -60,7 +58,6 @@ function getATUserShortLevel(level, rating) {
 }
 function getATUser2(level, name) {
     if(level == null) return `<p class='user at-unrated'>${name}</p>`;
-    if(level == 'β') return `<p class='user at-unrated'>β${name}</p>`;
     if(level == 'U') { // unrated
         return `<p class='user at-unrated'>${name}</p>`;
     }
@@ -100,7 +97,6 @@ function getATDelta(delta) {
 }
 function getATLevel(rated, rating) {
     if (rated == false) return null;
-    if (rated == 'β') return `β`;
     if (rating == null) return `U`;
     if (rating >= 4200) return `KING`;
     if (rating >= 4000) return `LEGEND`;
@@ -139,5 +135,6 @@ function topPerfAT(rank, type, perf) {
     if(type == 'abc' && perf == 2400) return 1;
     if(type == 'arc' && perf == 3200) return 1;
     if(type == 'agc' && rank == 1) return 1;
+    if(type == 'ahc' && rank == 1) return 1;
     return 0;
 }

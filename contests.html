@@ -28,6 +28,8 @@
         if(only_unrated != 1) only_unrated = 0;
         var only_ak = parseInt(getQueryVariable('only-ak'));
         if(only_ak != 1) only_ak = 0;
+        var show_beta = parseInt(getQueryVariable('show-beta'));
+        if(show_beta != 1) show_beta = 1;
         var only_rui_er = parseInt(getQueryVariable('only-rui_er'));
         if(only_rui_er != 0) only_rui_er = 1;
         var type = parseInt(getQueryVariable('type'));
@@ -64,8 +66,8 @@
                 var shown = 0;
                 console.log("from", from, "to", to);
                 for (var x = to; x >= from; x--) {
-                    var rated = false;
-                    if(json[x]['official'] == 'β') rated = 'β';
+                    var rated = false, beta = false;
+                    if(json[x]['official'] == 'β') {rated = true; beta = true;}
                     else if(json[x]['delta'] != null) rated = true;
                     if(only_cf == 1 && json[x]['oj'] != 'CodeForces') continue;
                     if(only_at == 1 && json[x]['oj'] != 'AtCoder') continue;
@@ -74,6 +76,7 @@
                     if(only_virtual == 1 && json[x]['virtual'] != true) continue;
                     if(only_unrated == 1 && json[x]['virtual'] != false && rated != false) continue;
                     if(only_ak == 1 && json[x]['ak'] != true) continue;
+                    if(show_beta == 0 && beta == true) continue;
                     if(only_rui_er == 1 && json[x]['account'].search("rui_er") == -1) continue;
                     console.log(x, json[x]);
                     if (json[x]['oj'] == 'CodeForces') {
@@ -106,13 +109,13 @@
                     }
                     else {
                         var qwq = ``;
-                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(rated, json[x]['old-rating']), json[x]['account'])}</a>`;
+                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${(beta?'β':'')+getATUser2(getATLevel(rated, json[x]['old-rating']), json[x]['account'])}</a>`;
                         var cls = ``;
                         if(json[x]['official'] == true) cls = `${json[x]['class']}`;
-                        else if(json[x]['official'] == 'β') cls = `${json[x]['class']}β`;
+                        else if(beta == true) cls = `${json[x]['class']}β`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
-                        var perf = `${getATUserShortLevel(getATLevel(rated, json[x]['performance']), json[x]['performance'])}`;
+                        var perf = `${(beta?'β':'')+getATUserShortLevel(getATLevel(rated, json[x]['performance']), json[x]['performance'])}`;
                         if(topPerfAT(json[x]['rank'], json[x]['class'], json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
                             <tr>
@@ -124,8 +127,8 @@
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${perf}</td>
-                                <td>${getATDelta(json[x]['delta'])}</td>
-                                <td>${getATUserShortLevel(getATLevel(rated, json[x]['old-rating']), json[x]['old-rating'])}→${getATUserShortLevel(getATLevel(rated, json[x]['new-rating']), json[x]['new-rating'])}</td>
+                                <td>${getATDelta(json[x]['delta'])+(beta?'(β)':'')}</td>
+                                <td>${(beta?'β':'')+getATUserShortLevel(getATLevel(rated, json[x]['old-rating']), json[x]['old-rating'])}→${(beta?'β':'')+getATUserShortLevel(getATLevel(rated, json[x]['new-rating']), json[x]['new-rating'])}</td>
                             </tr>
                         `;
                     }
@@ -139,7 +142,7 @@
                 document.getElementById("details").innerHTML = `
                     <p>总记录数：<strong>${to - from + 1}</strong></p>
                     <p>已显示记录数：<strong>${shown}</strong></p>
-                    <p>可以使用 ?only-cf(0/1, default: 0, 下同)、?only-at、?only-official、?only-rated、?only-virtual、?only-unrated、?only-ak、?only-rui_er(0/1, default: 1) 来限制页面显示范围。</p>
+                    <p>可以使用 ?only-cf(0/1, default: 0, 下同)、?only-at、?only-official、?only-rated、?only-virtual、?only-unrated、?only-ak，和 ?show-beta(0/1, default: 1，下同)、?only-rui_er 来限制页面显示范围。</p>
                     <p>默认使用改进版颜色（1000~1199N、IM、IGM 的显示不同），若希望显示 CF 原来的颜色，请加上 ?type=0。</p>
                     <p>在 Virtual Contest 或者 Out of Competition 记录中，performance 为我后面最近的 rated 用户的 performance，rank 为我后面最近的 rated 用户的官方 rank。</p>
                     <a class="btn" href="/">主页</a> | <a class="btn" href="/accounts.html">CF/AT 账号</a> | <a class="btn" href="/contests.html">CF/AT 比赛</a>
