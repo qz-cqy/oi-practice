@@ -1,7 +1,7 @@
-function getContest(name, virtual, rated) {
-    if(rated == true) return `${name}(R)`;
-    if(virtual == true) return `${name}(#)`;
-    return `${name}(U)`;
+function getContest(name, virtual, rated, beta) {
+    if(rated == true) return `${name}(R)${beta?"(β)":""}`;
+    if(virtual == true) return `${name}(#)${beta?"(β)":""}`;
+    return `${name}(U)${beta?"(β)":""}`;
 }
 function getACs(solved, ak) {
     if(ak == true) return `<p class='qwq'>AK(${solved})</p>`;

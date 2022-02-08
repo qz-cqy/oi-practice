@@ -96,7 +96,7 @@
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
-                                <td><a href="${qaq}">${getContest(json[x]['name'], json[x]['virtual'], rated)}</a></td>
+                                <td><a href="${qaq}">${getContest(json[x]['name'], json[x]['virtual'], rated, false)}</a></td>
                                 <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
@@ -121,7 +121,7 @@
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
-                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], rated)}</a></td>
+                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], rated, beta)}</a></td>
                                 <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
