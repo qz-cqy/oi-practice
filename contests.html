@@ -109,26 +109,26 @@
                     }
                     else {
                         var qwq = ``;
-                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${(beta?'β':'')+getATUser2(getATLevel(rated, json[x]['old-rating']), json[x]['account'])}</a>`;
+                        qwq = `<a href="https://atcoder.jp/users/${json[x]['account']}">${getATUser2(getATLevel(rated, json[x]['old-rating']), json[x]['account'], beta)}</a>`;
                         var cls = ``;
                         if(json[x]['official'] == true) cls = `${json[x]['class']}`;
                         else if(beta == true) cls = `${json[x]['class']}β`;
                         else if(json[x]['virtual'] == true) cls = `${json[x]['class']}#`;
                         else cls = `${json[x]['class']}*`;
-                        var perf = `${(beta?'β':'')+getATUserShortLevel(getATLevel(rated, json[x]['performance']), json[x]['performance'])}`;
+                        var perf = `${getATUserShortLevel(getATLevel(rated, json[x]['performance']), json[x]['performance'], beta)}`;
                         if(topPerfAT(json[x]['rank'], json[x]['class'], json[x]['performance'])) perf = `<p class='qwq'>TOP(${perf})</p>`;
                         html += `
                             <tr>
                                 <td>${json[x]['oj']}</td>
                                 <td>${qwq}</td>
-                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], rated==true?true:false)}</a></td>
+                                <td><a href="https://atcoder.jp/contests/${json[x]['id']}">${getContest(json[x]['name'], json[x]['virtual'], rated)}</a></td>
                                 <td>${cls}</td>
                                 <td>${json[x]['time']}</td>
                                 <td>${json[x]['rank']==null?showNA():json[x]['rank']}</td>
                                 <td>${getACs(json[x]['solved'], json[x]['ak'])}</td>
                                 <td>${perf}</td>
-                                <td>${getATDelta(json[x]['delta'])+(beta?'(β)':'')}</td>
-                                <td>${(beta?'β':'')+getATUserShortLevel(getATLevel(rated, json[x]['old-rating']), json[x]['old-rating'])}→${(beta?'β':'')+getATUserShortLevel(getATLevel(rated, json[x]['new-rating']), json[x]['new-rating'])}</td>
+                                <td>${getATDelta(json[x]['delta'], beta)}</td>
+                                <td>${getATUserShortLevel(getATLevel(rated, json[x]['old-rating']), json[x]['old-rating'], beta)}→${getATUserShortLevel(getATLevel(rated, json[x]['new-rating']), json[x]['new-rating'], beta)}</td>
                             </tr>
                         `;
                     }
