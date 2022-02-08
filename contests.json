@@ -751,7 +751,7 @@
         "solved" : 1, 
         "ak" : true, 
         "delta" : "+161(β)", 
-        "old-rating" : 0, 
+        "old-rating" : null, 
         "new-rating" : 161, 
         "performance" : 1035
     }, 
