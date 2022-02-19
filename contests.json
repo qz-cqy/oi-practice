@@ -1744,5 +1744,41 @@
         "old-rating" : null, 
         "new-rating" : null, 
         "performance" : 1868
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "Monoxer Programming Contest 2022（AtCoder Beginner Contest 238）", 
+        "id" : "abc238", 
+        "time" : "2022-02-05", 
+        "class" : "abc", 
+        "virtual" : false, 
+        "official" : true, 
+        "team" : 0, 
+        "rank" : 175, 
+        "solved" : 6, 
+        "ak" : false, 
+        "delta" : "+46", 
+        "old-rating" : 1908, 
+        "new-rating" : 1954, 
+        "performance" : 2292
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "Denso Create Programming Contest 2022(AtCoder Beginner Contest 239)", 
+        "id" : "abc239", 
+        "time" : "2022-02-19", 
+        "class" : "abc", 
+        "virtual" : false, 
+        "official" : true, 
+        "team" : 0, 
+        "rank" : 166, 
+        "solved" : 6, 
+        "ak" : false, 
+        "delta" : "+44", 
+        "old-rating" : 1954, 
+        "new-rating" : 1998, 
+        "performance" : 2325
     }
 ]

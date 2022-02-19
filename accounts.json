@@ -4,7 +4,7 @@
         "username" : "rui_er", 
         "rating" : 2202, 
         "max-rating" : 2286, 
-        "contribution" : "+22", 
+        "contribution" : "+21", 
         "affiliation" : "Tsinghua University High School", 
         "rated-matches" : 42, 
         "provisional" : null, 
@@ -24,13 +24,13 @@
     {
         "oj" : "AtCoder", 
         "username" : "rui_er", 
-        "rating" : 1908, 
-        "max-rating" : 1910, 
+        "rating" : 1998, 
+        "max-rating" : 1998, 
         "contribution" : null,
         "affiliation": "Tsinghua University High School",
-        "rated-matches" : 30, 
+        "rated-matches" : 32, 
         "provisional" : false, 
-        "last-competed" : "2022-01-30"
+        "last-competed" : "2022-02-19"
     }, 
     {
         "oj" : "AtCoder", 
