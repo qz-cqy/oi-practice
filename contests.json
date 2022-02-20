@@ -750,10 +750,10 @@
         "rank" : 632, 
         "solved" : 1, 
         "ak" : true, 
-        "delta" : "+161(β)", 
+        "delta" : "+98(β)", 
         "old-rating" : null, 
-        "new-rating" : 161, 
-        "performance" : 1035
+        "new-rating" : 98, 
+        "performance" : 836
     }, 
     {
         "oj" : "CodeForces", 
@@ -1236,10 +1236,10 @@
         "rank" : 438, 
         "solved" : 1, 
         "ak" : true, 
-        "delta" : "+182(β)", 
-        "old-rating" : 161, 
-        "new-rating" : 343, 
-        "performance" : 890
+        "delta" : "+110(β)", 
+        "old-rating" : 98, 
+        "new-rating" : 208, 
+        "performance" : 691
     }, 
     {
         "oj" : "AtCoder", 
@@ -1434,10 +1434,10 @@
         "rank" : 526, 
         "solved" : 1, 
         "ak" : true, 
-        "delta" : "+263(β)", 
-        "old-rating" : 343, 
-        "new-rating" : 606, 
-        "performance" : 1175
+        "delta" : "+199(β)", 
+        "old-rating" : 208, 
+        "new-rating" : 407, 
+        "performance" : 975
     }, 
     {
         "oj" : "AtCoder", 
@@ -1597,9 +1597,9 @@
         "solved" : 1, 
         "ak" : true, 
         "delta" : "+168(β)", 
-        "old-rating" : 606, 
-        "new-rating" : 774, 
-        "performance" : 1218
+        "old-rating" : 407, 
+        "new-rating" : 575, 
+        "performance" : 1019
     }, 
     {
         "oj" : "CodeForces", 
