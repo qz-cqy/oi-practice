@@ -1780,5 +1780,23 @@
         "old-rating" : 1954, 
         "new-rating" : 1998, 
         "performance" : 2325
+    }, 
+    {
+        "oj" : "AtCoder", 
+        "account" : "rui_er", 
+        "name" : "AtCoder Beginner Contest 240", 
+        "id" : "abc240", 
+        "time" : "2022-02-20", 
+        "class" : "abc", 
+        "virtual" : false, 
+        "official" : true, 
+        "team" : 0, 
+        "rank" : 214, 
+        "solved" : 6, 
+        "ak" : false, 
+        "delta" : "+16", 
+        "old-rating" : 1998, 
+        "new-rating" : 2014, 
+        "performance" : 2141
     }
 ]
