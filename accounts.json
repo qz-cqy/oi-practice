@@ -2,13 +2,13 @@
     {
         "oj" : "CodeForces", 
         "username" : "rui_er", 
-        "rating" : 2202, 
+        "rating" : 2040, 
         "max-rating" : 2286, 
         "contribution" : "+21", 
         "affiliation" : "Tsinghua University High School", 
-        "rated-matches" : 42, 
+        "rated-matches" : 45, 
         "provisional" : null, 
-        "last-competed" : "2022-01-27"
+        "last-competed" : "2022-05-08"
     }, 
     {
         "oj" : "CodeForces", 
@@ -24,23 +24,23 @@
     {
         "oj" : "AtCoder", 
         "username" : "rui_er", 
-        "rating" : 2014, 
-        "max-rating" : 2014, 
+        "rating" : 2079, 
+        "max-rating" : 2079, 
         "contribution" : null,
         "affiliation": "Tsinghua University High School",
-        "rated-matches" : 33, 
+        "rated-matches" : 36, 
         "provisional" : false, 
         "last-competed" : "2022-02-20"
     }, 
     {
         "oj" : "AtCoder", 
         "username" : "rui_erβ", 
-        "rating" : 638, 
-        "max-rating" : 638, 
+        "rating" : 740, 
+        "max-rating" : 740, 
         "contribution" : null,
         "affiliation": "Tsinghua University High School",
-        "rated-matches" : 5, 
+        "rated-matches" : 6, 
         "provisional" : true, 
-        "last-competed" : "2022-02-26"
+        "last-competed" : "2022-03-26"
     }
 ]
