@@ -91,7 +91,7 @@ function getATProvisional(provisional) {
 }
 function getATDelta(delta) {
     if (delta == null) return `${showNA()}`;
-    if(delta == '0') return `<p class='inactive'>${delta}</p>`;
+    if(delta == '±0') return `<p class='inactive'>${delta}</p>`;
     if(delta[0] == '-') return `<p class='inactive'>${delta}</p>`;
     return `<p class='active'>${delta}</p>`;
 }
