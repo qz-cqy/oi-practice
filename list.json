@@ -5451,5 +5451,42 @@
             {"id" : 1000, "name" : "各省省选"}, 
             {"id" : 2002, "name" : "浙江"}
         ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg3327", "href" : "https://www.luogu.com.cn/problem/P3327"}
+        ], 
+        "name" : "[SDOI2015]约数个数和", 
+        "record" : null, 
+        "time" : "2022-02-01 22:25:14", 
+        "difficulty" : {
+            "algorithm" : 8.26, 
+            "thinking" : 8.61, 
+            "code" : 6.82
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 47, "name" : "数论分块"}, 
+            {"id" : 48, "name" : "莫比乌斯反演"}, 
+            {"id" : 1000, "name" : "各省省选"}, 
+            {"id" : 2003, "name" : "山东"}
+        ]
+    }, 
+    {
+        "href" : [
+            {"id" : "lg4449", "href" : "https://www.luogu.com.cn/problem/P4449"}
+        ], 
+        "name" : "于神之怒加强版", 
+        "record" : null, 
+        "time" : "2022-02-01 22:56:03", 
+        "difficulty" : {
+            "algorithm" : 7.14, 
+            "thinking" : 7.66, 
+            "code" : 6.81
+        }, 
+        "tags" : [
+            {"id" : 16, "name" : "数学"}, 
+            {"id" : 24, "name" : "筛法"}
+        ]
     }
 ]
